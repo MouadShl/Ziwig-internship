@@ -1,0 +1,7 @@
+*.csv
+*.jsonl
+*.pbix
+Cleaning/
+E3/outputs/
+E5/outputs/
+E7/

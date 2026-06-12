@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "source": "endoccitanie.fr",
+    "scraped_at": "2026-04-12T23:47:00Z",
+    "total_practitioners": 317,
+    "pages_scraped": 80,
+    "base_url": "https://endoccitanie.fr"
+  },
+  "practitioners": [
+    {
+      "id": "page001_item01",
+      "page": 1,
+      "name": "Dr. Jean Dupont",
+      "title": "Dr.",
+      "specialty": "Endodontiste",
+      "address": "15 Rue de la République",
+      "postal_code": "31000",
+      "city": "Toulouse",
+      "phone": "+33561234567",
+      "email": "contact@example.com",
+      "website": "https://www.example.com",
+      "url": "https://endoccitanie.fr/annuaire/dr-jean-dupont/",
+      "image": "https://endoccitanie.fr/wp-content/uploads/praticien.jpg",
+      "description": "Spécialiste en endodontie...",
+      "raw_data": {
+        "html_snippet": "<article class='geodir-listing-post'>...</article>"
+      }
+    }
+  ]
+}

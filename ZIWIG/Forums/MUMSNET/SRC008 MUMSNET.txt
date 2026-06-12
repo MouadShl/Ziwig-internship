@@ -1,0 +1,13 @@
+when not login :
+25 threads from page 1 to page 16
+20 threads in page 17
+Each threads has an original poster and replies
+And each one of them has usernames and the date&hour when posted and each threads it has exact number of reply
+When Login :
+So when I did log in, I did search on the materials and I did found 2,500 tweets or posts. 
+And each post has an original poster and their replier. 
+So the original poster has like, like, for example, I did type a someone here, and it has like 59 replies and the original poster is the one who posts,
+and there is a lot of replier, and the original poster who posted the post replied to the repliers. 
+And I want you to give me, and there is the username and the date and the hour where it did post it, when did it posted, and yeah. 
+There is also from page 1 to page 125 posts in each page. 
+I did count it and it even have a shown here showing from 1 to 2,500 posts, and that's it.

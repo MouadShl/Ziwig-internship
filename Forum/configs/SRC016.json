@@ -1,0 +1,24 @@
+{
+  "source_id": "SRC016",
+  "source_type": "forum",
+  "source_mode": "tapatalk_saved_html_offline",
+  "source_name": "EndoBoard Tapatalk Offline",
+  "base_url": "https://www.tapatalk.com",
+  "resume_mode": true,
+  "overwrite_output": false,
+  "saved_html_root": "outputs/SRC016/saved_html",
+  "outputs": {
+    "final_jsonl": "outputs/SRC016/SRC016_post_and_comment_final.jsonl",
+    "errors_jsonl": "outputs/SRC016/SRC016_errors_final.jsonl",
+    "threads_todo_jsonl": "outputs/SRC016/SRC016_threads_todo.jsonl"
+  },
+  "categories": [
+    {
+      "listing_category": "hysterectomy-f19",
+      "category_id": "f19",
+      "category_name": "Hysterectomy",
+      "category_slug": "hysterectomy",
+      "url": "https://www.tapatalk.com/groups/endoboard/hysterectomy-f19/"
+    }
+  ]
+}

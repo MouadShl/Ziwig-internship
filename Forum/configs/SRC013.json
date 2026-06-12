@@ -1,0 +1,20 @@
+{
+  "source_id": "SRC013",
+  "source_type": "forum",
+  "mode": "forum_endometriosis_net",
+  "start_urls": [
+    "https://endometriosis.net/forums?page=1"
+  ],
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.5,
+    "max_retries": 3
+  },
+  "pagination": {
+    "start_listing_page": 1,
+    "end_listing_page": 1
+  },
+  "output": {
+    "dir": "outputs/SRC013"
+  }
+}

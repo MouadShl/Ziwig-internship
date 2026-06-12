@@ -1,0 +1,49 @@
+{
+  "source_id": "SRC015",
+  "source_type": "forum",
+  "source_mode": "forum_search_threads",
+  "site_name": "hawaaworld",
+  "start_url": "https://hawaaworld.com/search?query=بطانة+الرحم+المهاجرة",
+  "base_url": "https://hawaaworld.com",
+  "allowed_domain": "hawaaworld.com",
+  "output_file": "outputs/SRC015/SRC015_post_and_comment_final.jsonl",
+  "error_file": "outputs/SRC015/SRC015_errors_final.jsonl",
+  "resume_mode": true,
+  "append_only": true,
+  "skip_existing_thread_ids": true,
+  "overwrite_output": false,
+  "request": {
+    "timeout": 30,
+    "sleep_seconds": 1.0,
+    "max_retries": 3,
+    "backoff_seconds": 2.0,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "Accept-Language": "ar,en-US;q=0.9,en;q=0.8",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Connection": "keep-alive"
+    }
+  },
+  "listing": {
+    "max_pages": 100,
+    "max_empty_pages": 2,
+    "discover_next_page_from_html": true,
+    "fallback_pagination_patterns": [
+      "query_page",
+      "path_page"
+    ]
+  },
+  "thread": {
+    "discover_all_pages": true,
+    "max_pages": 500
+  },
+  "parsing": {
+    "export_null_as": null,
+    "keep_visible_relative_date": true,
+    "try_build_date_iso_from_relative": true,
+    "dedupe_replies_by": "native_id_or_author_date_body",
+    "use_profile_slug_as_native_user_id_when_available": true,
+    "use_visible_username_when_no_native_user_id": true,
+    "leave_missing_native_post_ids_blank": true
+  }
+}

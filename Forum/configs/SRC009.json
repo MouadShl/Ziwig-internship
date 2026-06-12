@@ -1,0 +1,24 @@
+{
+  "source_id": "SRC009",
+  "source_type": "forum",
+  "mode": "forum_whattoexpect",
+  "start_urls": [
+    "https://community.whattoexpect.com/forums/endometriosis-ladies.html?page=1"
+  ],
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.25
+  },
+  "pagination": {
+    "start_listing_page": 1,
+    "max_listing_pages": 4,
+    "auto_discover_listing_pages": true,
+    "stop_after_empty_pages": 8
+  },
+  "output": {
+    "dir": "outputs/SRC009"
+  },
+  "extraction": {
+    "require_native_message_id": false
+  }
+}

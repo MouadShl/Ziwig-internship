@@ -1,0 +1,693 @@
+[
+  {
+    "id": "fenm_bertin_70503",
+    "name": "Bertin",
+    "specialty": "Niveau 2",
+    "profile_url": "https://fenm.org/professionnel/bertin",
+    "address": "Quartier La Renée, Immeuble Monlouis-Bonnaire, 97211, Rivière-Pilote, Martinique",
+    "address_lines": [
+      "Quartier La Renée",
+      "Immeuble Monlouis-Bonnaire",
+      "97211",
+      "Rivière-Pilote",
+      "Martinique"
+    ],
+    "postal_code": "97211",
+    "city": "Rivière-Pilote",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596381703",
+      "0696252758"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_charlotte-prigent_62653",
+    "name": "Charlotte PRIGENT",
+    "specialty": "Soin de support",
+    "profile_url": "https://fenm.org/professionnel/charlotte-prigent",
+    "address": "Centre Femina Panoramique, 40 Lotissement Panoramique, Quartier Trois Rivières, 97228, Sainte-Luce, Martinique",
+    "address_lines": [
+      "Centre Femina Panoramique",
+      "40 Lotissement Panoramique",
+      "Quartier Trois Rivières",
+      "97228",
+      "Sainte-Luce",
+      "Martinique"
+    ],
+    "postal_code": "97228",
+    "city": "Sainte-Luce",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0690972509"
+    ],
+    "website_links": [
+      "https://martinique-osteopathe.fr/"
+    ],
+    "page": 1
+  },
+  {
+    "id": "fenm_clarys-dintimille_82103",
+    "name": "Clarys DINTIMILLE",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/clarys-dintimille",
+    "address": "SC ÉCHOGRAPHIE, 31 Square, chemin Bois Neuf, quartier Mansarde Catalogne, 97231, LE ROBERT, Martinique",
+    "address_lines": [
+      "SC ÉCHOGRAPHIE",
+      "31 Square, chemin Bois Neuf",
+      "quartier Mansarde Catalogne",
+      "97231",
+      "LE ROBERT",
+      "Martinique"
+    ],
+    "postal_code": "97231",
+    "city": "LE ROBERT",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 62 83 21",
+      "06 96 61 01 88"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-alice-monthieux_69753",
+    "name": "Dr Alice MONTHIEUX",
+    "specialty": "Niveau 2",
+    "profile_url": "https://fenm.org/professionnel/dr-alice-monthieux",
+    "address": "MFME - CHU de Martinique, BP 632, 97261, FORT-DE-FRANCE CEDEX, Martinique",
+    "address_lines": [
+      "MFME - CHU de Martinique",
+      "BP 632",
+      "97261",
+      "FORT-DE-FRANCE CEDEX",
+      "Martinique"
+    ],
+    "postal_code": "97261",
+    "city": "FORT-DE-FRANCE CEDEX",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 55 69 73"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-aurelie-merlin_63837",
+    "name": "Dr Aurélie MERLIN",
+    "specialty": "Radiologue",
+    "profile_url": "https://fenm.org/professionnel/dr-aurelie-merlin",
+    "address": "62 route de la Clairière, 97200, FORT-DE-FRANCE, Martinique",
+    "address_lines": [
+      "62 route de la Clairière",
+      "97200",
+      "FORT-DE-FRANCE",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "FORT-DE-FRANCE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "06 96 11 07 01"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-christel-nowak-gynecologue-obstetricienne_10393",
+    "name": "Dr Christel NOWAK, gynécologue obstétricienne",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/dr-christel-nowak-gynecologue-obstetricienne",
+    "address": "Fémina Panoramique, 40 lotissement Panoramique, 97228, Sainte-Luce, Martinique",
+    "address_lines": [
+      "Fémina Panoramique",
+      "40 lotissement Panoramique",
+      "97228",
+      "Sainte-Luce",
+      "Martinique"
+    ],
+    "postal_code": "97228",
+    "city": "Sainte-Luce",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596 53 74 92"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-clara-adenet_80854",
+    "name": "Dr Clara ADENET",
+    "specialty": "Radiologue",
+    "profile_url": "https://fenm.org/professionnel/dr-clara-adenet",
+    "address": "MFME - CHU de Martinique, BP 632, 97261, FORT-DE-FRANCE CEDEX, Martinique",
+    "address_lines": [
+      "MFME - CHU de Martinique",
+      "BP 632",
+      "97261",
+      "FORT-DE-FRANCE CEDEX",
+      "Martinique"
+    ],
+    "postal_code": "97261",
+    "city": "FORT-DE-FRANCE CEDEX",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 70 93 53",
+      "05 96 70 93 41"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-cynthia-bichara-petit_90433",
+    "name": "Dr Cynthia BICHARA PETIT",
+    "specialty": "Niveau 3",
+    "profile_url": "https://fenm.org/professionnel/dr-cynthia-bichara-petit",
+    "address": "29 Bd du Général De Gaulle, 97200, FORT-DE-FRANCE, Martinique",
+    "address_lines": [
+      "29 Bd du Général De Gaulle",
+      "97200",
+      "FORT-DE-FRANCE",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "FORT-DE-FRANCE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 71 71 41"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-khalil-zouiten_36168",
+    "name": "Dr Khalil ZOUITEN",
+    "specialty": "Radiologue",
+    "profile_url": "https://fenm.org/professionnel/dr-khalil-zouiten",
+    "address": "3 rue des Hibiscus, 97200, FORT-DE-FRANCE, Martinique",
+    "address_lines": [
+      "3 rue des Hibiscus",
+      "97200",
+      "FORT-DE-FRANCE",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "FORT-DE-FRANCE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 67 84 14"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-lara-valentin_98892",
+    "name": "Dr Lara VALENTIN",
+    "specialty": "Niveau 2",
+    "profile_url": "https://fenm.org/professionnel/dr-lara-valentin",
+    "address": "2 Rue du Colibri, 97233, SCHOELCHER, Martinique",
+    "address_lines": [
+      "2 Rue du Colibri",
+      "97233",
+      "SCHOELCHER",
+      "Martinique"
+    ],
+    "postal_code": "97233",
+    "city": "SCHOELCHER",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 55 95 39"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-ludivine-chevallier_973",
+    "name": "Dr Ludivine CHEVALLIER",
+    "specialty": "Niveau 3",
+    "profile_url": "https://fenm.org/professionnel/dr-ludivine-chevallier",
+    "address": "MFME - CHU de Martinique, BP 632, 97261, FORT-DE-FRANCE CEDEX, Martinique",
+    "address_lines": [
+      "MFME - CHU de Martinique",
+      "BP 632",
+      "97261",
+      "FORT-DE-FRANCE CEDEX",
+      "Martinique"
+    ],
+    "postal_code": "97261",
+    "city": "FORT-DE-FRANCE CEDEX",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 55 69 65",
+      "06 96 61 96 96"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-sarah-lise_72803",
+    "name": "Dr Sarah LISE",
+    "specialty": "Niveau 2",
+    "profile_url": "https://fenm.org/professionnel/dr-sarah-lise",
+    "address": "MFME-CHU de Martinique, BP 632, 97261, Fort-de-France, Martinique",
+    "address_lines": [
+      "MFME-CHU de Martinique",
+      "BP 632",
+      "97261",
+      "Fort-de-France",
+      "Martinique"
+    ],
+    "postal_code": "97261",
+    "city": "Fort-de-France",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 55 69 65",
+      "06 96 61 96 96"
+    ],
+    "website_links": [],
+    "page": 1
+  },
+  {
+    "id": "fenm_dr-thasnime-habibourahimane_66618",
+    "name": "Dr Thasnime HABIBOURAHIMANE",
+    "specialty": "Niveau 2",
+    "profile_url": "https://fenm.org/professionnel/dr-thasnime-habibourahimane",
+    "address": "Cabinet Dr WAN AJOUHU, Extension Clinique SAINT PAUL 3/5 Rue des hibiscus Clairière, 97200, FORT DE FRANCE, Martinique",
+    "address_lines": [
+      "Cabinet Dr WAN AJOUHU",
+      "Extension Clinique SAINT PAUL 3/5 Rue des hibiscus Clairière",
+      "97200",
+      "FORT DE FRANCE",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "FORT DE FRANCE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596 61 42 40"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_estelle-fourmy-sage-femme-echographiste_31142",
+    "name": "Estelle Fourmy Sage-femme échographiste",
+    "specialty": "",
+    "profile_url": "https://fenm.org/professionnel/estelle-fourmy-sage-femme-echographiste",
+    "address": "Maison de santé Les Colibris, 31-35 rue Homère Clement, 97240, Le François, Martinique",
+    "address_lines": [
+      "Maison de santé Les Colibris",
+      "31-35 rue Homère Clement",
+      "97240",
+      "Le François",
+      "Martinique"
+    ],
+    "postal_code": "97240",
+    "city": "Le François",
+    "country": "Martinique",
+    "phone_numbers": [
+      "06 96 66 39 82"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_isabelle-rousseau-yokessa_11836",
+    "name": "Isabelle ROUSSEAU YOKESSA",
+    "specialty": "Niveau 2",
+    "profile_url": "https://fenm.org/professionnel/isabelle-rousseau-yokessa",
+    "address": "1 rue Frantz Bérose fond Bourlet, 97222, Case-Pilote, Martinique",
+    "address_lines": [
+      "1 rue Frantz Bérose fond Bourlet",
+      "97222",
+      "Case-Pilote",
+      "Martinique"
+    ],
+    "postal_code": "97222",
+    "city": "Case-Pilote",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0696746886"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_jade-yoldi-kinesitherapeute-de_97022",
+    "name": "Jade Yoldi Kinésithérapeute DE",
+    "specialty": "Soin de support",
+    "profile_url": "https://fenm.org/professionnel/jade-yoldi-kinesitherapeute-de",
+    "address": "31 Rue Du Général De Gaulle, En face de la Sécurité Sociale, 97215, Rivière salée, Martinique",
+    "address_lines": [
+      "31 Rue Du Général De Gaulle",
+      "En face de la Sécurité Sociale",
+      "97215",
+      "Rivière salée",
+      "Martinique"
+    ],
+    "postal_code": "97215",
+    "city": "Rivière salée",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0696201020"
+    ],
+    "website_links": [
+      "https://www.instagram.com/jade_kine_mais_pas_que?igsh=MTRxZGFydTI0OXg2ZA%3D%3D&utm_source=qr"
+    ],
+    "page": 2
+  },
+  {
+    "id": "fenm_julie-rose-bellerophon_5070",
+    "name": "Julie-Rose BELLEROPHON",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/julie-rose-bellerophon",
+    "address": "ZI CHAMPIGNY, 97224, DUCOS, Martinique",
+    "address_lines": [
+      "ZI CHAMPIGNY",
+      "97224",
+      "DUCOS",
+      "Martinique"
+    ],
+    "postal_code": "97224",
+    "city": "DUCOS",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 97 57 07",
+      "06 96 20 80 59"
+    ],
+    "website_links": [
+      "https://www.julie-rose-bellerophon-sage-femme.fr/"
+    ],
+    "page": 2
+  },
+  {
+    "id": "fenm_juve-marie-laure_46109",
+    "name": "JUVE MARIE LAURE",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/juve-marie-laure",
+    "address": "CENTRE MEDICAL LES ALIZES, 97290, LE MARIN, Martinique",
+    "address_lines": [
+      "CENTRE MEDICAL LES ALIZES",
+      "97290",
+      "LE MARIN",
+      "Martinique"
+    ],
+    "postal_code": "97290",
+    "city": "LE MARIN",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596780873"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_khalil-zouiten_29974",
+    "name": "Khalil ZOUITEN",
+    "specialty": "",
+    "profile_url": "https://fenm.org/professionnel/khalil-zouiten",
+    "address": "Extension Clinique Saint paul - 3 Rue Des Hibiscus, 97200, Fort De France, Martinique",
+    "address_lines": [
+      "Extension Clinique Saint paul - 3 Rue Des Hibiscus",
+      "97200",
+      "Fort De France",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "Fort De France",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596 67 84 14",
+      "0696267750"
+    ],
+    "website_links": [
+      "https://www.madininaecho.com/"
+    ],
+    "page": 2
+  },
+  {
+    "id": "fenm_larissa-lambert_99429",
+    "name": "Larissa LAMBERT",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/larissa-lambert",
+    "address": "1 rue Frantz Berose, Centre Medical \"Les jardins de Vetiver\", 97222, Case-Pilote, Martinique",
+    "address_lines": [
+      "1 rue Frantz Berose",
+      "Centre Medical \"Les jardins de Vetiver\"",
+      "97222",
+      "Case-Pilote",
+      "Martinique"
+    ],
+    "postal_code": "97222",
+    "city": "Case-Pilote",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0696031930"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_lucile-lorne_58709",
+    "name": "Lucile LORNE",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/lucile-lorne",
+    "address": "2 Avenue Jean Jaurès, 97200, FORT-DE-FRANCE, Martinique",
+    "address_lines": [
+      "2 Avenue Jean Jaurès",
+      "97200",
+      "FORT-DE-FRANCE",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "FORT-DE-FRANCE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 75 25 21",
+      "06 96 44 61 30"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_marielle-richer_41080",
+    "name": "Marielle RICHER",
+    "specialty": "Niveau 2",
+    "profile_url": "https://fenm.org/professionnel/marielle-richer",
+    "address": "Scm Alpinia Centre Médical, 34 Lotissement les Rosiers, Quartier Thorailles, 97215, RIVIERE SALEE, Martinique",
+    "address_lines": [
+      "Scm Alpinia Centre Médical",
+      "34 Lotissement les Rosiers",
+      "Quartier Thorailles",
+      "97215",
+      "RIVIERE SALEE",
+      "Martinique"
+    ],
+    "postal_code": "97215",
+    "city": "RIVIERE SALEE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "09 70 35 01 13"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_maurin-buval-clarisse_49946",
+    "name": "MAURIN BUVAL Clarisse",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/maurin-buval-clarisse",
+    "address": "Centre de Santé Sexuelle, Hopital de Saint-Pierre, 97250, Saint-Pierre, Martinique",
+    "address_lines": [
+      "Centre de Santé Sexuelle",
+      "Hopital de Saint-Pierre",
+      "97250",
+      "Saint-Pierre",
+      "Martinique"
+    ],
+    "postal_code": "97250",
+    "city": "Saint-Pierre",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596751802",
+      "0696251801"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_mauvois_79673",
+    "name": "MAUVOIS",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/mauvois",
+    "address": "3 rue des hibiscus clairiere, 97200, FORT DE FRANCE, Martinique",
+    "address_lines": [
+      "3 rue des hibiscus clairiere",
+      "97200",
+      "FORT DE FRANCE",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "FORT DE FRANCE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596678414",
+      "0696278029"
+    ],
+    "website_links": [],
+    "page": 2
+  },
+  {
+    "id": "fenm_medo_98402",
+    "name": "MEDO",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/medo",
+    "address": "MFME - CHU de Martinique, 97200, Fort de France, Martinique",
+    "address_lines": [
+      "MFME - CHU de Martinique",
+      "97200",
+      "Fort de France",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "Fort de France",
+    "country": "Martinique",
+    "phone_numbers": [],
+    "website_links": [],
+    "page": 3
+  },
+  {
+    "id": "fenm_sage-femme-marielle-richer_3878",
+    "name": "Sage-femme Marielle RICHER",
+    "specialty": "Niveau 3",
+    "profile_url": "https://fenm.org/professionnel/sage-femme-marielle-richer",
+    "address": "CENTRE MEDICAL LAUGIER, 97215, riviere salée, Martinique",
+    "address_lines": [
+      "CENTRE MEDICAL LAUGIER",
+      "97215",
+      "riviere salée",
+      "Martinique"
+    ],
+    "postal_code": "97215",
+    "city": "riviere salée",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0696850980"
+    ],
+    "website_links": [
+      "http:mariellerichersagefemmesexologue.com"
+    ],
+    "page": 3
+  },
+  {
+    "id": "fenm_sarah-lyne-jos_35516",
+    "name": "Sarah Lyne JOS",
+    "specialty": "Niveau 3",
+    "profile_url": "https://fenm.org/professionnel/sarah-lyne-jos",
+    "address": "29 Bd du Général De Gaulle, 97200, FORT-DE-FRANCE, Martinique",
+    "address_lines": [
+      "29 Bd du Général De Gaulle",
+      "97200",
+      "FORT-DE-FRANCE",
+      "Martinique"
+    ],
+    "postal_code": "97200",
+    "city": "FORT-DE-FRANCE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "05 96 71 71 41"
+    ],
+    "website_links": [],
+    "page": 3
+  },
+  {
+    "id": "fenm_severine-marcellin_35244",
+    "name": "séverine marcellin",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/severine-marcellin",
+    "address": "2 rue du colibri, Plateau fofo, 97233, Schoelcher, Martinique",
+    "address_lines": [
+      "2 rue du colibri",
+      "Plateau fofo",
+      "97233",
+      "Schoelcher",
+      "Martinique"
+    ],
+    "postal_code": "97233",
+    "city": "Schoelcher",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0696509384"
+    ],
+    "website_links": [
+      "https://www.rdvsagefemme.com/a/severine-marcellin-7636f"
+    ],
+    "page": 3
+  },
+  {
+    "id": "fenm_tignac_18938",
+    "name": "TIGNAC",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/tignac",
+    "address": "LOT LA CRIQUE VOIE N 1, 97220, TRINITE, Martinique",
+    "address_lines": [
+      "LOT LA CRIQUE VOIE N 1",
+      "97220",
+      "TRINITE",
+      "Martinique"
+    ],
+    "postal_code": "97220",
+    "city": "TRINITE",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596580265"
+    ],
+    "website_links": [],
+    "page": 3
+  },
+  {
+    "id": "fenm_valerie-grabin_68376",
+    "name": "Valérie GRABIN",
+    "specialty": "Niveau 1",
+    "profile_url": "https://fenm.org/professionnel/valerie-grabin",
+    "address": "21- ZA De Trianon Immeuble CELMA (au-dessus du Super H de Trianon), 97240, Le François, Martinique",
+    "address_lines": [
+      "21- ZA De Trianon Immeuble CELMA (au-dessus du Super H de Trianon)",
+      "97240",
+      "Le François",
+      "Martinique"
+    ],
+    "postal_code": "97240",
+    "city": "Le François",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0696743707"
+    ],
+    "website_links": [
+      "https://www.valerie-grabin-sage-femme.fr/"
+    ],
+    "page": 3
+  },
+  {
+    "id": "fenm_vercruysse-dreux_67630",
+    "name": "Vercruysse dreux",
+    "specialty": "Niveau 3",
+    "profile_url": "https://fenm.org/professionnel/vercruysse-dreux",
+    "address": "40 Lorissement Panoramique, 97228, Sainte Luce, Martinique",
+    "address_lines": [
+      "40 Lorissement Panoramique",
+      "97228",
+      "Sainte Luce",
+      "Martinique"
+    ],
+    "postal_code": "97228",
+    "city": "Sainte Luce",
+    "country": "Martinique",
+    "phone_numbers": [
+      "0596537492"
+    ],
+    "website_links": [],
+    "page": 3
+  }
+]

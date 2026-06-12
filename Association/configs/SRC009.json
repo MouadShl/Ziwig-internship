@@ -1,0 +1,50 @@
+{
+  "source_id": "SRC009",
+  "source_name": "The Endometriosis Foundation",
+  "source_type": "news_blog",
+  "base_url": "https://www.theendometriosisfoundation.org",
+  "country": "United Kingdom",
+  "language": "en",
+  "start_urls": [
+    "/blog",
+    "/blog/categories/news",
+    "/blog/categories/blogpost",
+    "/blog/categories/events"
+  ],
+  "pagination": {
+    "type": "path_template",
+    "template": "/blog/page/{page}",
+    "start_page": 1,
+    "max_pages": 50
+  },
+  "selectors": {
+    "article_list": "a[href*='/post/']",
+    "title": "h1",
+    "body": "article, main article, [data-hook='rich-content'], [itemprop='articleBody'], main",
+    "author": "a[rel='author'], [data-hook='author'], .post-author, .blog-post-author",
+    "date": "time, .post-metadata__date, .blog-post-meta time, .blog-post-meta",
+    "category": "a[href*='/blog/categories/'], .post-metadata__category, .blog-post-category",
+    "tags": "a[href*='/blog/categories/'], a[rel='tag']"
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "nav",
+    "header",
+    "footer",
+    "form",
+    "aside",
+    "noscript",
+    ".share-buttons",
+    ".social-share",
+    ".related-posts",
+    ".recommended",
+    ".sidebar",
+    ".widget",
+    ".advertisement",
+    ".ads",
+    ".newsletter-signup",
+    ".subscribe"
+  ],
+  "sleep_seconds": 1.2
+}

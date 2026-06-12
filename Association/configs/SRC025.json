@@ -1,0 +1,35 @@
+{
+  "source_id": "SRC025",
+  "source_name": "ENDOSUD PACA cartography specialists",
+  "source_url": "https://endosudpaca.fr/lannuaire/cartographie",
+  "status": "template",
+  "note": "Run scraper_bs4_endosudpaca.py to generate the full dataset into outputs/SRC025/SRC025.json.",
+  "record_schema": {
+    "id": "number",
+    "nom": "string",
+    "specialite": "string",
+    "adresse": "string",
+    "ville": "string or null",
+    "code_postal": "string or null",
+    "telephone": "string or null",
+    "email": "string or null",
+    "typeEts": "string or null",
+    "referant": "string or null",
+    "latitude": "float or null",
+    "longitude": "float or null"
+  },
+  "sample_record": {
+    "id": 10,
+    "nom": "Example Specialist",
+    "specialite": "Gynécologie obstétrique",
+    "adresse": "Cabinet médical\n1 rue Exemple\n13000 Marseille",
+    "ville": "Marseille",
+    "code_postal": "13000",
+    "telephone": "0491000000",
+    "email": "example@example.fr",
+    "typeEts": null,
+    "referant": null,
+    "latitude": 43.2965,
+    "longitude": 5.3698
+  }
+}

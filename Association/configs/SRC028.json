@@ -1,0 +1,62 @@
+{
+  "source": "endoactive.org.au",
+  "scraped_at": "2026-04-10T15:59:00",
+  "url": "https://endoactive.org.au",
+  "content": {
+    "homepage": {
+      "navigation": [
+        {
+          "text": "RESEARCH PAPER",
+          "url": "https://endoactive.org.au/research-paper/"
+        },
+        {
+          "text": "FREE VIDEOS",
+          "url": "https://endoactive.org.au/free-videos/"
+        },
+        {
+          "text": "VIDEO NEWS",
+          "url": "https://endoactive.org.au/video-news/"
+        },
+        {
+          "text": "COST OF ENDO",
+          "url": "https://endoactive.org.au/cost-of-endo/"
+        },
+        {
+          "text": "ENDO BLOG",
+          "url": "https://endoactive.org.au/endo-blog/"
+        },
+        {
+          "text": "SYL'S BLOG",
+          "url": "https://endoactive.org.au/syls-blog/"
+        },
+        {
+          "text": "YOUR STORIES",
+          "url": "https://endoactive.org.au/your-stories/"
+        },
+        {
+          "text": "DONATE",
+          "url": "https://endoactive.org.au/donate/"
+        }
+      ],
+      "hero_text": "ENDOMETRIOSIS SHARED PERSPECTIVES",
+      "title": "EndoActive - Endometriosis conference, videos and resources"
+    },
+    "research_papers": [],
+    "free_videos": [],
+    "video_news": [],
+    "cost_of_endo": {
+      "full_text": "",
+      "statistics": []
+    },
+    "endo_blog": [],
+    "syls_blog": [],
+    "your_stories": [],
+    "organization_info": {
+      "charity_status": "EndoActive is a registered ACNC Charity",
+      "abn": "60 328 104 537",
+      "membership": "Founding Member of ACE - Australian Coalition for Endometriosis",
+      "research_partners": [],
+      "supporters": []
+    }
+  }
+}

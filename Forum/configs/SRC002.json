@@ -1,0 +1,20 @@
+{
+  "source_id": "SRC002",
+  "mode": "forum_journaldesfemmes",
+  "start_urls": [
+    "https://sante-medecine.journaldesfemmes.fr/forum/s/Endometriose"
+  ],
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.5,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+  },
+  "pagination": {
+    "max_listing_pages": 29
+  },
+  "output": {
+    "dir": "outputs/SRC002"
+  }
+}

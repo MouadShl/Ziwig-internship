@@ -1,0 +1,635 @@
+{
+    "data": [
+        {
+            "id": "5498649",
+            "thread_id": "5498649",
+            "body": {
+                "raw": "I'm currently under testing for endometriosis and my gynaecologist has referred me for an MRI scan. They said if that is unsuccessful I will need a laparoscopy. \nFor anyone who has had either or both were you successful in finding endometriosis if you had it?",
+                "snippet": "I&#x27;m currently under testing for <em>endometriosis<\/em> and my gynaecologist has referred me for an MRI scan"
+            },
+            "title": {
+                "raw": "Endometriosis - MRI or Laparoscopy",
+                "snippet": "<em>Endometriosis<\/em> - MRI or Laparoscopy"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/womens_health\/5498649-endometriosis-mri-or-laparoscopy",
+            "username": "abbs1",
+            "date": "2026-03-03T21:03:27.000000Z",
+            "topic": {
+                "name": "Women's health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/womens_health"
+            },
+            "replies_count": 6,
+            "type": "Thread"
+        },
+        {
+            "id": "5321472",
+            "thread_id": "5321472",
+            "body": {
+                "raw": "Hi \ud83d\udc4b\nIm just wondering if anyone is in a similar situation and wants to create a little thread. Late 30s, Endometriosis and TTC\nSevere Endometriosis excised recently but also have adenomyosis.\nIs anyone in the same boat? Or does anyone have any success stories. \u2764\ufe0f",
+                "snippet": ". Late 30s, <em>Endometriosis<\/em> and TTC\nSevere <em>Endometriosis<\/em> excised recently but also have adenomyosis.\nIs"
+            },
+            "title": {
+                "raw": "Late 30s Severe Endo & Infertility",
+                "snippet": "Late 30s Severe Endo &amp; Infertility"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/infertility\/5321472-late-30s-severe-endo-infertility",
+            "username": "Endoadenottc",
+            "date": "2025-04-24T05:26:49.000000Z",
+            "topic": {
+                "name": "Infertility",
+                "url": "https:\/\/www.mumsnet.com\/talk\/infertility"
+            },
+            "replies_count": 9,
+            "type": "Thread"
+        },
+        {
+            "id": "5423225",
+            "thread_id": "5423225",
+            "body": {
+                "raw": "My first time posting but I have taken so much great advice from mumsnet over the years so thought I would put this out there on a Hail Mary! I\u2019m having endometriosis surgery next week and would hugely appreciate any advice on recovery or to hear about your experiences that you\u2019re willing to share. \n\nI found out recently I have endometriosis. I had been TTC our first baby and getting nowhere but having unusual bleeding every other month, which my GP said was low progesterone but it just didn\u2019t seem right.  I have been in mild to moderate abdominal pain the last two years most of the time, but attributed some of the symptoms I now understand are endometriosis to a chronic bladder infection (my bladder seems to have a mind of its own, bleeding randomly, burning  etc). I had two A&amp;E trips last year with severe pain from burst cysts also but endometriosis wasn\u2019t suggested.  \n\nI went to get the bleeding checked out privately and had a shock. He said the cyclical sludgy bleeding I get and the cramping is typical of endometriosis. The ultrasound showed an endometrioma, and my MRI then showed it\u2019s on both ovaries, womb, \u201cand other places\u201d. I didn\u2019t push because I didn\u2019t really want to know I went into a bit of a panic about it being on my ovaries and visible at all on the scan. No visible bowel involvement thank god but it occurred to me that I do have some bowel symptoms that could be relevant so I sent an email on that. He said it\u2019s visible on my sacro uteral ligaments and I\u2019ve had terrible back pain the last 7 years which does flare with my periods. He said those ligaments are usually one of the first places it starts. The consultant suspects my bladder will be involved based on my symptoms but luckily my scan didn\u2019t show anything inside the bladder. He said it\u2019s also likely in the space behind the womb and ovaries. He said conception would be hard because of the position of my ovaries (stuck to nearby structures from endometriosis and it makes it hard for the eggs to reach the tube based on the angle. He\u2019s going to release them), plus untreated endometriosis can make it a hostile environment. I\u2019m beyond grateful to have finally gotten a diagnosis (and my insurance is covering the endometriosis aspect if not fertility) and to be seeing a proactive surgeon, but it\u2019s obviously a shock and it\u2019s not you want to hear when you\u2019re trying to conceive. \n\nI\u2019ve been advised then to go straight into egg collection for IVF (two weeks after the operation) to capitalise on the two cycles post operation where ovarian function should be touchwood the best before endometriosis can start to recur.  I\u2019m having a laparoscopy, hysteroscopy and excision \/ laser removal surgery all in one go next week.  I would be really grateful for anyone to share any tips they have on recovery or really just what their experiences were. I\u2019ve been told a two week recovery but it sounds ambitious to me. Has anyone back to backed it with egg collection? I also appreciate that endometriosis is so different for every woman. I\u2019m 35 FYI. Thank you xxx",
+                "snippet": " I would put this out there on a Hail Mary! I\u2019m having <em>endometriosis<\/em> surgery next week and would"
+            },
+            "title": {
+                "raw": "Surgery next week for endometriosis - any advice hugely appreciated",
+                "snippet": "Surgery next week for <em>endometriosis<\/em> - any advice hugely appreciated"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/womens_health\/5423225-surgery-next-week-for-endometriosis-any-advice-hugely-appreciated",
+            "username": "SlightlyTerrifiedButPolite",
+            "date": "2025-10-07T05:12:09.000000Z",
+            "topic": {
+                "name": "Women's health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/womens_health"
+            },
+            "replies_count": 3,
+            "type": "Thread"
+        },
+        {
+            "id": "5508732",
+            "thread_id": "5508732",
+            "body": {
+                "raw": "I've been on a year long NHS waiting list but I should be coming up to the top of the waiting list soon.  I'm really having second thoughts though, I'm so so scared.\n\nI had a uterine ablation in 2022 which has failed causing pain during every period, a MRI a year later detected endometriosis and adenomyosis so the plan is to remove the uterus due to the ablation failing and adenomyosis and then I'll also have excision surgery at the same time to remove any endometriosis.\n\nThe problem is my mental health has nosedived recently as I've been helping to care for my mum with dementia the last 8 years and it's really taken its toll on me. I panic and stress over everything recently and overthink everything.\n\nI'm thinking all the worst case scenarios from surgery and because my ablation went wrong all I can think is knowing my luck the hysterectomy will be a disaster too. I'm so anxious that I'm close to breaking down over it all. Just can't take any more but I'm also fed up with this pain and daily digestive issues (which I'm sure are all connected). I was hoping menopause would come and it would all die down but I'm still having a cycle at 53  \ud83d\ude22",
+                "snippet": " which has failed causing pain during every period, a MRI a year later detected <em>endometriosis<\/em> and"
+            },
+            "title": {
+                "raw": "I'm due a hysterectomy and I am terrified, how can I overcome this fear before I chicken out and cancel?",
+                "snippet": "I&#39;m due a hysterectomy and I am terrified, how can I overcome this fear before I chicken out and"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/womens_health\/5508732-im-due-a-hysterectomy-and-i-am-terrified-how-can-i-overcome-this-fear-before-i-chicken-out-and-cancel",
+            "username": "MybosswasMrMcGee",
+            "date": "2026-03-26T16:21:36.000000Z",
+            "topic": {
+                "name": "Women's health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/womens_health"
+            },
+            "replies_count": 32,
+            "type": "Thread"
+        },
+        {
+            "id": "5378755",
+            "thread_id": "5378755",
+            "body": {
+                "raw": "So basically I have been advised by my consultant to have an laparoscopy due to intense pain since the birth of my last child 20 months ago.\n\nAn ultrasound did reveal a chocolate cyst and possible endometriosis tissue (sonographer said this). \n\nThe consultant hasn\u2019t actually said I have endometriosis but I have read that a chocolate cyst is linked to endometriosis.\n\nI am abit worried about the procedure and the possible scarring on my belly, silly I know as I have stretch marks on my belly from my kids lol.\n\nI was hoping to have another child and I have just read the potential side effects about damage to the womb etc so it does make me abit anxious.\n\nAny advice\/ stories welcome x",
+                "snippet": " <em>endometriosis<\/em> tissue (sonographer said this). \n\nThe consultant hasn\u2019t actually said I have"
+            },
+            "title": {
+                "raw": "Worried about laparoscopy, any stories?",
+                "snippet": "Worried about laparoscopy, any stories"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/am_i_being_unreasonable\/5378755-worried-about-laparoscopy-any-stories",
+            "username": "milksshakke",
+            "date": "2025-07-23T13:35:30.000000Z",
+            "topic": {
+                "name": "AIBU?",
+                "url": "https:\/\/www.mumsnet.com\/talk\/am_i_being_unreasonable"
+            },
+            "replies_count": 2,
+            "type": "Thread"
+        },
+        {
+            "id": "5325777",
+            "thread_id": "5325777",
+            "body": {
+                "raw": "Did anyone have vaginal birth with endometriosis?  When did your labor pain start? Is it more difficult with endo?",
+                "snippet": "Did anyone have vaginal birth with <em>endometriosis<\/em>?  When did your labor pain start? Is it more difficult with endo?"
+            },
+            "title": {
+                "raw": "Endometriosis and vaginal birth",
+                "snippet": "<em>Endometriosis<\/em> and vaginal birth"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/pregnancy\/5325777-endometriosis-and-vaginal-birth",
+            "username": "Sasharon",
+            "date": "2025-04-30T14:42:38.000000Z",
+            "topic": {
+                "name": "Pregnancy",
+                "url": "https:\/\/www.mumsnet.com\/talk\/pregnancy"
+            },
+            "replies_count": 8,
+            "type": "Thread"
+        },
+        {
+            "id": "5481787",
+            "thread_id": "5481787",
+            "body": {
+                "raw": "Are there any ladies who have endometriosis? If so what pain relief do you use? I believe I could have endometriosis I'm just waiting to be seen by a doctor. I have irregular periods I have really bad cramping pains.The tops of my thighs ache ,I get really bad backaches in my lower spine to reduce the pain temporarily I take feminax. I haven't had a period yet I have taken a pregnancy test on the 17th and that came back negative.",
+                "snippet": "Are there any ladies who have <em>endometriosis<\/em>? If so what pain relief do you use? I believe I could"
+            },
+            "title": {
+                "raw": "Health",
+                "snippet": "Health"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/womens_health\/5481787-health",
+            "username": "Mum311023",
+            "date": "2026-01-26T17:45:33.000000Z",
+            "topic": {
+                "name": "Women's health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/womens_health"
+            },
+            "replies_count": 0,
+            "type": "Thread"
+        },
+        {
+            "id": "5308700",
+            "thread_id": "5308700",
+            "body": {
+                "raw": "I'm 24 stone with endometriosis and pcos and I struggle to lose weight. When I was younger it was so easy! My GP can't help.",
+                "snippet": "I&#x27;m 24 stone with <em>endometriosis<\/em> and pcos and I struggle to lose weight. When I was younger it was so easy! My GP can&#x27;t help."
+            },
+            "title": {
+                "raw": "How do I get started with Mounjaro?",
+                "snippet": "How do I get started with Mounjaro"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/weight-loss-injections\/5308700-how-do-i-get-started-with-mounjaro",
+            "username": "PinataHeeHaw",
+            "date": "2025-04-05T03:54:59.000000Z",
+            "topic": {
+                "name": "Weight loss injections\/treatments",
+                "url": "https:\/\/www.mumsnet.com\/talk\/weight-loss-injections"
+            },
+            "replies_count": 3,
+            "type": "Thread"
+        },
+        {
+            "id": "5496480",
+            "thread_id": "5496480",
+            "body": {
+                "raw": "I am in my early 40s. Have endometriosis and adenomyosis, mirena coil and hormones aren\u2019t helping with the pain. Going to have a laparoscopic hysterectomy + tidying the endometriosis. Keeping the ovaries. \n\nI am reading lots of different things online. \n\nWho\u2019s had the same thing? Was recovery okay? I will signed off work for 4 weeks (I do quite a physical job). Worried about logistics around young kids, school pick up etc. \n\nAnd was it life changing? I am fed up with being in pain and just want my life back.",
+                "snippet": "I am in my early 40s. Have <em>endometriosis<\/em> and adenomyosis, mirena coil and hormones aren\u2019t helping"
+            },
+            "title": {
+                "raw": "Laparoscopic hysterectomy - advice and what to expect?",
+                "snippet": "Laparoscopic hysterectomy - advice and what to expect"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/womens_health\/5496480-laparoscopic-hysterectomy-advice-and-what-to-expect",
+            "username": "Lovebooks87",
+            "date": "2026-02-26T21:04:03.000000Z",
+            "topic": {
+                "name": "Women's health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/womens_health"
+            },
+            "replies_count": 10,
+            "type": "Thread"
+        },
+        {
+            "id": "5314068",
+            "thread_id": "5314068",
+            "body": {
+                "raw": "Hi \n\nI\u2019ve been referred to gynae for an exploratory laparoscopy to look for endometriosis. Anyone who\u2019s been through this could you share your experience of the procedure\/recovery?",
+                "snippet": "Hi \n\nI\u2019ve been referred to gynae for an exploratory laparoscopy to look for <em>endometriosis<\/em>. Anyone"
+            },
+            "title": {
+                "raw": "Laparoscopy - experiences and advice",
+                "snippet": "Laparoscopy - experiences and advice"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/general_health\/5314068-laparoscopy-experiences-and-advice",
+            "username": "RHCCHR94",
+            "date": "2025-04-13T11:42:45.000000Z",
+            "topic": {
+                "name": "General health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/general_health"
+            },
+            "replies_count": 2,
+            "type": "Thread"
+        },
+        {
+            "id": "5485249",
+            "thread_id": "5485249",
+            "body": {
+                "raw": "I'm just looking for a friend in the same\/similar boat as me. We were thankfully blessed with our son after 6+ years of infertility. I had an operation (after being delayed so often) where they found I have endometriosis and flushed dye through my reproductive system. I then became pregnant. We started trying for another child about a year ago and its just not happening. I'd like to have dye flush again to hopefully help fertility and if not it could ease some endometriosis pain as I'm struggling so bad. The painkillers dont help, they just maybe knock me out for a few hours. I repeat this over and over that I can't even do that anymore as I need to be alert to look after my child. Anyways I just need someone to talk to. Someone who is\/has been through similar. The endometriosis pain has gotten so bad again its so hard to cope its constant for minimum of 2 weeks a month. Im 33. Please only kindness. Thank you",
+                "snippet": " I have <em>endometriosis<\/em> and flushed dye through my reproductive system. I then became pregnant. We"
+            },
+            "title": {
+                "raw": "Looking for Endo\/infertility friends",
+                "snippet": "Looking for Endo\/infertility friends"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/infertility\/5485249-looking-for-endoinfertility-friends",
+            "username": "LunarMoon92",
+            "date": "2026-02-02T23:37:08.000000Z",
+            "topic": {
+                "name": "Infertility",
+                "url": "https:\/\/www.mumsnet.com\/talk\/infertility"
+            },
+            "replies_count": 1,
+            "type": "Thread"
+        },
+        {
+            "id": "5443723",
+            "thread_id": "5443723",
+            "body": {
+                "raw": "Hi \n\nI\u2019m going forward for a laparoscopy for suspected endometriosis soon. I just wondered if anyone who\u2019s had this procedure could talk me through what to expect? \n\nx",
+                "snippet": "Hi \n\nI\u2019m going forward for a laparoscopy for suspected <em>endometriosis<\/em> soon. I just wondered if"
+            },
+            "title": {
+                "raw": "Endometriosis Surgery",
+                "snippet": "<em>Endometriosis<\/em> Surgery"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/am_i_being_unreasonable\/5443723-endometriosis-surgery",
+            "username": "Mamajustwingingit",
+            "date": "2025-11-13T17:36:51.000000Z",
+            "topic": {
+                "name": "AIBU?",
+                "url": "https:\/\/www.mumsnet.com\/talk\/am_i_being_unreasonable"
+            },
+            "replies_count": 1,
+            "type": "Thread"
+        },
+        {
+            "id": "5319984",
+            "thread_id": "5319984",
+            "body": {
+                "raw": "Hi, The isn't a question but a don't give up post!\nI'm 38 and I've just had my first 2x rainbow baby. \nI've been diagnosed with stage 4 endometriosis and deeply infiltrating endometriosis. I had surgery where they removed my left fallopian tube. My endometriosis was crazy then- I had a frozen pelvic, 2 large cysts in my left ovary, all over my intestines- to the point I might have needed a bag to help fix it, left ovary and tube stuck to my womb, right ovary had scar tissues, endo all over my bladder and starting to affect my kidneys. Thankfully surgery helped alot. I also prepared alot beforehand to help reduce endometriosis which helped alot. But that's another post!\nAfter my surgery I decided to go on the mini pill (I wasn't trying to have kids but wanted everything to stay clear)\nI got married at age 36, we started to try right away. I took a cocktail of supplements that helped me. Unfortunately I had a cp and a mmc before I had my baby. But now I have a beautiful 7 week old baby boy sleeping next to me. My pregnancy wasn't easy but my labour was. \nOne thing that helped me throughout all this was my attitude- I never thought that I wouldn't have kids or I couldn't fall pregnant. I remained hopeful throughout. \n\nThere is hope, just keep believing and helping yourself by trying different things.\n\nPray everyone will get their happy ending \ud83d\ude4f",
+                "snippet": " baby. \nI&#x27;ve been diagnosed with stage 4 <em>endometriosis<\/em> and deeply infiltrating <em>endometriosis<\/em>. I had"
+            },
+            "title": {
+                "raw": "Are you struggling to conceive? Over 30? Endometriosis? There is hope!",
+                "snippet": "Are you struggling to conceive? Over 30? <em>Endometriosis<\/em>? There is hope!"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/conception\/5319984-are-you-struggling-to-conceive-over-30-endometriosis-there-is-hope",
+            "username": "RWSS",
+            "date": "2025-04-22T08:59:01.000000Z",
+            "topic": {
+                "name": "Conception",
+                "url": "https:\/\/www.mumsnet.com\/talk\/conception"
+            },
+            "replies_count": 7,
+            "type": "Thread"
+        },
+        {
+            "id": "5373179",
+            "thread_id": "5373179",
+            "body": {
+                "raw": "Morning, I am struggling with my PCOS and endometriosis, and wondered if anyone uses any of the supplements targeted in the management of these conditions. If so, may I ask which ones\/your thoughts please?",
+                "snippet": "Morning, I am struggling with my PCOS and <em>endometriosis<\/em>, and wondered if anyone uses any of the"
+            },
+            "title": {
+                "raw": "PCOS supplements",
+                "snippet": "PCOS supplements"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/_chat\/5373179-pcos-supplements",
+            "username": "BelindaCardAisle",
+            "date": "2025-07-14T06:23:36.000000Z",
+            "topic": {
+                "name": "Chat",
+                "url": "https:\/\/www.mumsnet.com\/talk\/_chat"
+            },
+            "replies_count": 1,
+            "type": "Thread"
+        },
+        {
+            "id": "5457915",
+            "thread_id": "5457915",
+            "body": {
+                "raw": "I\u2019ve suffered with endometriosis my whol life but after having children it was manageable but last few years have adenymiosis too and getting polyps too. I\u2019ve never not had endometriosis so I\u2019m wondering if I may feel a lot better without the womb. I often get feverish towards end of the day and wonder if it\u2019s inflammation related. \n\nim being offered a radical hysterectomy including ovary (had fertility sparing ten years ago due to ovarian tumour) my worry is a surgical menopause and how bad I\u2019ll feel as this perimenopause is hell enough. \n\nhad anyone had a hysterectomy and it\u2019s changed their life? Just not sure what to do at all.",
+                "snippet": "I\u2019ve suffered with <em>endometriosis<\/em> my whol life but after having children it was manageable but last"
+            },
+            "title": {
+                "raw": "To think I might feel great without a womb?",
+                "snippet": "To think I might feel great without a womb"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/am_i_being_unreasonable\/5457915-to-think-i-might-feel-great-without-a-womb",
+            "username": "Lennon80",
+            "date": "2025-12-10T13:55:10.000000Z",
+            "topic": {
+                "name": "AIBU?",
+                "url": "https:\/\/www.mumsnet.com\/talk\/am_i_being_unreasonable"
+            },
+            "replies_count": 6,
+            "type": "Thread"
+        },
+        {
+            "id": "5430702",
+            "thread_id": "5430702",
+            "body": {
+                "raw": "Hi everyone,\n\nI\u2019ve been ttc 2 years and during that time found out I have endometriosis. It\u2019s only been diagnosed on ultrasound (ovary attached to womb and an endometrioma). I went ahead and had an EC and had my first FET this month which unfortunately didn\u2019t work. I was taking 25mg Prednisolone to try and reduce any inflammation.\nI\u2019ve decided to go ahead with a laparoscopy so I know the extent of the endometriosis and can hopefully have it treated before any more FETs. Has anyone had FET success after laparoscopy? \nI\u2019m worried I\u2019m jumping the gun a bit with surgery as my fertility clinic doesn\u2019t seem to think it makes much difference, but don\u2019t want to keep throwing embryos in if the endo is causing issues.\n\n37yrs , TTC1, endo and PCO\n\nAny advice\/stories would be much appreciated! Thank you!",
+                "snippet": "Hi everyone,\n\nI\u2019ve been ttc 2 years and during that time found out I have <em>endometriosis<\/em>. It\u2019s only"
+            },
+            "title": {
+                "raw": "FET after laparoscopy",
+                "snippet": "FET after laparoscopy"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/infertility\/5430702-fet-after-laparoscopy",
+            "username": "Bejewelled19",
+            "date": "2025-10-20T19:57:22.000000Z",
+            "topic": {
+                "name": "Infertility",
+                "url": "https:\/\/www.mumsnet.com\/talk\/infertility"
+            },
+            "replies_count": 0,
+            "type": "Thread"
+        },
+        {
+            "id": "5323481",
+            "thread_id": "5323481",
+            "body": {
+                "raw": "I am 26 years old. I have endometriosis. I am currently 37 weeks 3 days pregnant. My OB suggested that i shouldn\u2019t go for vaginal delivery as i have risk associated with endometriosis. Also, i have beta thelasemia trait. I don't want to take risk as i had complications conceiving this baby. But i am also afraid of c section. My senses are telling me not to take risk but i am also afraid. Baby position, fluid level all are okay. Baby has dropped lower but there is no sign of labor still. Doctor wants me to have elective c section at 38 weeks 5 days. What do you think i should do?",
+                "snippet": "I am 26 years old. I have <em>endometriosis<\/em>. I am currently 37 weeks 3 days pregnant. My OB suggested"
+            },
+            "title": {
+                "raw": "Elective c section scare",
+                "snippet": "Elective c section scare"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/pregnancy\/5323481-elective-c-section-scare",
+            "username": "Sasharon",
+            "date": "2025-04-26T22:24:40.000000Z",
+            "topic": {
+                "name": "Pregnancy",
+                "url": "https:\/\/www.mumsnet.com\/talk\/pregnancy"
+            },
+            "replies_count": 18,
+            "type": "Thread"
+        },
+        {
+            "id": "5481591",
+            "thread_id": "5481591",
+            "body": {
+                "raw": "I have endometriosis and we are trying to conceive. I am 35. I am praying we conceive the natural way but due to endometriosis I know this may not be possible. This has led to us considering how we would proceed if things don't happen for us and the ethics of IVF for Christians. To be clear I have no clear answers and no desire to judge anyone I am thinking only of my own situation. \n\nI don't have a problem with the process of IVF except I am unsure of the moral status of early embryos. I know that 50-70% of fertilised eggs don't implant under natural conception but destruction via IVF feels somehow more morally problematic. Anyway, pray for us please and offer perspectives if you can.",
+                "snippet": "I have <em>endometriosis<\/em> and we are trying to conceive. I am 35. I am praying we conceive the natural"
+            },
+            "title": {
+                "raw": "IVF as a Christian",
+                "snippet": "IVF as a Christian"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/christian-mumsnetters\/5481591-ivf-as-a-christian",
+            "username": "hardlyprofitable",
+            "date": "2026-01-26T11:00:26.000000Z",
+            "topic": {
+                "name": "Christian Mumsnetters",
+                "url": "https:\/\/www.mumsnet.com\/talk\/christian-mumsnetters"
+            },
+            "replies_count": 14,
+            "type": "Thread"
+        },
+        {
+            "id": "5318239",
+            "thread_id": "5318239",
+            "body": {
+                "raw": "I have been TTC since August with nothing. Tried previously with ex and 2 chemicals. My dr referred me for an ultrasound as he suspected PCOS because I have really painful periods (the pain makes me sick). I have just seen my ultrasound results and it says signed of adenomyosis and endometriosis, my left ovary has no mobility because of suspected endometriosis.\n\nHas anyone else been in this position? I am just wondering what the next steps will be and if it\u2019s very unlikely we will get pregnant without IVF or if IVF would even work in my case. I\u2019m 34 so starting to feel the time pressure too so it would be good to hear if anyone else has been in my position?",
+                "snippet": " sick). I have just seen my ultrasound results and it says signed of adenomyosis and <em>endometriosis<\/em>"
+            },
+            "title": {
+                "raw": "Adenomyosis and Endometriosis",
+                "snippet": "Adenomyosis and <em>Endometriosis<\/em>"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/conception\/5318239-adenomyosis-and-endometriosis",
+            "username": "Chocolatecustardcreamsrule",
+            "date": "2025-04-19T16:46:12.000000Z",
+            "topic": {
+                "name": "Conception",
+                "url": "https:\/\/www.mumsnet.com\/talk\/conception"
+            },
+            "replies_count": 5,
+            "type": "Thread"
+        },
+        {
+            "id": "5496979",
+            "thread_id": "5496979",
+            "body": {
+                "raw": "Anyone with endometriosis found a birth control that doesn\u2019t tank mental health. \n\nso far tried elione and microgynon and the mirena coil and had to come off them all as they tank MH and cause panic attacks.  \n\nreally fed up.  Thanks",
+                "snippet": "Anyone with <em>endometriosis<\/em> found a birth control that doesn\u2019t tank mental health. \n\nso far tried"
+            },
+            "title": {
+                "raw": "Help with endometriosis and BC",
+                "snippet": "Help with <em>endometriosis<\/em> and BC"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/womens_health\/5496979-help-with-endometriosis-and-bc",
+            "username": "HeBeaverandSheBeaver",
+            "date": "2026-02-27T23:34:01.000000Z",
+            "topic": {
+                "name": "Women's health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/womens_health"
+            },
+            "replies_count": 1,
+            "type": "Thread"
+        },
+        {
+            "id": "5326820",
+            "thread_id": "5326820",
+            "body": {
+                "raw": "Hi me and my partner have been trying for a while to conceive I have endometriosis and pcos. This morning I received this on my test please can you give me your opinion thank you in advance \u2764\ufe0f\ud83d\ude4f.",
+                "snippet": "Hi me and my partner have been trying for a while to conceive I have <em>endometriosis<\/em> and pcos. This"
+            },
+            "title": {
+                "raw": "Is this a positive pregnancy test.",
+                "snippet": "Is this a positive pregnancy test"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/pregnancy\/5326820-is-this-a-positive-pregnancy-test",
+            "username": "Meganlt",
+            "date": "2025-05-02T05:42:13.000000Z",
+            "topic": {
+                "name": "Pregnancy",
+                "url": "https:\/\/www.mumsnet.com\/talk\/pregnancy"
+            },
+            "replies_count": 8,
+            "type": "Thread"
+        },
+        {
+            "id": "5306820",
+            "thread_id": "5306820",
+            "body": {
+                "raw": "Despite decades of gynae issues, I only discovered that I have endometriosis at the age of 50.  That was in December 2023 following an MRI that I had requested due to the fact that I had experienced a failed uterine ablation in 2022 for very heavy periods.  The ablation has caused excessive pain during my periods and so I requested an MRI to find out the cause of the pain.  Turns out the ablation has forced the undiagnosed endometriosis into the walls of my uterus giving me an additional diagnosis of adenomyosis (I am still very angry about this as my uterus was fine before this).\n\nI will probably need a hysterectomy for the adenomyosis at some point but can't quite face that at the moment as I have terrible anxiety.\n\nI have seen my endometriosis gynae and he has suggested a laparoscopy. as one of the options  I was hoping to get to menopause and for it all to die down somewhat but my gyane says this isn't guaranteed and many post-menopause women can still experience issues with endometriosis. I am still in perimenopause atm as I am still having a cycle, no bleeding due to the ablation but lots of pain when my period is due (I never experienced period pain before this procedure just flooding periods).\n\nI am really scared at the thought of a laparoscopy especially as the ablation went wrong.  I had been assured by my regular gynae that failure was really rare (I have since found out this procedure fails a lot) but I also suffer with lots of daily gut issues and would like to know if this is caused by endo on my bowel\/intestines.\n\nTbh, I really don't know what to do for the best.  My endo gynae is not a nice man, he talks over me the whole time, is very dismissive and has a reputation for having a terrible bedside manner.  During my last appointment a few weeks ago he said my options are laparoscopy, hysterectomy, AEU for the adenomyosis or Zoledex injestions then said none of these options may help me and in fact could make things worse then demanded that I give him and answer then and there.  I refused and said that I wanted to give it some time to think about.\n\nI am finding it really difficult to find much information about endometriosis, perimenopause and post menopause.\n\nDoes anyone have any experience of this?  I really don't know what to do for the best and am worried it could go wrong like the ablation has.",
+                "snippet": "Despite decades of gynae issues, I only discovered that I have <em>endometriosis<\/em> at the age of 50"
+            },
+            "title": {
+                "raw": "Endometriosis and Menopause. Has anyone had a laparoscopy for endometriosis at an older age?",
+                "snippet": "<em>Endometriosis<\/em> and Menopause. Has anyone had a laparoscopy for <em>endometriosis<\/em> at an older age?"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/womens_health\/5306820-endometriosis-and-menopause-has-anyone-had-a-laparoscopy-for-endometriosis-at-an-older-age",
+            "username": "WindyWendyHouse",
+            "date": "2025-04-02T07:14:09.000000Z",
+            "topic": {
+                "name": "Women's health",
+                "url": "https:\/\/www.mumsnet.com\/talk\/womens_health"
+            },
+            "replies_count": 3,
+            "type": "Thread"
+        },
+        {
+            "id": "5368789",
+            "thread_id": "5368789",
+            "body": {
+                "raw": "Endometriosis started it all.\nI need to ask what my next steps are.\nBecause of Endometriosis, our sex life declined after marriage. We powered through to get pregnant. We have a wonderful lad. \nI'm so lonely though because even though I've asked for intimacy, I've stopped asking for sex. Nothing. I know the reasons.  But I'm lonely. So sole crushingly lonely. I'm lying next to her now after saying how I'm feeling, again. Nothing. I might as well have talked to the wall. I want to leave but I love her.\n\nHow do I live in a intimacy free sexless marriage without going back on the anti depressants (just come off them after 7 years on them)?",
+                "snippet": "<em>Endometriosis<\/em> started it all.\nI need to ask what my next steps are.\nBecause of <em>Endometriosis<\/em>, our"
+            },
+            "title": {
+                "raw": "16 years without sex",
+                "snippet": "16 years without sex"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/autoimmune_disease\/5368789-16-years-without-sex",
+            "username": "IndigoShark",
+            "date": "2025-07-06T23:02:54.000000Z",
+            "topic": {
+                "name": "Autoimmune disease",
+                "url": "https:\/\/www.mumsnet.com\/talk\/autoimmune_disease"
+            },
+            "replies_count": 3,
+            "type": "Thread"
+        },
+        {
+            "id": "5483714",
+            "thread_id": "5483714",
+            "body": {
+                "raw": "Not sure if im on the right thread but we are TTC baby no 2 after 6 years infertility due to endometriosis. Anyways, I was wondering which app others have found most helpful for tracking their periods and all the things that come with it when the TTC. \nTIA \ud83d\ude0a",
+                "snippet": " <em>endometriosis<\/em>. Anyways, I was wondering which app others have found most helpful for tracking their"
+            },
+            "title": {
+                "raw": "Cycle app tracker",
+                "snippet": "Cycle app tracker"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/conception\/5483714-cycle-app-tracker",
+            "username": "LunarMoon92",
+            "date": "2026-01-30T14:51:13.000000Z",
+            "topic": {
+                "name": "Conception",
+                "url": "https:\/\/www.mumsnet.com\/talk\/conception"
+            },
+            "replies_count": 2,
+            "type": "Thread"
+        },
+        {
+            "id": "5482417",
+            "thread_id": "5482417",
+            "body": {
+                "raw": "Diagnosed with severe endometriosis last year (bowel and pelvic organs are now all adhered to each other and waiting for an op to deal with that but could be at least another year or so).\nBeen on HRT 3 years (prior to knowing I had endometriosis but looking back symptoms have ramped up since starting). Had an ablation a three months ago but has failed. Still having heavy bleeding and pain as bad if not worse.\n\nI take progesterone tablets (200mg) daily (no break) and oestrogen patch is 75 micrograms. I\u2019m bloated, have gained loads of weight in the last year and frankly probably feel as low as I ever have. Looking back when they upped my dose last year I suspect the fatigue and low mood were more a symptom of the Endo rather than peri \n\nGoing to see GP this week to discuss the HRT. Given that I don\u2019t seem to feel any better on it these days and the severity of my endometriosis is it worth significantly reducing the oestrogen? Should I go for a coil rather than tablets to help with the bleeding? \n\nI\u2019m going to ask the consultant about having a hysterectomy but won\u2019t be seeing him until September so it\u2019s a long wait. My body feels completely broken and I don\u2019t have much faith in the GP knowing what will be best. \n\nAnyone had similar? I want to at least have some idea about what I want to ask for when I see the GP this week.",
+                "snippet": "Diagnosed with severe <em>endometriosis<\/em> last year (bowel and pelvic organs are now all adhered to each"
+            },
+            "title": {
+                "raw": "HRT, severe endometriosis, failed ablation. What heck to do?!",
+                "snippet": "HRT, severe <em>endometriosis<\/em>, failed ablation. What heck to do?!"
+            },
+            "url": "https:\/\/www.mumsnet.com\/talk\/menopause\/5482417-hrt-severe-endometriosis-failed-ablation-what-heck-to-do",
+            "username": "Livelovelaughfuckoff",
+            "date": "2026-01-27T21:01:40.000000Z",
+            "topic": {
+                "name": "Menopause",
+                "url": "https:\/\/www.mumsnet.com\/talk\/menopause"
+            },
+            "replies_count": 8,
+            "type": "Thread"
+        }
+    ],
+    "links": {
+        "first": "\/?page=1",
+        "last": "\/?page=17",
+        "prev": null,
+        "next": "\/?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 17,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "page": null,
+                "active": false
+            },
+            {
+                "url": "\/?page=1",
+                "label": "1",
+                "page": 1,
+                "active": true
+            },
+            {
+                "url": "\/?page=2",
+                "label": "2",
+                "page": 2,
+                "active": false
+            },
+            {
+                "url": "\/?page=3",
+                "label": "3",
+                "page": 3,
+                "active": false
+            },
+            {
+                "url": "\/?page=4",
+                "label": "4",
+                "page": 4,
+                "active": false
+            },
+            {
+                "url": "\/?page=5",
+                "label": "5",
+                "page": 5,
+                "active": false
+            },
+            {
+                "url": "\/?page=6",
+                "label": "6",
+                "page": 6,
+                "active": false
+            },
+            {
+                "url": "\/?page=7",
+                "label": "7",
+                "page": 7,
+                "active": false
+            },
+            {
+                "url": "\/?page=8",
+                "label": "8",
+                "page": 8,
+                "active": false
+            },
+            {
+                "url": "\/?page=9",
+                "label": "9",
+                "page": 9,
+                "active": false
+            },
+            {
+                "url": "\/?page=10",
+                "label": "10",
+                "page": 10,
+                "active": false
+            },
+            {
+                "url": null,
+                "label": "...",
+                "active": false
+            },
+            {
+                "url": "\/?page=16",
+                "label": "16",
+                "page": 16,
+                "active": false
+            },
+            {
+                "url": "\/?page=17",
+                "label": "17",
+                "page": 17,
+                "active": false
+            },
+            {
+                "url": "\/?page=2",
+                "label": "Next &raquo;",
+                "page": 2,
+                "active": false
+            }
+        ],
+        "path": "\/",
+        "per_page": 25,
+        "to": 25,
+        "total": 414
+    }
+}

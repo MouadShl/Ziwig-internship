@@ -1,0 +1,29 @@
+there is a lot of link and i want every link has his number of post and pages
+And each topic it has 1 post and views
+And each 1 post has replies and how many are they when it did get posted and # numbered from 1 to how many post is there 
+And post has username and username has how comment he did post
+-https://www.tapatalk.com/groups/endoboard/endo-discussion-f3/ : There is 4241 topics and there is 170 page
+-https://www.tapatalk.com/groups/endoboard/hysterectomy-f19/ : There is 166 topics and there is 7 page
+-https://www.tapatalk.com/groups/endoboard/fertility-issues-f16/ : There is 238 topics and there is 10 page
+-https://www.tapatalk.com/groups/endoboard/pregnancy-f14/ : There is 116 topics and there is 5 page
+-https://www.tapatalk.com/groups/endoboard/complementary-therapies-f17/ : There is 100 topics and there is 4 page
+-https://www.tapatalk.com/groups/endoboard/surgery-f18/ : There is 640 topics and there is 26 page
+-https://www.tapatalk.com/groups/endoboard/medical-treatments-for-endometriosis-f11/ : There is 632 topics and there is 26 page
+-https://www.tapatalk.com/groups/endoboard/diagnosis-of-endometriosis-f12/ : There is 741 topics and there is 30 page
+-https://www.tapatalk.com/groups/endoboard/playboard-f4/ : There is 554 topics and there is 23 page
+-https://www.tapatalk.com/groups/endoboard/general-f2/ : There is 3819 topics and there is 153 page
+-https://www.tapatalk.com/groups/endoboard/message-board-chat-room-protocols-f1/ : There is 5 topics
+-https://www.tapatalk.com/groups/endoboard/fertility-issues-f16/?sid=0cfac34b99857d8509c50ff0c5557a18 : There is 238 topics and there is 10 page
+-https://www.tapatalk.com/groups/endoboard/hysterectomy-f19/?sid=0cfac34b99857d8509c50ff0c5557a18 : There is 166 topics and there is 7 page
+-https://www.tapatalk.com/groups/endoboard/complementary-therapies-f17/?sid=0cfac34b99857d8509c50ff0c5557a18 : There is 100 topics and there is 4 page
+
+
+
+"cookies": {
+  "cf_clearance": "Lt.EHDLqqsdDVXGi7forKjbka6VcFIaVeII7HzgKPOs-1774495612-1.2.1.1-JCYl.3DSI2TENAgPnSxuxrYGqmAmxMeucMk9ngo.yeFpiufGcsOUGCxsdB29xmJbsag.KIQ1JGVAlLzh_vi21By94Rn_Plt7JwvJ7UeQDjRr548ZEgFchzocuOQdRPYgthys5Hqke7_ufPKwhb5CRryfo7R5hfK5FNLTu.gmPfiug3tkUfhKjn6ODH16KcTP3yeNfgtyxO.dTY8ppczjbLKmpEqNUnX35Gj8dL3gFG4",
+  "PHPSESSID": "26cd6bf8d9942571e4a2e91b56bd23f0",
+  "phpbb_endoboard_k": "",
+  "phpbb_endoboard_sid": "26cd6bf8d9942571e4a2e91b56bd23f0",
+  "phpbb_endoboard_u": "10721783",
+  "app_user_info": "eyJpdiI6ImdGTHVuMTNTMVYzVlp3WEN1TGNQTmc9PSIsInZhbHVlIjoidTBQckxNVm1URjBHTVwveEFcL2g0eDF6dk9wM3Z5MlQyZlwva0pzenpWMUlrSWFkWjlFZVpWN0F6OUUzdTRFdXlyUzViMGpIQU4wNkdheDNoQWJoZVprZmh1RTRCXC9DM1NtZTl6SFwvMTZZVTI4cUUwclk4WFAxYUpoNWxCck1pUGM1ckRJYnJEczk1dllPUkFsSkdSQWxCVGRCUEkwQjJOUitOVjViZ25YUnErZ3h2OFNvOUpLS3VlNzBDQXZcL3lpMkNTQ2RDWEY2VDE2cWhmQmlVQnBKMjgwUTVnK1h0VGlzaE1pZDdaMkk3RVlYV1c4ZitYU1lRVXl3QStSMVdOM1lrY3pcL1B4WHZiRExrK3BHZzFEV0xJM0hmQ2k2QThTMVwvd2J2VUFCdlhMejcyZXRuZEdyVUJ0T2dFRE1PUkRUejFLQ05JNjVzbWFqSEo3MEFDVk9OeEhTXC9MTktiSkN5QlVlb2lMTlZCazlXR1JiTlljTzZsUEt4dGJSK3lXV0FFK3ZWQ0h4bW4yMnQ2NUt3ejBtYVwvV0plcjFqS0VORVwvZk8yQWZJNlVYc3IrMXM3MkNVK3BycTN0WXJjMGJXYjVWVUtLWnlOMnk1OW1neE9saEszdldtTHBiUT09IiwibWFjIjoiZTllZmYzMGJlZDFlMWU0MDc2OTNiYjVjZWQ5M2MyNzQzYmZlY2VkMzA1YTAyMjM3NDc1MDliMTFhNjFmNGQ0ZSJ9"
+}

@@ -1,0 +1,52 @@
+{
+  "source_id": "SRC006",
+  "source_type": "forum",
+  "mode": "forum_reddit_subreddit_public_json_repairable_exact",
+  "start_url": "https://www.reddit.com/r/Endo/",
+  "subreddit": "Endo",
+  "request": {
+    "timeout_seconds": 30,
+    "max_attempts": 8,
+    "default_backoff_seconds": 5.0,
+    "max_backoff_seconds": 120.0,
+    "listing_sleep_seconds": 3.0,
+    "thread_sleep_seconds": 2.5,
+    "user_agent": "windows:stage.src006.reddit.final:v1.0 (by /u/s1rrm)"
+  },
+  "listing_jobs": [
+    {
+      "sort": "new",
+      "time_filter": "",
+      "page_size": 100,
+      "max_pages": 10
+    },
+    {
+      "sort": "top",
+      "time_filter": "all",
+      "page_size": 100,
+      "max_pages": 5
+    },
+    {
+      "sort": "controversial",
+      "time_filter": "all",
+      "page_size": 100,
+      "max_pages": 4
+    }
+  ],
+  "comments": {
+    "sort": "old",
+    "limit": 500,
+    "depth": 12,
+    "expand_more": true,
+    "max_more_batches": 100,
+    "more_children_batch_size": 100,
+    "more_children_sleep_seconds": 0.8,
+    "verification_retry_seconds": 2.0
+  },
+  "output": {
+    "dir": "outputs/SRC006",
+    "posts_file": "SRC006_post_and_comment_final.jsonl",
+    "errors_file": "SRC006_errors_final.jsonl",
+    "resume": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "source_id": "SRC015",
+  "source_name": "Endoinfo",
+  "source_type": "news_blog",
+  "base_url": "https://www.endoinfo.org",
+  "country": "Spain",
+  "language": "es",
+  "single_pages": [
+    "/",
+    "/noticias-de-endometriosis/"
+  ],
+  "sections": [
+    {"name": "articulos", "start_url": "/category/articulos-endometriosis/", "max_pages": 12},
+    {"name": "entrevistas", "start_url": "/category/entrevistas/", "max_pages": 2},
+    {"name": "asociaciones", "start_url": "/category/asociaciones/", "max_pages": 2},
+    {"name": "congresos", "start_url": "/category/congresos/", "max_pages": 4},
+    {"name": "documentos", "start_url": "/category/documentos/", "max_pages": 1},
+    {"name": "noticias", "start_url": "/category/noticias/", "max_pages": 1}
+  ],
+  "selectors": {
+    "article_list": [
+      "h2.entry-title a",
+      "h2 a",
+      "a[rel='bookmark']",
+      ".fusion-post-content h2 a",
+      ".fusion-post-title a",
+      "article h2 a",
+      "article .entry-title a"
+    ],
+    "title": [
+      "h1.entry-title",
+      ".fusion-title h1",
+      "article h1",
+      "main h1",
+      "h1"
+    ],
+    "meta": [
+      ".fusion-meta-info",
+      ".post-meta",
+      ".entry-meta",
+      "article .post-meta",
+      "main .post-meta"
+    ],
+    "body": [
+      ".post-content",
+      ".entry-content",
+      "article .entry-content",
+      ".fusion-text",
+      "main article",
+      "article",
+      "main"
+    ],
+    "tags": [
+      "a[rel='tag']",
+      ".post-tags a",
+      ".fusion-tags a"
+    ],
+    "category": [
+      ".fusion-meta-info a[rel='category tag']",
+      ".post-meta a[rel='category tag']",
+      ".entry-meta a[rel='category tag']"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "nav",
+    "header nav",
+    "footer",
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".commentlist",
+    ".post-share",
+    ".sharing",
+    ".sidebar",
+    ".widget",
+    ".breadcrumbs",
+    ".fusion-social-share-wrapper",
+    ".fusion-author",
+    ".related-posts",
+    ".fusion-meta-tb"
+  ],
+  "sleep_seconds": 1.2
+}

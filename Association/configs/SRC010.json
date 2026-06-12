@@ -1,0 +1,80 @@
+{
+  "source_id": "SRC010",
+  "source_name": "Endometriosis Association",
+  "source_type": "news_blog",
+  "base_url": "https://endometriosisassn.org",
+  "country": "USA",
+  "language": "en",
+  "start_url": "/blog-2/",
+  "pagination": {
+    "max_pages": 20
+  },
+  "selectors": {
+    "article_list": [
+      "article h2 a",
+      "h2.entry-title a",
+      ".et_pb_post h2 a",
+      ".et_pb_posts h2 a",
+      ".post-content h2 a",
+      "main h2 a",
+      "a.more-link"
+    ],
+    "next_page": [
+      "a.next.page-numbers",
+      "a[rel='next']",
+      "a:contains('Older Entries')"
+    ],
+    "title": [
+      "h1.entry-title",
+      "article h1",
+      "main h1",
+      "h1"
+    ],
+    "meta": [
+      ".post-meta",
+      ".entry-meta",
+      "article .post-meta",
+      "main .post-meta"
+    ],
+    "body": [
+      ".entry-content",
+      "article .entry-content",
+      ".et_pb_post_content",
+      ".et_pb_post .entry-content",
+      ".post-content",
+      "article",
+      "main article",
+      "main"
+    ],
+    "tags": [
+      "a[rel='tag']",
+      ".tagcloud a",
+      ".post-tags a"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "nav",
+    "header nav",
+    "footer",
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".commentlist",
+    ".et_social_inline",
+    ".et_pb_post_nav",
+    ".related-posts",
+    ".post-share",
+    ".sidebar",
+    ".widget",
+    ".breadcrumbs"
+  ],
+  "sleep_seconds": 1.2
+}

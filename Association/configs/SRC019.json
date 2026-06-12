@@ -1,0 +1,50 @@
+{
+  "source_id": "SRC019",
+  "source_name": "Endometriosis UK",
+  "source_type": "news_blog",
+  "base_url": "https://www.endometriosis-uk.org",
+  "country": "UK",
+  "language": "en",
+  "start_url": "/blog",
+  "pagination": {
+    "type": "query_offset",
+    "start_index": 0,
+    "max_index": 16,
+    "page_size": 12
+  },
+  "selectors": {
+    "main_content": [
+      "main",
+      "[role='main']",
+      ".region-content",
+      ".layout-content",
+      ".node__content",
+      "article",
+      "body"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "nav",
+    "header",
+    "footer",
+    ".menu",
+    ".breadcrumb",
+    ".pager",
+    ".pagination",
+    ".region-footer",
+    ".block-system-branding-block",
+    ".messages",
+    ".skip-link",
+    ".social-sharing",
+    ".share",
+    ".cookie-banner",
+    ".search-block-form"
+  ],
+  "sleep_seconds": 1.2
+}

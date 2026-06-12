@@ -1,0 +1,153 @@
+Skipping .venv: no after folder
+Loading: E:\S T A G E\Cleaning\SRC001\after\SRC001_after.csv
+Loading: E:\S T A G E\Cleaning\SRC002\after\SRC002_after.csv
+Loading: E:\S T A G E\Cleaning\SRC003\after\SRC003_after.csv
+Loading: E:\S T A G E\Cleaning\SRC004\after\SRC004_after.csv
+Loading: E:\S T A G E\Cleaning\SRC005\after\SRC005_after.csv
+Loading: E:\S T A G E\Cleaning\SRC006\after\SRC006_after.csv
+Loading: E:\S T A G E\Cleaning\SRC007\after\SRC007_after.csv
+Loading: E:\S T A G E\Cleaning\SRC008\after\SRC008_after.csv
+Loading: E:\S T A G E\Cleaning\SRC009\after\SRC009_after.csv
+Loading: E:\S T A G E\Cleaning\SRC010\after\SRC010_after.csv
+Loading: E:\S T A G E\Cleaning\SRC011\after\SRC011_after.csv
+Loading: E:\S T A G E\Cleaning\SRC012\after\SRC012_after.csv
+Loading: E:\S T A G E\Cleaning\SRC013\after\SRC013_after.csv
+Loading: E:\S T A G E\Cleaning\SRC014\after\SRC014_after.csv
+Loading: E:\S T A G E\Cleaning\SRC015\after\SRC015_after.csv
+Loading: E:\S T A G E\Cleaning\SRC016\after\SRC016_after.csv
+Loading: E:\S T A G E\Cleaning\SRC017\after\SRC017_after.csv
+Loading: E:\S T A G E\Cleaning\SRC018\after\SRC018_after.csv
+Loading: E:\S T A G E\Cleaning\SRC019\after\SRC019_after.csv
+Loading: E:\S T A G E\Cleaning\SRC020\after\SRC020_after.csv
+Loading: E:\S T A G E\Cleaning\SRC021\after\SRC021_after.csv
+Loading: E:\S T A G E\Cleaning\SRC022\after\SRC022_after.csv
+Loading: E:\S T A G E\Cleaning\SRC023\after\SRC023_after.csv
+Loading: E:\S T A G E\Cleaning\SRC024\after\SRC024_after.csv
+Loading: E:\S T A G E\Cleaning\SRC025\after\SRC025_after.csv
+Loading: E:\S T A G E\Cleaning\SRC026\after\SRC026_after.csv
+Loading: E:\S T A G E\Cleaning\SRC027\after\SRC027_after.csv
+Loading: E:\S T A G E\Cleaning\SRC028\after\SRC028_after.csv
+Loading: E:\S T A G E\Cleaning\SRC029\after\SRC029_after.csv
+Loading: E:\S T A G E\Cleaning\SRC030\after\SRC030_after.csv
+Loading: E:\S T A G E\Cleaning\SRC031\after\SRC031_after.csv
+Loading: E:\S T A G E\Cleaning\SRC032\after\SRC032_after.csv
+Loading: E:\S T A G E\Cleaning\SRC033\after\SRC033_after.csv
+Loading: E:\S T A G E\Cleaning\SRC034\after\SRC034_after.csv
+Loading: E:\S T A G E\Cleaning\SRC035\after\SRC035_after.csv
+Loading: E:\S T A G E\Cleaning\SRC036\after\SRC036_after.csv
+Loading: E:\S T A G E\Cleaning\SRC037\after\SRC037_after.csv
+Loading: E:\S T A G E\Cleaning\SRC038\after\SRC038_after.csv
+Loading: E:\S T A G E\Cleaning\SRC039\after\SRC039_after.csv
+Loading: E:\S T A G E\Cleaning\SRC040\after\SRC040_after.csv
+Loading: E:\S T A G E\Cleaning\SRC041\after\SRC041_after.csv
+Loading: E:\S T A G E\Cleaning\SRC042\after\SRC042_after.csv
+Loading: E:\S T A G E\Cleaning\SRC043\after\SRC043_after.csv
+Loading: E:\S T A G E\Cleaning\SRC044\after\SRC044_after.csv
+Loading: E:\S T A G E\Cleaning\SRC045\after\SRC045_after.csv
+Loading: E:\S T A G E\Cleaning\SRC046\after\SRC046_after.csv
+============================================================
+Total files loaded: 46
+Total rows loaded: 301707
+============================================================
+Loading English sentiment model...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+config.json: 100%|█████████████████████████████| 929/929 [00:00<00:00, 2.07MB/s]
+C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\huggingface_hub\file_download.py:138: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\user\.cache\huggingface\hub\models--cardiffnlp--twitter-roberta-base-sentiment-latest. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+pytorch_model.bin: 100%|█████████████████████| 501M/501M [03:21<00:00, 2.49MB/s]
+Loading weights: 100%|█████████████████████| 201/201 [00:00<00:00, 14605.44it/s]
+[transformers] RobertaForSequenceClassification LOAD REPORT from: cardiffnlp/twitter-roberta-base-sentiment-latest
+Key                         | Status     |  | 
+----------------------------+------------+--+-
+roberta.pooler.dense.bias   | UNEXPECTED |  | 
+roberta.pooler.dense.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+vocab.json: 899kB [00:00, 13.5MB/s]
+merges.txt: 456kB [00:00, 11.0MB/s]                  | 0.00/501M [00:00<?, ?B/s]
+special_tokens_map.json: 100%|██████████████████| 239/239 [00:00<00:00, 617kB/s]
+model.safetensors:   0%|                             | 0.00/501M [00:00<?, ?B/s]Loading French sentiment model...                     | 0.00/501M [00:01<?, ?B/s]
+config.json: 100%|█████████████████████████████| 666/666 [00:00<00:00, 1.91MB/s]
+C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\huggingface_hub\file_download.py:138: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\user\.cache\huggingface\hub\models--tblard--tf-allocine. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+                                                                                Traceback (most recent call last):                    | 0.00/501M [00:02<?, ?B/s]
+  File "E:\S T A G E\E3\scripts\run_sentiment.py", line 101, in <module>
+    french_sentiment = pipeline(
+        "sentiment-analysis",
+    ...<3 lines>...
+        max_length=512,
+    )
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\pipelines\__init__.py", line 1002, in pipeline
+    model = load_model(
+        adapter_path if adapter_path is not None else model,
+    ...<4 lines>...
+        **model_kwargs,
+    )
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\pipelines\base.py", line 268, in load_model
+    raise ValueError(
+        f"Could not load model {model} with any of the following classes: {class_tuple}. See the original errors:\n\n{error}\n"
+    )
+ValueError: Could not load model tblard/tf-allocine with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSequenceClassification'>,). See the original errors:
+
+while loading with AutoModelForSequenceClassification, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\pipelines\base.py", line 232, in load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\auto\auto_factory.py", line 394, in from_pretrained
+    return model_class.from_pretrained(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\modeling_utils.py", line 4153, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path=pretrained_model_name_or_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\modeling_utils.py", line 747, in _get_resolved_checkpoint_files
+    raise OSError(
+    ...<2 lines>...
+    )
+OSError: tblard/tf-allocine does not appear to have a file named pytorch_model.bin or model.safetensors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\pipelines\base.py", line 248, in load_model
+    model = model_class.from_pretrained(model, **fp32_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\auto\auto_factory.py", line 394, in from_pretrained
+    return model_class.from_pretrained(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\modeling_utils.py", line 4153, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path=pretrained_model_name_or_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\modeling_utils.py", line 747, in _get_resolved_checkpoint_files
+    raise OSError(
+    ...<2 lines>...
+    )
+OSError: tblard/tf-allocine does not appear to have a file named pytorch_model.bin or model.safetensors.
+
+
+
+model.safetensors: 100%|█████████████████████| 501M/501M [03:25<00:00, 2.44MB/s]
+PS E:\S T A G E\E3> 00%|█████████████████████| 501M/501M [03:25<00:00, 3.28MB/s]

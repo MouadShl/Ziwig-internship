@@ -1,0 +1,81 @@
+{
+  "source_id": "SRC006",
+  "source_name": "Endo Sisters East Africa Foundation",
+  "source_type": "news_blog",
+  "base_url": "https://endosisterseastafrica.org",
+  "country": "Kenya",
+  "language": "en",
+  "start_urls": [
+    "https://endosisterseastafrica.org/blog/",
+    "https://endosisterseastafrica.org/category/articles/"
+  ],
+  "pagination": {
+    "type": "path_template",
+    "template": "/blog/page/{page}/",
+    "start_page": 1,
+    "max_pages": 7
+  },
+  "listing": {
+    "allowed_domain": "endosisterseastafrica.org",
+    "exclude_patterns": [
+      "/blog/page/",
+      "/category/articles/page/",
+      "/category/",
+      "/tag/",
+      "/author/",
+      "/wp-content/",
+      "/feed/",
+      "/board/",
+      "/about-us/",
+      "/contact-us/",
+      "/contact/",
+      "/gallery/",
+      "/media/",
+      "/programmes/",
+      "/awareness-creation/",
+      "/resources/",
+      "/yellownailsmovement/"
+    ]
+  },
+  "selectors": {
+    "article_list": "h2 a, article a, .post h2 a, .entry-title a, .jeg_post_title a, .td-module-title a, .wp-block-post-title a, a.more-link",
+    "title": "h1, .entry-title, .post-title, .jeg_post_title",
+    "body": "article .entry-content, .entry-content, .post-content, .single-post-content, .td-post-content, .wp-block-post-content, article",
+    "author": "a[rel='author'], .author a, .post-author a, .entry-author a, .byline a, .meta-author a",
+    "date": "time, .posted-on time, .entry-date, .post-date, .meta-date, .byline, .entry-meta, .post-meta",
+    "category": "a[rel='category tag'], .cat-links a, .post-categories a, .entry-categories a, .meta-category a",
+    "tags": "a[rel='tag'], .tags-links a, .post-tags a, .entry-tags a"
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "iframe",
+    "svg",
+    "form",
+    "header",
+    "footer",
+    "nav",
+    ".site-header",
+    ".site-footer",
+    ".main-navigation",
+    ".sidebar",
+    ".widget",
+    ".related-posts",
+    ".jp-relatedposts",
+    ".sharedaddy",
+    ".social-share",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".post-navigation",
+    ".author-box",
+    ".newsletter",
+    ".subscribe",
+    ".breadcrumbs",
+    ".wp-block-search",
+    ".youtube_channel"
+  ],
+  "sleep_seconds": 1.2,
+  "request_timeout": 30
+}

@@ -1,0 +1,59 @@
+{
+  "source_id": "SRC003",
+  "source_name": "ENDOmind",
+  "source_type": "news_blog",
+  "base_url": "https://www.endomind.org",
+  "country": "France",
+  "language": "fr",
+  "sections": [
+    {
+      "name": "Actus",
+      "path": "/les-actus",
+      "section_title": "Actus",
+      "category": "Actus"
+    },
+    {
+      "name": "Études",
+      "path": "/etudes",
+      "section_title": "Études",
+      "category": "Études"
+    }
+  ],
+  "skip_titles": [
+    "Actus",
+    "Études",
+    "L'étude complète",
+    "Juste l'essentiel",
+    "La FAQ",
+    "Boutique",
+    "Plus"
+  ],
+  "generic_titles": [
+    "ÉTUDE",
+    "ETUDE"
+  ],
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "header",
+    "footer",
+    "nav",
+    "form",
+    "iframe",
+    "button"
+  ],
+  "footer_markers": [
+    "Copyright ©2019 ENDOmind",
+    "bottom of page"
+  ],
+  "body_noise_prefixes": [
+    "Grey Instagram Icon",
+    "TikTok",
+    "Grey Facebook Icon",
+    "Youtube"
+  ],
+  "sleep_seconds": 1.5,
+  "request_timeout": 30
+}

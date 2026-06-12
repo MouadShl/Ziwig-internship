@@ -1,0 +1,110 @@
+{
+  "source_id": "SRC018",
+  "source_name": "Endometriosis Association of Ireland",
+  "source_type": "website",
+  "base_url": "https://www.endometriosis.ie",
+  "country": "Ireland",
+  "language": "en",
+  "seeds": [
+    "/",
+    "/latest-news/",
+    "/latest/",
+    "/news/",
+    "/about-us/",
+    "/endo/",
+    "/support/",
+    "/contact-us/",
+    "/get-involved/"
+  ],
+  "sitemap_candidates": [
+    "/sitemap_index.xml",
+    "/sitemap.xml",
+    "/post-sitemap.xml",
+    "/page-sitemap.xml"
+  ],
+  "crawl_max_pages": 500,
+  "sleep_seconds": 1.0,
+  "selectors": {
+    "title": [
+      "h1.entry-title",
+      "article h1",
+      "main h1",
+      "h1"
+    ],
+    "body": [
+      ".entry-content",
+      ".post-content",
+      ".site-main article",
+      "article",
+      "main",
+      ".content-area",
+      "body"
+    ],
+    "meta": [
+      ".entry-meta",
+      ".post-meta",
+      "article .entry-meta",
+      "main .entry-meta"
+    ],
+    "tags": [
+      "a[rel='tag']",
+      ".tags-links a",
+      ".post-tags a"
+    ],
+    "category": [
+      "a[rel='category tag']",
+      ".cat-links a",
+      ".post-categories a"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "nav",
+    "header nav",
+    "footer",
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".commentlist",
+    ".post-navigation",
+    ".navigation",
+    ".related-posts",
+    ".sidebar",
+    ".widget",
+    ".breadcrumbs",
+    ".social-share",
+    ".newsletter-signup",
+    ".reply",
+    ".site-footer"
+  ],
+  "stop_text_markers": [
+    "Registered Charity RCN:",
+    "Registered Charity CRN:",
+    "Donate Now",
+    "Cookie Policy (EU)",
+    "Facebook-f Twitter Instagram",
+    "Leave a Reply"
+  ],
+  "skip_url_patterns": [
+    "/wp-json/",
+    "/feed/",
+    "/embed/",
+    "/xmlrpc.php",
+    "?replytocom=",
+    "/cdn-cgi/",
+    "/author/",
+    "/tag/"
+  ],
+  "skip_extensions": [
+    ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg",
+    ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip",
+    ".mp4", ".mp3", ".avi", ".mov"
+  ]
+}

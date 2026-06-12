@@ -1,0 +1,2403 @@
+[
+  {
+    "doctor_id": "5848",
+    "name": "Dr. Melissa Workman",
+    "hospitals": [
+      "St. Paul's Hospital and BC Women's Hospital"
+    ],
+    "locations": [
+      "4500 1 Vancouver BC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "Gynecologist",
+      "Other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Yes",
+    "languages": [],
+    "dei_training": "Yes, San'yas Indigenous Cultural Safety through UBC, Indigenous Cultural Safety through USask",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 1
+  },
+  {
+    "doctor_id": "5842",
+    "name": "Dr. Paxton Ting",
+    "hospitals": [
+      "Richmond General Hospital"
+    ],
+    "locations": [
+      "7000 1 Richmond BC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "Gynecologist",
+      "Other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Yes",
+    "languages": [
+      "Cantonese"
+    ],
+    "dei_training": "Yes",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 2
+  },
+  {
+    "doctor_id": "5840",
+    "name": "Dr. Jennifer McCall",
+    "hospitals": [
+      "Lakeshore General Hospital"
+    ],
+    "locations": [
+      "1 Pointe-Claire QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "Gynecologist",
+      "Other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Yes",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "\"Yes Women’s Chronic Pain & Prescription Opioids webinar, Centre of Excellence for Women’s Health, Mar 20, 2024 Trauma-informed care modules (Department of National Defence and the Canadian Forces) – Feb 2024 OCRCC (Ontario Coalition of Rape Crisis Centres) Feminist Governance Training, March 12, 2022 Equity on Boards Training, Future Ancestors via Fora – September 25, 2021 Allyship as a Verb, Rainbow Diversity Institute – June 2, 2021 Anti-Racism 101, Rainbow Diversity Institute – Mar 4, 2021 Anti-Oppression Training, Human Rights and Equity Office, Queen’s University – Feb 16, 2021 Cultural Safety Training, Four Directions Aboriginal Student Centre, January 2016\"",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 3
+  },
+  {
+    "doctor_id": "5836",
+    "name": "Dr. Jessica Blom",
+    "hospitals": [
+      "Kingston Health Sciences Centre"
+    ],
+    "locations": [
+      "76 1 Kingston ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "Gynecologist",
+      "Other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Yes",
+    "languages": [],
+    "dei_training": "Yes",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 4
+  },
+  {
+    "doctor_id": "5834",
+    "name": "Dr. Anna Kobylianskii",
+    "hospitals": [
+      "St. Joseph's Health Centre"
+    ],
+    "locations": [
+      "30 Toronto ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "Gynecologist"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Yes",
+    "languages": [
+      "Russian"
+    ],
+    "dei_training": "Equity, diversity, and inclusion training through postgraduate courses",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 5
+  },
+  {
+    "doctor_id": "5829",
+    "name": "Dr. George Vilos",
+    "hospitals": [
+      "St Joseph Health Care"
+    ],
+    "locations": [
+      "268 1 London ON"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [
+      "Greek"
+    ],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 6
+  },
+  {
+    "doctor_id": "5611",
+    "name": "Dr. Olga Bougie",
+    "hospitals": [
+      "Mount Sinai Hospital"
+    ],
+    "locations": [
+      "600 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "yes, training provided through work and for accreditation",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 7
+  },
+  {
+    "doctor_id": "5279",
+    "name": "Dr. Meghan O'Leary, MD, FRCSC",
+    "hospitals": [
+      "St. Joseph's Healthcare Hamilton"
+    ],
+    "locations": [
+      "50 1 Hamilton ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS Fellowship 2023",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 8
+  },
+  {
+    "doctor_id": "5148",
+    "name": "Dr. Cici Zhu",
+    "hospitals": [
+      "North York General Hospital"
+    ],
+    "locations": [
+      "1100 1 Toronto ON (416) 904-7958"
+    ],
+    "referral_sources": [
+      "Primary care provider"
+    ],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": "(416) 904-7958",
+    "website": null,
+    "additional_notes": [],
+    "id": 9
+  },
+  {
+    "doctor_id": "2860",
+    "name": "Dr. Deanna Buitenhuis",
+    "hospitals": [
+      "Thunder Bay Regional Health Sciences Centre"
+    ],
+    "locations": [
+      "980 1 Thunder Bay ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 10
+  },
+  {
+    "doctor_id": "2855",
+    "name": "Dr. Neha Sama",
+    "hospitals": [
+      "Regina General Hospital"
+    ],
+    "locations": [
+      "1440 1 Regina SK"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "Hindi"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 11
+  },
+  {
+    "doctor_id": "2846",
+    "name": "Dr. Devon Evans",
+    "hospitals": [
+      "St. Boniface Hospital"
+    ],
+    "locations": [
+      "409 1 Winnipeg MB"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 12
+  },
+  {
+    "doctor_id": "2835",
+    "name": "Dr. Tinya Lin",
+    "hospitals": [
+      "BC Women's Center for Pelvic Pain and Endometriosis"
+    ],
+    "locations": [
+      "4500 1 Vancouver BC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 13
+  },
+  {
+    "doctor_id": "1856",
+    "name": "Dr. Darl Edwards",
+    "hospitals": [
+      "Scarborough Health Network"
+    ],
+    "locations": [
+      "3050 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Gynecologist"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Yearly through Scarborough Health Network",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 14
+  },
+  {
+    "doctor_id": "1661",
+    "name": "Dr. Tim Strand",
+    "hospitals": [
+      "Health Sciences Center"
+    ],
+    "locations": [
+      "300 1 St. John's NL"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 15
+  },
+  {
+    "doctor_id": "1659",
+    "name": "Dr. Lexy Regush",
+    "hospitals": [
+      "S﻿askatoon City Hospital"
+    ],
+    "locations": [
+      "701 1 Saskatoon SK"
+    ],
+    "referral_sources": [],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 16
+  },
+  {
+    "doctor_id": "1657",
+    "name": "Dr. Marilyn Davidson",
+    "hospitals": [
+      "Saskatoon General Hospital"
+    ],
+    "locations": [
+      "701 1 Saskatoon SK"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 17
+  },
+  {
+    "doctor_id": "1652",
+    "name": "Dr. Jessica Papillon Smith",
+    "hospitals": [
+      "Glen Hospital"
+    ],
+    "locations": [
+      "1001 1 Montréal QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "University",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 18
+  },
+  {
+    "doctor_id": "1650",
+    "name": "Dr. Togas Tulandi",
+    "hospitals": [
+      "McGill University Health Center"
+    ],
+    "locations": [
+      "1001 1 Montreal QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "Yes - McGill University",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 19
+  },
+  {
+    "doctor_id": "1647",
+    "name": "Dr. Fady Mansour",
+    "hospitals": [
+      "McGill University Health Center"
+    ],
+    "locations": [
+      "5100 1 Montréal QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 20
+  },
+  {
+    "doctor_id": "1644",
+    "name": "Dr. Kristina Arendas",
+    "hospitals": [
+      "Centre Hospitalier Universitaire de Quebec"
+    ],
+    "locations": [
+      "1825 1 Québec QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [
+      "French and Slovak"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 21
+  },
+  {
+    "doctor_id": "1642",
+    "name": "Dr. Melissa Tai",
+    "hospitals": [
+      "Michael Garron Hospital"
+    ],
+    "locations": [
+      "825 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": null,
+    "languages": [
+      "Mandarin (including written)"
+    ],
+    "dei_training": "Stepping Stone (CFD) DEI Workshops",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 22
+  },
+  {
+    "doctor_id": "1640",
+    "name": "Dr. Carmen McCaffrey",
+    "hospitals": [
+      "St. Michael's Hospital"
+    ],
+    "locations": [
+      "36 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists"
+    ],
+    "manages": [
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "University of Toronto; implicit bias training",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 23
+  },
+  {
+    "doctor_id": "1638",
+    "name": "Dr. Wilson Ventura Chan",
+    "hospitals": [
+      "Etobicoke General Hospital"
+    ],
+    "locations": [
+      "101 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French",
+      "Portuguese and Spanish"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 24
+  },
+  {
+    "doctor_id": "1636",
+    "name": "Dr. Geroge Vilos",
+    "hospitals": [
+      "St. Joseph Health Care"
+    ],
+    "locations": [
+      "268 1 London ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [
+      "Greek"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 25
+  },
+  {
+    "doctor_id": "1634",
+    "name": "Dr. Elizabeth Miazga",
+    "hospitals": [
+      "YXE Women's Health Saskatoon"
+    ],
+    "locations": [
+      "15 1 Saskatoon SK"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Yes; St. Michael's Hospital",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 26
+  },
+  {
+    "doctor_id": "1632",
+    "name": "Dr. Lea Luketic",
+    "hospitals": [
+      "St. Joseph's Healthcare Hamilton"
+    ],
+    "locations": [
+      "50 1 Hamilton ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [
+      "Croatian"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 27
+  },
+  {
+    "doctor_id": "1630",
+    "name": "Dr. Marielos Pineda Rivas",
+    "hospitals": [
+      "Milton District Hospital"
+    ],
+    "locations": [
+      "725 1 Milton ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "Spanish"
+    ],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 28
+  },
+  {
+    "doctor_id": "1628",
+    "name": "Dr. Alisha Olsthoom",
+    "hospitals": [
+      "Credit Valley Hospital"
+    ],
+    "locations": [
+      "2200 1 Mississauga ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Residency",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 29
+  },
+  {
+    "doctor_id": "1626",
+    "name": "Dr. Margot Rosenthal",
+    "hospitals": [
+      "HSC Women's Hospital"
+    ],
+    "locations": [
+      "665 1 Winnipeg MB"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 30
+  },
+  {
+    "doctor_id": "1624",
+    "name": "Dr. Mina Wesa",
+    "hospitals": [
+      "Royal Columbian Hospital"
+    ],
+    "locations": [
+      "330 1 New Westminster BC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "Farsi and Persian"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 31
+  },
+  {
+    "doctor_id": "1621",
+    "name": "Dr. Caroline Lee",
+    "hospitals": [
+      "BC Women's Hospital, Vancouver General Hospital"
+    ],
+    "locations": [
+      "4500 1 Vancouver BC"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 32
+  },
+  {
+    "doctor_id": "1619",
+    "name": "Dr. Shiraz Moola",
+    "hospitals": [
+      "Kootenay Lake Hospital"
+    ],
+    "locations": [
+      "3 1 Nelson BC"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": "Yukon regarding indigenous peoples. Member of UBC obgyn EDI committee",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 33
+  },
+  {
+    "doctor_id": "1617",
+    "name": "Dr. Brian Tsai",
+    "hospitals": [
+      "Surrey Memorial Hospital"
+    ],
+    "locations": [
+      "13750 1 Surrey BC"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [
+      "Mandarin and Cantonese"
+    ],
+    "dei_training": "PHSA in BC",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 34
+  },
+  {
+    "doctor_id": "1615",
+    "name": "Dr. Claudine Storness-Bliss",
+    "hospitals": [
+      "Surrey Memorial Hospital"
+    ],
+    "locations": [
+      "13750 1 Surrey BC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "Health Authority",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 35
+  },
+  {
+    "doctor_id": "1613",
+    "name": "Dr. Brad Sullivan",
+    "hospitals": [
+      "Sturgeon Community Hospital"
+    ],
+    "locations": [
+      "201 1 St. Albert AB"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Indigenous Awareness and Sensitivity",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 36
+  },
+  {
+    "doctor_id": "1611",
+    "name": "Dr. Caitlin Jago",
+    "hospitals": [
+      "Rockyview General Hospital"
+    ],
+    "locations": [
+      "7007 1 Calgary AB"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "CPD, University of Calgary and University of Ottawa",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 37
+  },
+  {
+    "doctor_id": "1609",
+    "name": "Dr. Chelsea Topping",
+    "hospitals": [
+      "Canmore General Hospital"
+    ],
+    "locations": [
+      "1100 1 Canmore AB"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 38
+  },
+  {
+    "doctor_id": "1607",
+    "name": "Dr. Aubrey Uretsky",
+    "hospitals": [
+      "Misericordia Hospital"
+    ],
+    "locations": [
+      "16940 1 Edmonton AB"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": "Alberta Health Services",
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 39
+  },
+  {
+    "doctor_id": "1471",
+    "name": "Dr. Neetika Sidana",
+    "hospitals": [
+      "Trillium Health Partners"
+    ],
+    "locations": [
+      "100 1 Mississauga ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 40
+  },
+  {
+    "doctor_id": "1450",
+    "name": "Dr. Andrew Zakhari",
+    "hospitals": [
+      "Royal Victoria Hospital McGill University Health Centre"
+    ],
+    "locations": [
+      "1001 1 Montréal QC"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 41
+  },
+  {
+    "doctor_id": "1448",
+    "name": "Dr. Bach Nguyen",
+    "hospitals": [
+      "McGill University Health Centre"
+    ],
+    "locations": [
+      "5100 1 Montreal QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 42
+  },
+  {
+    "doctor_id": "1446",
+    "name": "Dr. Sarah Maheux-Lacroix",
+    "hospitals": [
+      "Centre hospitalier de l'Université Laval"
+    ],
+    "locations": [
+      "2705 1 Québec QC"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 43
+  },
+  {
+    "doctor_id": "1444",
+    "name": "Dr. Valerie To",
+    "hospitals": [
+      "Hôpital Sacré-Cœur"
+    ],
+    "locations": [
+      "5400 1 Montréal QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "CME at Hôpital Sacré-Cœur and University",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 44
+  },
+  {
+    "doctor_id": "1442",
+    "name": "Dr. Sonja Bodmer-Roy",
+    "hospitals": [
+      "St. Mary’s Hospital"
+    ],
+    "locations": [
+      "3830 1 Montréal QC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "Yes: conferences and McGill University",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 45
+  },
+  {
+    "doctor_id": "1439",
+    "name": "Dr. Pira Korsieporn",
+    "hospitals": [
+      "Lakeshore General Hospital"
+    ],
+    "locations": [
+      "160 1 Pointe-Claire QC"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 46
+  },
+  {
+    "doctor_id": "1437",
+    "name": "Dr. Huse Kamencic",
+    "hospitals": [
+      "Regina General Hospital"
+    ],
+    "locations": [
+      "1440 1 Regina SK"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 47
+  },
+  {
+    "doctor_id": "1435",
+    "name": "Dr. John Thiel",
+    "hospitals": [
+      "Regina General Hospital"
+    ],
+    "locations": [
+      "1440 1 Regina SK"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": "Former member of the College of Medicine EDI Committee",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 48
+  },
+  {
+    "doctor_id": "1433",
+    "name": "Dr. Laura Weins",
+    "hospitals": [
+      "Saskatoon City Hospital"
+    ],
+    "locations": [
+      "701 1 Saskatoon SK"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 49
+  },
+  {
+    "doctor_id": "1429",
+    "name": "Dr. Darrien Rattray",
+    "hospitals": [
+      "Regina General Hospital"
+    ],
+    "locations": [
+      "1440 1 Regina SK"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 50
+  },
+  {
+    "doctor_id": "1425",
+    "name": "Dr. Innie Chen",
+    "hospitals": [
+      "Ottawa Hospital"
+    ],
+    "locations": [
+      "1053 1 Ottawa ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 51
+  },
+  {
+    "doctor_id": "1421",
+    "name": "Dr. Sarah Norris",
+    "hospitals": [
+      "Grand River Hospital"
+    ],
+    "locations": [
+      "835 1 Kitchener ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 52
+  },
+  {
+    "doctor_id": "1419",
+    "name": "Dr. Andrew Stuart",
+    "hospitals": [
+      "Grand River Hospital"
+    ],
+    "locations": [
+      "835 1 Kitchener ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 53
+  },
+  {
+    "doctor_id": "1415",
+    "name": "Dr. Herb Wong",
+    "hospitals": [
+      "Sunnybrook Health Sciences Centre"
+    ],
+    "locations": [
+      "2075 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 54
+  },
+  {
+    "doctor_id": "1413",
+    "name": "Dr. Jonathon Solnik",
+    "hospitals": [
+      "Mount Sinai Hospital"
+    ],
+    "locations": [
+      "600 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 55
+  },
+  {
+    "doctor_id": "1411",
+    "name": "Dr. Mara Sobel",
+    "hospitals": [
+      "Mount Sinai Hospital"
+    ],
+    "locations": [
+      "600 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 56
+  },
+  {
+    "doctor_id": "1409",
+    "name": "Dr. Sony Singh",
+    "hospitals": [
+      "Ottawa Hospital"
+    ],
+    "locations": [
+      "1053 1 Ottawa ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 57
+  },
+  {
+    "doctor_id": "1407",
+    "name": "Dr. Hassan Shenassa",
+    "hospitals": [
+      "Ottawa Hospital"
+    ],
+    "locations": [
+      "1053 1 Ottawa ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 58
+  },
+  {
+    "doctor_id": "1405",
+    "name": "Dr. Sarah Scattalon",
+    "hospitals": [
+      "McMaster University Medical Centre"
+    ],
+    "locations": [
+      "1200 1 Hamilton ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 59
+  },
+  {
+    "doctor_id": "1403",
+    "name": "Dr. Abheha Satkunaratnam",
+    "hospitals": [
+      "North York General Hospital",
+      "Lotus Obstetrics & Gynecology"
+    ],
+    "locations": [
+      "1110 1 Toronto ON",
+      "1110 1 Toronto ON 416-512-2578 ext 5"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": "416-512-2578 ext 5",
+    "website": null,
+    "additional_notes": [],
+    "id": 60
+  },
+  {
+    "doctor_id": "1401",
+    "name": "Dr. Leslie Po",
+    "hospitals": [
+      "Sunnybrook Hospital"
+    ],
+    "locations": [
+      "97 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 61
+  },
+  {
+    "doctor_id": "1399",
+    "name": "Dr. Alice Pham",
+    "hospitals": [
+      "North York General Hospital"
+    ],
+    "locations": [
+      "4001 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 62
+  },
+  {
+    "doctor_id": "1397",
+    "name": "Dr. Romy Nitsch",
+    "hospitals": [
+      "Kingston General Hospital"
+    ],
+    "locations": [
+      "76 1 Kingston ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 63
+  },
+  {
+    "doctor_id": "1395",
+    "name": "Dr. Ally Murji",
+    "hospitals": [
+      "Mount Sinai Hospital"
+    ],
+    "locations": [
+      "600 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 64
+  },
+  {
+    "doctor_id": "1389",
+    "name": "Dr. Maria Melchior",
+    "hospitals": [
+      "St Joseph's Health Centre"
+    ],
+    "locations": [
+      "30 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 65
+  },
+  {
+    "doctor_id": "1386",
+    "name": "Dr. Karine Lortie",
+    "hospitals": [
+      "Ottawa Hospital"
+    ],
+    "locations": [
+      "1053 1 Ottawa ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "The University of Ottawa Faculty of Medicine, AAGL",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 66
+  },
+  {
+    "doctor_id": "1384",
+    "name": "Dr. Grace Liu",
+    "hospitals": [
+      "Sunnybrook Hospital"
+    ],
+    "locations": [
+      "97 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 67
+  },
+  {
+    "doctor_id": "1382",
+    "name": "Dr. Nicholas Leyland",
+    "hospitals": [
+      "Hamilton Health Sciences"
+    ],
+    "locations": [
+      "1200 1 Hamilton ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 68
+  },
+  {
+    "doctor_id": "1379",
+    "name": "Dr. Mathew Leonardi",
+    "hospitals": [
+      "McMaster University Medical Centre"
+    ],
+    "locations": [
+      "1200 1 Hamilton ON mathewleonardi.com"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": "https://mathewleonardi.com/",
+    "additional_notes": [],
+    "id": 69
+  },
+  {
+    "doctor_id": "1377",
+    "name": "Dr. Nucelio Lemos",
+    "hospitals": [
+      "Women's College Hospital"
+    ],
+    "locations": [
+      "76 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 70
+  },
+  {
+    "doctor_id": "1375",
+    "name": "Dr. Sabrina Lee",
+    "hospitals": [
+      "North York General Hospital"
+    ],
+    "locations": [
+      "4001 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 71
+  },
+  {
+    "doctor_id": "1373",
+    "name": "Dr. Andre Laroche",
+    "hospitals": [
+      "Humber River Hospital"
+    ],
+    "locations": [
+      "1235 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 72
+  },
+  {
+    "doctor_id": "1370",
+    "name": "Dr. Jamie Kroft",
+    "hospitals": [
+      "Sunnybrook Health Sciences Centre"
+    ],
+    "locations": [
+      "97 1 Toronto ON"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Accredited CPD leadership program",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 73
+  },
+  {
+    "doctor_id": "1368",
+    "name": "Dr. Sari Kives",
+    "hospitals": [
+      "St. Michael’s Hospital"
+    ],
+    "locations": [
+      "36 1 Toronto ON"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 74
+  },
+  {
+    "doctor_id": "1364",
+    "name": "Dr. Elizabeth Randle",
+    "hospitals": [
+      "IWK Health Centre"
+    ],
+    "locations": [
+      "5980 1 Halifax NS"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 75
+  },
+  {
+    "doctor_id": "1362",
+    "name": "Dr. Craig Morton",
+    "hospitals": [
+      "Saint John Regional Hospital"
+    ],
+    "locations": [
+      "400 1 Saint John NB"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 76
+  },
+  {
+    "doctor_id": "1358",
+    "name": "Dr. Anet Maksymowicz",
+    "hospitals": [
+      "Manitoba Clinic",
+      "Victoria General Hospital"
+    ],
+    "locations": [
+      "790 1 Winnipeg MB",
+      "2340 1 Winnipeg MB"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [
+      "Practices out of: Manitoba Clinic",
+      "Operates out of: Victoria General"
+    ],
+    "id": 77
+  },
+  {
+    "doctor_id": "1356",
+    "name": "Dr. Mohamed Bedaiwy",
+    "hospitals": [
+      "Centre for Pelvic Pain & Endometriosis"
+    ],
+    "locations": [
+      "Vancouver BC"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 78
+  },
+  {
+    "doctor_id": "1354",
+    "name": "Dr. Paul Yong",
+    "hospitals": [
+      "BC Women's Hospital"
+    ],
+    "locations": [
+      "4500 1 Vancouver BC"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Endometriomas"
+    ],
+    "surgical_training": "Trained before MIGS fellowships were accredited",
+    "languages": [],
+    "dei_training": "Yes; UBC, PHSA, CIHR, ISSWSH",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 79
+  },
+  {
+    "doctor_id": "1352",
+    "name": "Dr. Christina Williams",
+    "hospitals": [
+      "BC Women's Hospital"
+    ],
+    "locations": [
+      "4500 1 Vancouver BC"
+    ],
+    "referral_sources": [
+      "Gynecologists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "Spanish"
+    ],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 80
+  },
+  {
+    "doctor_id": "1350",
+    "name": "Dr. Catherine Allaire",
+    "hospitals": [
+      "Centre for Pelvic Pain & Endometriosis"
+    ],
+    "locations": [
+      "Vancouver BC"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 81
+  },
+  {
+    "doctor_id": "1348",
+    "name": "Dr. Dana Rivet",
+    "hospitals": [
+      "Misericordia Community Hospital"
+    ],
+    "locations": [
+      "16940 1 Edmonton AB"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 82
+  },
+  {
+    "doctor_id": "1346",
+    "name": "Dr. Priya Patel",
+    "hospitals": [
+      "Royal Alexandra Hospital"
+    ],
+    "locations": [
+      "10240 1 Edmonton AB"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 83
+  },
+  {
+    "doctor_id": "1344",
+    "name": "Dr. Rupinder Dhaliwal",
+    "hospitals": [
+      "Women's Health Clinic of Edmonton"
+    ],
+    "locations": [
+      "11010 1 Edmonton AB"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 84
+  },
+  {
+    "doctor_id": "1342",
+    "name": "Dr. Alicia Long",
+    "hospitals": [
+      "Royal Alexandra Hospital"
+    ],
+    "locations": [
+      "10240 1 Edmonton AB"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 85
+  },
+  {
+    "doctor_id": "1338",
+    "name": "Dr. Ari Sanders",
+    "hospitals": [
+      "Peter Lougheed Centre"
+    ],
+    "locations": [
+      "3500 1 Calgary AB"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 86
+  },
+  {
+    "doctor_id": "1336",
+    "name": "Dr. Michael Secter",
+    "hospitals": [
+      "Foothills Medical Centre"
+    ],
+    "locations": [
+      "1403 1 Calgary AB"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 87
+  },
+  {
+    "doctor_id": "1334",
+    "name": "Dr. Jackie Thurston",
+    "hospitals": [
+      "South Health Campus"
+    ],
+    "locations": [
+      "4448 1 Calgary AB"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Endometriomas"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 88
+  },
+  {
+    "doctor_id": "1332",
+    "name": "Dr. Chandrew Rajakumar",
+    "hospitals": [
+      "South Health Campus"
+    ],
+    "locations": [
+      "4448 1 Calgary AB"
+    ],
+    "referral_sources": [],
+    "manages": [],
+    "surgical_training": null,
+    "languages": [],
+    "dei_training": null,
+    "survey_completed": null,
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 89
+  },
+  {
+    "doctor_id": "1330",
+    "name": "Dr. Liane Belland",
+    "hospitals": [
+      "Peter Lougheed Centre"
+    ],
+    "locations": [
+      "3500 1 Calgary AB"
+    ],
+    "referral_sources": [
+      "Primary care provider",
+      "gynecologists",
+      "other specialists"
+    ],
+    "manages": [
+      "Minimal / mild deposits (ASRM Stage 1/2)",
+      "Severe endometriosis (ASRM Stage 3/4)",
+      "Bowel",
+      "Bladder/Ureteric",
+      "Diaphragmatic/Thoracic",
+      "Endometriomas",
+      "Pediatric (under age 18)"
+    ],
+    "surgical_training": "MIGS fellowship",
+    "languages": [
+      "French"
+    ],
+    "dei_training": "Yes",
+    "survey_completed": "2023",
+    "phone": null,
+    "website": null,
+    "additional_notes": [],
+    "id": 90
+  }
+]

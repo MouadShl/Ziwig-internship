@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "source": "endometriozismagyarorszag.hu",
+    "scraped_at": "",
+    "base_url": "https://endometriozismagyarorszag.hu",
+    "blog_url": "https://endometriozismagyarorszag.hu/blog/",
+    "pages_scraped": 13,
+    "total_articles": 0,
+    "note": "Run scraper_bs4_magyarorszag.py to generate the full dataset from the live site."
+  },
+  "articles": []
+}

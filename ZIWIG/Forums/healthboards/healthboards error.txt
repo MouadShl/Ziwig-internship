@@ -1,0 +1,22 @@
+[INFO] source_id=SRC004
+[INFO] config=E:\S T A G E\Project\configs\SRC004.json
+[INFO] output_threads=E:\S T A G E\Project\outputs\SRC004\SRC004_threads.jsonl
+[INFO] output_errors=E:\S T A G E\Project\outputs\SRC004\SRC004_errors.jsonl
+[INFO] resume_existing_threads=0
+[INFO] listing_start_page=1
+[INFO] max_pages=50
+[INFO] empty_stop=3
+[INFO] Warming up session...
+E:\S T A G E\Project\scrapers\scraper_bs4_healthboards.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and 
+scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().replace(microsecond=0).isoformat() + 
+"Z"
+[PAGE] page=1 page_threads=0 new_threads=0 skipped_existing=0 total_collected=0
+[PAGE] page=2 page_threads=0 new_threads=0 skipped_existing=0 total_collected=0
+[PAGE] page=3 page_threads=0 new_threads=0 skipped_existing=0 total_collected=0
+[INFO] Stopping after 3 consecutive empty/error pages.
+[DONE]
+[DONE] new_threads_appended=0
+[DONE] skipped_existing=0
+[DONE] threads_file=E:\S T A G E\Project\outputs\SRC004\SRC004_threads.jsonl
+[DONE] errors_file=E:\S T A G E\Project\outputs\SRC004\SRC004_errors.jsonl

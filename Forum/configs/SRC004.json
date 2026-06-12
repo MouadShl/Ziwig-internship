@@ -1,0 +1,27 @@
+{
+  "source_id": "SRC004",
+  "source_type": "forum",
+  "mode": "forum_healthboards_local_html",
+  "start_url": "https://www.healthboards.com/boards/endometriosis/",
+  "board_name": "Endometriosis",
+  "board_slug": "endometriosis",
+  "forum_id": "221",
+  "listing_input_dir": "download/healthboards_listing",
+  "thread_input_dir": "download/healthboards_threads",
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 0.2
+  },
+  "pagination": {
+    "start_page": 1,
+    "end_page": 19
+  },
+  "resume": {
+    "enabled": true
+  },
+  "output": {
+    "dir": "outputs/SRC004",
+    "threads_file": "outputs/SRC004/SRC004_threads.jsonl",
+    "errors_file": "outputs/SRC004/SRC004_errors.jsonl"
+  }
+}

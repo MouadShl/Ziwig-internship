@@ -1,0 +1,72 @@
+{
+  "source_id": "SRC004",
+  "source_mode": "forum_mumsnet_api_post",
+  "source_type": "forum",
+  "base_url": "https://www.mumsnet.com",
+  "search_query": "endometriosis",
+
+  "PROBLEM_FOUND": "The original config used GET /api/v3/search?query=... but Mumsnet's API requires POST /api/v3/search with a JSON body + XSRF token. That is why total_candidate_threads=0.",
+
+  "step1_get_xsrf": {
+    "description": "First do a GET on the search page to receive the XSRF-TOKEN cookie, then read it from the cookie jar.",
+    "url": "https://www.mumsnet.com/search",
+    "method": "GET",
+    "purpose": "Harvest XSRF-TOKEN cookie for use in step 2"
+  },
+
+  "step2_search_api": {
+    "description": "POST to /api/v3/search — NOT a GET with query params",
+    "url": "https://www.mumsnet.com/api/v3/search",
+    "method": "POST",
+    "content_type": "application/json",
+    "body_template": {
+      "query": "endometriosis",
+      "type": "op",
+      "page": "{page}"
+    },
+    "note_on_from_field": "Omit 'from' to get all dates, or set to '2010-01-01T00:00:00.000Z' for full history"
+  },
+
+  "required_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "Accept-Language": "en-GB,en;q=0.9",
+    "Content-Type": "application/json, application/json",
+    "Origin": "https://www.mumsnet.com",
+    "Referer": "https://www.mumsnet.com/search",
+    "x-post-source": "Web",
+    "x-requested-with": "XMLHttpRequest",
+    "x-socket-id": "RANDOM_FLOAT_e.g_2316158568.7955510833",
+    "x-xsrf-token": "READ_FROM_XSRF-TOKEN_COOKIE_AFTER_STEP1"
+  },
+
+  "step3_thread_content": {
+    "description": "Fetch full thread (OP + all replies) using thread_id from search results",
+    "url_template": "https://www.mumsnet.com/api/v3/talk/threads/{thread_id}",
+    "method": "GET"
+  },
+
+  "step4_similar_threads": {
+    "description": "Discover additional related threads (optional but recommended for coverage)",
+    "url_template": "https://www.mumsnet.com/api/v3/talk/threads/{thread_id}/similar-threads",
+    "method": "GET"
+  },
+
+  "pagination": {
+    "max_listing_pages": 100,
+    "max_thread_pages": 100,
+    "page_field_in_body": "page",
+    "stop_when": "response data array is empty"
+  },
+
+  "output": {
+    "dir": "outputs/SRC004",
+    "posts_file": "SRC004_post_and_comment_final.jsonl",
+    "errors_file": "SRC004_errors_final.jsonl"
+  },
+
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.5
+  }
+}

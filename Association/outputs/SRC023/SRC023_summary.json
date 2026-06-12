@@ -1,0 +1,8 @@
+{
+  "site": "Endo Daily News",
+  "source_id": "SRC023",
+  "total_articles": 26,
+  "articles_file": "outputs\\SRC023\\SRC023_articles_final.jsonl",
+  "magazine_covers_file": "outputs\\SRC023\\SRC023_magazine_covers_final.jsonl",
+  "magazine_covers_count": 3
+}

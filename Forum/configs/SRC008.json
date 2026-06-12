@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC008",
+  "source_mode": "forum_mumsnet_api_assisted_page1_only",
+  "source_type": "forum",
+  "base_url": "https://www.mumsnet.com",
+  "search_query": "endometriosis",
+  "listing_api_url": "https://www.mumsnet.com/api/v3/search",
+  "thread_api_url_template": "https://www.mumsnet.com/api/v3/talk/threads/{thread_id}",
+  "listing_post_body": {
+    "query": "endometriosis",
+    "from": "2025-03-26T23:00:00.000Z",
+    "type": "op",
+    "page": 1
+  },
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.0,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "Accept-Language": "en-GB,en;q=0.9",
+      "Accept": "application/json",
+      "Content-Type": "application/json",
+      "Origin": "https://www.mumsnet.com",
+      "Referer": "https://www.mumsnet.com/search",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+  },
+  "pagination": {
+    "page_only": 1,
+    "max_thread_pages": 100
+  },
+  "output": {
+    "dir": "outputs/SRC008",
+    "posts_file": "SRC008_post_and_comment_final.jsonl",
+    "errors_file": "SRC008_errors_final.jsonl"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Bertin",
+    "specialty": "Niveau 2",
+    "address": "Quartier La Renée Immeuble Monlouis-Bonnaire 97211 Rivière-Pilote Martinique"
+  },
+  {
+    "name": "Charlotte PRIGENT",
+    "specialty": "Soin de support",
+    "address": "Centre Femina Panoramique 40 Lotissement Panoramique Quartier Trois Rivières 97228 Sainte-Luce Martinique"
+  },
+  {
+    "name": "Clarys DINTIMILLE",
+    "specialty": "Niveau 1",
+    "address": "SC ÉCHOGRAPHIE 31 Square, chemin Bois Neuf quartier Mansarde Catalogne 97231 LE ROBERT Martinique"
+  },
+  {
+    "name": "Dr Alice MONTHIEUX",
+    "specialty": "Niveau 2",
+    "address": "MFME - CHU de Martinique BP 632 97261 FORT-DE-FRANCE CEDEX Martinique"
+  },
+  {
+    "name": "Dr Aurélie MERLIN",
+    "specialty": "Radiologue",
+    "address": "62 route de la Clairière 97200 FORT-DE-FRANCE Martinique"
+  },
+  {
+    "name": "Dr Clara ADENET",
+    "specialty": "Radiologue",
+    "address": "MFME - CHU de Martinique BP 632 97261 FORT-DE-FRANCE CEDEX Martinique"
+  },
+  {
+    "name": "Dr Sarah LISE",
+    "specialty": "Niveau 2",
+    "address": "MFME-CHU de Martinique BP 632 97261 Fort-de-France Martinique"
+  }
+]

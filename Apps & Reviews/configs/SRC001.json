@@ -1,0 +1,17 @@
+{
+  "source_id": "SRC001",
+  "url": "https://play.google.com/store/apps/details?id=app.endometriose.prod&hl=en",
+  "app_id": "app.endometriose.prod",
+  "locales": [
+    {"lang": "en", "country": "us"},
+    {"lang": "en", "country": "gb"},
+    {"lang": "de", "country": "de"},
+    {"lang": "de", "country": "at"},
+    {"lang": "de", "country": "ch"}
+  ],
+  "sorts": ["newest", "most_relevant"],
+  "max_reviews": 0,
+  "sleep_seconds": 0.25,
+  "output_dir": "outputs/SRC001",
+  "output_file": "SRC001_comments.json"
+}

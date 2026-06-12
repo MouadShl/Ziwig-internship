@@ -1,0 +1,24 @@
+{
+  "source_id": "SRC001",
+  "mode": "forum_doctissimo",
+  "start_urls": [
+    "https://forum.doctissimo.fr/sante/Endometriose/liste_sujet-1.htm"
+  ],
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.0,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+  },
+  "pagination": {
+    "start_listing_page": 2,
+    "end_listing_page": 58
+  },
+  "resume": {
+    "existing_posts_jsonl": "outputs/SRC001/SRC001_post_and_comment_11032026_19h31.jsonl"
+  },
+  "output": {
+    "dir": "outputs/SRC001"
+  }
+}

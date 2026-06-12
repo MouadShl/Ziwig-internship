@@ -1,0 +1,67 @@
+configs/SRC002.json
+🚀 Starting SRC002 scraper
+🌐 URL: https://www.endofrance.org
+💾 Output: outputs\SRC002\SRC002_articles_final.jsonl        
+============================================================ 
+📄 listing_page_number=1 url=https://www.endofrance.org/blog/
+   page_threads=12 new_threads=12 skipped_existing=0
+   [1/12] https://www.endofrance.org/blog/25-ans-dendofrance-une-association-nee-pour-briser-le-silence/
+      saved_words=769 title=25 ans d’EndoFrance : une association née pour briser le silence
+   [2/12] https://www.endofrance.org/blog/22eme-semaine-europeenne-de-sensibilisation-a-lendometriose/
+      saved_words=96 title=22ème semaine européenne de sensibilisation à l’endométriose
+   [3/12] https://www.endofrance.org/blog/avancee-prise-en-charge-endometriose/
+      saved_words=481 title=Les avancées pour une meilleure prise en charge de l’endométriose en F
+   [4/12] https://www.endofrance.org/blog/la-soiree-des-etoiles-de-lus-carcassonne-met-notre-parrain-a-lhonneur/
+      saved_words=92 title=La soirée des étoiles de l’US Carcassonne met notre parrain à l’honneu
+   [5/12] https://www.endofrance.org/blog/parution-des-conseils-de-bonnes-pratiques-pour-la-prise-en-charge-des-douleurs-pelviennes-liees-a-lendometriose/
+      saved_words=286 title=Parution des conseils de bonnes pratiques pour la prise 
+en charge des 
+   [6/12] https://www.endofrance.org/blog/ma-cause-mes-crampons-thomas-ramos-soutient-endofrance/
+      saved_words=163 title=« Ma cause, mes crampons » : Thomas Ramos soutient EndoFrance
+   [7/12] https://www.endofrance.org/blog/en-mouvement-avec-lendometriose-un-guide-sur-les-benefices-de-lactivite-physique/
+      saved_words=183 title=En mouvement avec l’endométriose, un guide sur les bénéfices de l’acti
+   [8/12] https://www.endofrance.org/blog/une-nouvelle-presidente-pour-endofrance/
+      saved_words=123 title=Une nouvelle Présidente pour EndoFrance
+   [9/12] https://www.endofrance.org/blog/lancement-de-letude-endobest-pour-valider-la-place-que-tiendra-le-test-salivaire-dans-le-diagnostic-de-lendometriose/
+      saved_words=350 title=Étude EndoBest : le test salivaire pour diagnostiquer l’endométriose à
+   [10/12] https://www.endofrance.org/blog/participez-a-letude-stomendo-qualite-de-vie-des-femmes-stomisees/
+      saved_words=194 title=Participez à l’étude Stomendo – Qualité de vie des femmes stomisées
+   💾 Progress saved: 10 articles
+   [11/12] https://www.endofrance.org/blog/le-nouveau-carnet-de-sante-permet-le-reperage-de-lendometriose/
+      saved_words=175 title=Le nouveau carnet de santé permet le repérage de l’endométriose
+   [12/12] https://www.endofrance.org/blog/actu-ansm-progestatifs-et-risques-de-meningiomes/
+      saved_words=274 title=Actu ANSM : Progestatifs et risques de méningiomes, de nouvelles donné
+📄 listing_page_number=2 url=https://www.endofrance.org/blog/page/2/
+   page_threads=11 new_threads=11 skipped_existing=0
+   [1/11] https://www.endofrance.org/blog/enquete-france-assos-sante/
+      saved_words=260 title=Les coûts cachés de la santé – Enquête de France Assos Santé
+   [2/11] https://www.endofrance.org/blog/laetitia-milot-x-grain-de-malice-une-robe-aux-couleurs-de-lendometriose/
+      saved_words=111 title=Laëtitia Milot X Grain de Malice : une robe aux couleurs de l’endométr
+   [3/11] https://www.endofrance.org/blog/idees-recues-sur-lendometriose-la-3e-edition-revue-et-augmentee-est-en-librairie/
+      saved_words=192 title=« Idées reçues sur l’endométriose » : la 3e édition revue et augmentée
+   [4/11] https://www.endofrance.org/blog/la-formation-des-medecins-sur-lendometriose-ou-en-est-on-en-2024/
+      saved_words=274 title=La formation des médecins sur l’endométriose, où en est-on en 2024 ?
+   [5/11] https://www.endofrance.org/blog/la-federation-francaise-de-rugby-sengage-aupres-dendofrance-pour-lutter-contre-lendometriose/
+      saved_words=229 title=La Fédération Française de Rugby s’engage auprès d’EndoFrance pour lut
+   [6/11] https://www.endofrance.org/blog/endofrance-obtient-lagrement-du-ministere-de-leducation-nationale-apres-celui-du-ministere-de-la-sante/
+      saved_words=175 title=EndoFrance obtient l’Agrément du ministère de l’Education nationale ap
+   [7/11] https://www.endofrance.org/blog/marraine-et-parrain-ensemble-pour-endofrance-dans-fort-boyard/
+      saved_words=144 title=Marraine et Parrain ensemble pour EndoFrance dans Fort Boyard
+   [8/11] https://www.endofrance.org/blog/endopank-mettez-du-jaune-dans-votre-ville/      saved_words=412 title=EndoPank® – Mettez du jaune dans votre ville !
+   💾 Progress saved: 20 articles
+   [9/11] https://www.endofrance.org/blog/endotravail/
+      saved_words=200 title=EndoTravail : le serious game qui lève les tabous sur l’endométriose a
+   [10/11] https://www.endofrance.org/blog/endometriose-et-adolescent-e-s-un-clip-de-sensibilisation/
+      saved_words=158 title=Endométriose et adolescent.e.s : un clip de sensibilisation salué par
+   [11/11] https://www.endofrance.org/blog/un-referentiel-pour-letp-endometriose-en-paca/
+      saved_words=258 title=Un référentiel pour l’ETP endométriose en PACA
+📄 listing_page_number=3 url=https://www.endofrance.org/blog/page/3/
+    ❌ fetch failed: https://www.endofrance.org/blog/page/3/ -> 404 Client Error: Not
+ Found for url: https://www.endofrance.org/blog/page/3/
+============================================================
+✅ Done
+articles_scraped=23
+skipped_existing=0
+errors=1
+posts_file=outputs\SRC002\SRC002_articles_final.jsonl
+errors_file=outputs\SRC002\SRC002_errors_final.jsonl

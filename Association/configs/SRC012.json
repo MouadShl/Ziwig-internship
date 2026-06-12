@@ -1,0 +1,106 @@
+{
+  "source_id": "SRC012",
+  "source_name": "Asociatia Eu si Endometrioza",
+  "source_type": "news_blog",
+  "base_url": "https://eusiendometrioza.ro",
+  "country": "Romania",
+  "language": "ro",
+  "sections": [
+    "/",
+    "/category/events/",
+    "/category/story/",
+    "/category/emotional-wellness/",
+    "/category/nutrition-tips/",
+    "/category/alternative-medicine/",
+    "/category/uncategorized/"
+  ],
+  "selectors": {
+    "article_list": [
+      "article h2 a",
+      "article h3 a",
+      ".elementor-post__title a",
+      ".entry-title a",
+      "h2.entry-title a",
+      "h3.entry-title a",
+      "a[href*='eusiendometrioza.ro/']:not([href*='/category/']):not([href*='/tag/']):not([href*='/author/']):not([href*='/page/'])"
+    ],
+    "next_page": [
+      ".nav-links a.next",
+      ".pagination a.next",
+      "a.next.page-numbers",
+      "a.page-numbers.next",
+      "a[rel='next']"
+    ],
+    "title": [
+      "h1.entry-title",
+      ".elementor-heading-title",
+      "article h1",
+      "main h1",
+      "h1"
+    ],
+    "meta": [
+      ".entry-meta",
+      ".post-meta",
+      ".elementor-post-info",
+      ".elementor-widget-theme-post-info",
+      "article .elementor-icon-list-text"
+    ],
+    "date": [
+      "time",
+      ".posted-on",
+      ".entry-date",
+      ".elementor-post-date",
+      ".elementor-icon-list-text"
+    ],
+    "author": [
+      "a[rel='author']",
+      ".author a",
+      ".byline a"
+    ],
+    "category": [
+      "a[rel='category tag']",
+      ".cat-links a",
+      ".post-categories a"
+    ],
+    "body": [
+      ".elementor-widget-theme-post-content",
+      ".entry-content",
+      ".post-content",
+      "article .elementor-widget-container",
+      "article",
+      "main article",
+      "main"
+    ],
+    "tags": [
+      "a[rel='tag']",
+      ".tagcloud a",
+      ".post-tags a"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "iframe",
+    "form",
+    "button",
+    "nav",
+    "header nav",
+    "footer",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".commentlist",
+    ".wp-block-buttons",
+    ".elementor-share-btn",
+    ".elementor-location-header",
+    ".elementor-location-footer",
+    ".related-posts",
+    ".post-navigation",
+    ".sidebar",
+    ".widget",
+    ".search-form"
+  ],
+  "sleep_seconds": 1.2
+}

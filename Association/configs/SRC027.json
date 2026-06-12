@@ -1,0 +1,9 @@
+{
+  "source_id": "SRC027",
+  "start_url": "https://www.qendo.org.au/blog/",
+  "output_file": "outputs/SRC027/SRC027.json",
+  "sleep_seconds": 2,
+  "max_pages": 16,
+  "site_name": "QENDO Australia",
+  "description": "Blog articles about endometriosis, adenomyosis, PCOS and pelvic pain - includes personal stories and medical information"
+}

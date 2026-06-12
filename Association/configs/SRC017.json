@@ -1,0 +1,95 @@
+{
+  "source_id": "SRC017",
+  "source_name": "Fondation pour la Recherche sur l'Endométriose",
+  "source_type": "news_blog",
+  "base_url": "https://www.fondation-endometriose.org",
+  "country": "France",
+  "language": "fr",
+  "start_url": "/blog/",
+  "pagination": {
+    "type": "path_template",
+    "template": "/blog/page/{page}/",
+    "start_page": 1,
+    "max_pages": 10
+  },
+  "selectors": {
+    "article_list": [
+      "h2.entry-title a",
+      "article h2 a",
+      ".blog-post h2 a",
+      "main h2 a"
+    ],
+    "title": [
+      "h1.entry-title",
+      "article h1",
+      "main h1",
+      "h1"
+    ],
+    "meta": [
+      ".entry-meta",
+      ".post-meta",
+      "article .entry-meta",
+      "article .post-meta",
+      "main .entry-meta"
+    ],
+    "author": [
+      ".author a",
+      ".entry-meta .author a",
+      ".post-meta .author a",
+      ".entry-meta a[rel='author']"
+    ],
+    "date": [
+      "time",
+      ".posted-on time",
+      ".entry-date",
+      ".post-date"
+    ],
+    "category": [
+      ".cat-links a",
+      ".entry-categories a",
+      ".post-categories a"
+    ],
+    "body": [
+      ".entry-content",
+      ".single-post-content",
+      "article .entry-content",
+      "main article",
+      "article"
+    ],
+    "tags": [
+      "a[rel='tag']",
+      ".tagcloud a",
+      ".post-tags a"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "nav",
+    "header nav",
+    "footer",
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".commentlist",
+    ".et_social_inline",
+    ".post-share",
+    ".sidebar",
+    ".widget",
+    ".breadcrumbs",
+    ".related-posts",
+    ".newsletter",
+    ".social-share",
+    ".post-navigation",
+    ".yarpp",
+    ".shared-counts-wrap",
+    ".author-box"
+  ],
+  "sleep_seconds": 1.2
+}

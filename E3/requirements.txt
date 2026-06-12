@@ -1,0 +1,6 @@
+pandas
+torch
+transformers
+langdetect
+tqdm
+sentencepiece

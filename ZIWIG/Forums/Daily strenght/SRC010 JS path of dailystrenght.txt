@@ -1,0 +1,34 @@
+<li class="newsfeed__item">
+                <div class="newsfeed__item-header">
+                                        <div class="avatar-container"><img src="https://s.dailystrength.org/v4272.6550.70/img/user/default-avatar.png" class="newsfeed__avatar" alt="deleted_user" title="deleted_user"><div class="avatar-mood"><i class="icon icon-okay-sm __mood-icon"></i></div></div>
+                    <div class="newsfeed__title-block">
+                        <h3 class="newsfeed__title"><a data-page="386" id="ds-2278121" href="/group/endometriosis/discussion/running-and-endometriosis">Running and endometriosis</a></h3>
+                        <div class="newsfeed__byline posts__byline">
+                            <div class="posts__posted-by">Posted by:
+                                <a href="/user/profile/3">deleted_user</a>
+                            </div>
+                                                                                                                        <div class="posts__last-reply">Last Reply: <span class="posts__last-reply-text"><a href="/user/profile/5731">whyme123</a>
+                                    <time datetime="2011-08-11T11:25:52-04:00" class="newsfeed__item-time posts__item-time">08/11/2011</time></span>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div class="newsfeed__btns">
+
+                        <a href="/group/endometriosis/discussion/running-and-endometriosis#reply" class="newsfeed__btn-container posts__discuss-btn">
+                            <i class="icon icon-comment-grey"></i>
+                            <div class="newsfeed__icon-count">3</div>
+                        </a>
+                        
+                        <button class="newsfeed__btn-container posts__discuss-btn newsfeed__logged-out-like" data-target_path="/group/endometriosis/discussion/running-and-endometriosis#reply" data-modal-url="/user/register-login-modal" data-modal-link-type="login">
+                                                                                        <i id="like_icon" class="icon icon-heart-grey"></i>
+                                                        <div id="like_count" class="newsfeed__icon-count">0</div>
+                        </button>
+                                                <div class="report-dropdown">
+                                                    </div>
+                    </div>
+                </div>
+                <div class="newsfeed__description">
+                    I have noticed over the past couple of years that running is starting to get more and more painful.  Now maybe I should...
+                                            <a class="newsfeed__description--read-more" title="Continue reading Running and endometriosis" href="/group/endometriosis/discussion/running-and-endometriosis">READ MORE</a>
+                                    </div>
+            </li>

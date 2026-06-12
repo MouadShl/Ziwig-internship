@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC014",
+  "source_type": "forum",
+  "source_mode": "healthunlocked_forum_threads",
+  "site_name": "HealthUnlocked",
+  "forum_name": "Endometriosis UK",
+  "start_url": "https://healthunlocked.com/endometriosis-uk/posts",
+  "api_latest_url": "https://healthunlocked.com/private/posts/endometriosis-uk/latest",
+  "allowed_domain": "healthunlocked.com",
+  "community_slug": "endometriosis-uk",
+  "listing_category": "all-posts",
+  "category_id": null,
+  "category_name": "All posts",
+  "category_slug": "posts",
+  "output_file": "outputs/SRC014/SRC014_post_and_comment_final.jsonl",
+  "error_file": "outputs/SRC014/SRC014_errors_final.jsonl",
+  "cookies_file": "E:/ZIWIG/scrapper/healthlocked/Healthlocked cookies.txt",
+  "request_timeout": 40,
+  "sleep_seconds": 1.0,
+  "max_listing_batches": 100000,
+  "resume_mode": true,
+  "append_mode": true,
+  "overwrite_output": false,
+  "stop_after_consecutive_no_new_batches": 5,
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json,text/plain,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Referer": "https://healthunlocked.com/"
+  }
+}

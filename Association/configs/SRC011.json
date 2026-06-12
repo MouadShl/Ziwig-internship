@@ -1,0 +1,76 @@
+{
+  "source_id": "SRC011",
+  "source_name": "Endósamtökin",
+  "source_type": "news_blog",
+  "base_url": "https://endo.is",
+  "country": "Iceland",
+  "language": "is",
+  "start_url": "/category/frettir/",
+  "pagination": {
+    "type": "path_template",
+    "template": "/category/frettir/page/{page}/",
+    "start_page": 1,
+    "max_pages": 30
+  },
+  "selectors": {
+    "article_list": [
+      "h2.entry-title a",
+      "article h2 a",
+      ".post h2 a",
+      ".entry-title a"
+    ],
+    "title": [
+      "h1.entry-title",
+      "article h1",
+      "main h1",
+      "h1"
+    ],
+    "date": [
+      "time",
+      "article time",
+      ".entry-date",
+      ".posted-on",
+      ".post-meta",
+      ".entry-meta"
+    ],
+    "body": [
+      ".entry-content",
+      "article .entry-content",
+      ".post-content",
+      "article",
+      "main article",
+      "main"
+    ],
+    "tags": [
+      "a[rel='tag']",
+      ".tags-links a",
+      ".post-tags a"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "nav",
+    "header nav",
+    "footer",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".commentlist",
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".post-navigation",
+    ".navigation",
+    ".sidebar",
+    ".widget",
+    ".breadcrumbs",
+    ".social-share",
+    ".share-buttons",
+    ".related-posts"
+  ],
+  "sleep_seconds": 1.0
+}

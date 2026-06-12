@@ -1,0 +1,28 @@
+[INFO] Resume mode: existing_threads=0
+[INFO] Warming up session...
+[INFO] Listing page 1: https://community.whattoexpect.com/forums/endometriosis-ladies.html?page=1
+[INFO] page_threads=54 new_threads=54 skipped_existing=0 total_seen_threads=0 total_discussions_visible=273 detected_last_page=6
+[INFO] Thread 1/54 2 weeks post laprasocoic surgery | by sqwish I am almost 2 weeks post laprasocoic surgery
+[ERROR] Thread error: Soft-block or non-thread HTML detected: log in
+[INFO] Thread 2/54 Endometriosis and Adenomyosis | by Lil7T I just got told there’s a possibility I have both
+[ERROR] Thread error: Soft-block or non-thread HTML detected: log in
+[INFO] Thread 3/54 Success stories after 2 years | by mammmia676767 Hey all! I had a MMC a little under 2.5 y
+[ERROR] Thread error: Soft-block or non-thread HTML detected: log in
+[INFO] Thread 4/54 First pregnancy | by djsjeikn84736184 Hello,This is my first time pregnant and it hasn’t f
+[ERROR] Thread error: Soft-block or non-thread HTML detected: log in
+[INFO] Thread 5/54 Cramps from sperm prostaglandins? | by cozyvibes Anyone else get intense cramps after unpr
+[ERROR] Thread error: Soft-block or non-thread HTML detected: log in
+[INFO] Thread 6/54 Sharp stabbing pain on one side? | by eruiel17 Currently 6w2d 
+and having sharp stabbing pa
+[ERROR] Thread error: Soft-block or non-thread HTML detected: log in
+[INFO] Thread 7/54 Pelvic pain in early pregnancy | by MetchaMatcha I’m still very early on at 4w5d, but have
+[ERROR] Thread error: Soft-block or non-thread HTML detected: log in
+
+[INFO] Stopping after current request...
+======================================================================
+[DONE] Existing threads at start: 0
+[DONE] New threads scraped: 0
+[DONE] New messages scraped: 0
+[DONE] Total threads now: 0
+[DONE] Data file: outputs\SRC009\SRC009_post_and_comment_final.jsonl
+[DONE] Errors file: outputs\SRC009\SRC009_errors_final.jsonl

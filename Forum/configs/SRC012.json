@@ -1,0 +1,21 @@
+{
+  "source_id": "SRC012",
+  "source_type": "forum",
+  "source_mode": "forum_discourse",
+  "start_urls": [
+    "https://community.worthywarrior.com/c/living-with-endo/5",
+    "https://community.worthywarrior.com/c/treating-endo/9"
+  ],
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.0,
+    "max_retries": 3
+  },
+  "pagination": {
+    "start_page": 0,
+    "max_pages": 50
+  },
+  "output": {
+    "dir": "outputs/SRC012"
+  }
+} 

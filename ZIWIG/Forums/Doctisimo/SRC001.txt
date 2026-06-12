@@ -1,0 +1,697 @@
+#!/usr/bin/env python3
+"""
+========================================================
+FIXED Universal Scraper - Extracts data-iduser and data-idpost
+========================================================
+Extracts native IDs from HTML data attributes using BeautifulSoup
+"""
+
+import argparse
+import hashlib
+import json
+import re
+import time
+import signal
+import sys
+from datetime import datetime
+from pathlib import Path
+from urllib.parse import parse_qs, urljoin, urlparse
+
+import requests
+from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+
+# Global flag for graceful shutdown
+should_stop = False
+
+
+def signal_handler(sig, frame):
+    global should_stop
+    print("\n⚠️  Interrupt received, finishing current thread...")
+    should_stop = True
+
+
+signal.signal(signal.SIGINT, signal_handler)
+
+
+def load_config(path: str) -> dict:
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def append_jsonl(path: Path, obj: dict):
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+
+def build_output_files(cfg: dict):
+    output_dir = Path(cfg["output"]["dir"])
+    output_dir.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now().strftime("%d%m%Y_%Hh%M")
+    source_id = cfg["source_id"]
+    posts_file = output_dir / f"{source_id}_post_and_comment_{stamp}.jsonl"
+    errors_file = output_dir / f"{source_id}_errors_{stamp}.jsonl"
+    return posts_file, errors_file
+
+
+def clean_text(value: str) -> str:
+    return re.sub(r"\s+", " ", value or "").strip()
+
+
+def nz_text(value, default="") -> str:
+    value = clean_text(str(value or ""))
+    return value if value else default
+
+
+def safe_int(text, default=0):
+    if text is None:
+        return default
+    text = clean_text(str(text)).replace(" ", "")
+    return int(text) if text.isdigit() else default
+
+
+def stable_hash(text: str) -> str:
+    return hashlib.md5(text.encode("utf-8")).hexdigest()[:12]
+
+
+def fetch_html(session: requests.Session, url: str, timeout: int) -> str:
+    try:
+        r = session.get(url, timeout=(10, timeout))
+        r.raise_for_status()
+        return r.text
+    except requests.exceptions.RequestException as e:
+        raise RuntimeError(f"HTTP error for {url}: {e}")
+
+
+def text_or_none(node):
+    if not node:
+        return ""
+    return nz_text(node.get_text(" ", strip=True), "")
+
+
+# ═══════════════════════════════════════════════════════════════════
+# KEY FIX: Extract data-iduser and data-idpost from HTML attributes
+# Using BeautifulSoup .get() method as shown in your example
+# ═══════════════════════════════════════════════════════════════════
+
+def extract_data_attribute(element, attr_name: str) -> str:
+    """
+    Extract data attribute from a BeautifulSoup element using .get() method
+    Example: data-iduser, data-idpost, data-idnews, etc.
+    
+    Usage similar to your example:
+        id_value = tag.get('data-idnews')
+    """
+    if element is None:
+        return ""
+    
+    # Use .get() method (returns None if attribute is missing)
+    value = element.get(attr_name)
+    return nz_text(value, "")
+
+
+def extract_native_ids_from_post_block(block, source_type: str = "doctissimo") -> dict:
+    """
+    Extract native user_id and post_id from a post/comment block
+    Uses BeautifulSoup's .get() method for data attributes
+    
+    For Doctissimo:
+    - data-iduser: contains the native user ID
+    - data-id_post: contains the native post ID
+    """
+    user_id = ""
+    post_id = ""
+    
+    if source_type == "doctissimo":
+        # ═══════════════════════════════════════════════════════════════
+        # Extract data-iduser using .get() method (like your example)
+        # ═══════════════════════════════════════════════════════════════
+        
+        # Method 1: Direct attribute on the post block
+        user_id = extract_data_attribute(block, "data-iduser")
+        
+        # Method 2: Look for button with data-iduser
+        if not user_id:
+            user_btn = block.find("button", attrs={"data-iduser": True})
+            if user_btn:
+                user_id = extract_data_attribute(user_btn, "data-iduser")
+        
+        # Method 3: Look for any element with data-iduser
+        if not user_id:
+            any_elem = block.find(attrs={"data-iduser": True})
+            if any_elem:
+                user_id = extract_data_attribute(any_elem, "data-iduser")
+        
+        # Method 4: Extract from data-params JSON-like string
+        if not user_id:
+            params_elem = block.find(attrs={"data-params": True})
+            if params_elem:
+                params = extract_data_attribute(params_elem, "data-params")
+                # Extract id_user from JSON-like string: "id_user":"12345"
+                match = re.search(r'"id_user"\s*:\s*"([^"]+)"', params)
+                if match:
+                    user_id = match.group(1)
+        
+        # ═══════════════════════════════════════════════════════════════
+        # Extract data-idpost using .get() method
+        # ═══════════════════════════════════════════════════════════════
+        
+        # Method 1: Direct attribute on the post block (data-id_post)
+        post_id = extract_data_attribute(block, "data-id_post")
+        
+        # Method 2: Alternative attribute name (data-idpost without underscore)
+        if not post_id:
+            post_id = extract_data_attribute(block, "data-idpost")
+        
+        # Method 3: Look for container with data-id_post
+        if not post_id:
+            post_container = block.find(attrs={"data-id_post": True})
+            if post_container:
+                post_id = extract_data_attribute(post_container, "data-id_post")
+        
+        # Method 4: Look for any element with data-idpost
+        if not post_id:
+            any_post_elem = block.find(attrs={"data-idpost": True})
+            if any_post_elem:
+                post_id = extract_data_attribute(any_post_elem, "data-idpost")
+        
+        # Method 5: Extract from id attribute (some forums use id="post_12345")
+        if not post_id:
+            id_attr = extract_data_attribute(block, "id")
+            if id_attr and ("post" in id_attr.lower() or "msg" in id_attr.lower()):
+                # Extract numeric part
+                match = re.search(r'(\d+)', id_attr)
+                if match:
+                    post_id = match.group(1)
+    
+    elif source_type == "carenity":
+        # Carenity specific selectors
+        user_elem = block.find(attrs={"data-user-id": True}) or block.find(attrs={"data-member-id": True})
+        if user_elem:
+            user_id = extract_data_attribute(user_elem, "data-user-id") or extract_data_attribute(user_elem, "data-member-id")
+        
+        post_elem = block.find(attrs={"data-message-id": True}) or block.find(attrs={"data-comment-id": True})
+        if post_elem:
+            post_id = extract_data_attribute(post_elem, "data-message-id") or extract_data_attribute(post_elem, "data-comment-id")
+    
+    return {
+        "native_user_id": user_id,
+        "native_post_id": post_id
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════
+# DOCTISSIMO SPECIFIC - Fixed with data-id extraction
+# ═══════════════════════════════════════════════════════════════════
+
+THREAD_RE = re.compile(r"sujet_(\d+)_(\d+)\.htm", re.I)
+LISTING_RE = re.compile(r"liste_sujet-(\d+)\.htm", re.I)
+DATE_RE = re.compile(r"\d{2}/\d{2}/\d{4}\s+à\s+\d{1,2}(?:h|:)\d{2}", re.I)
+
+
+def build_listing_url(seed_url: str, page_num: int) -> str:
+    if page_num == 1:
+        return seed_url
+    return LISTING_RE.sub(f"liste_sujet-{page_num}.htm", seed_url)
+
+
+def get_forum_prefix(url: str) -> str:
+    parsed = urlparse(url)
+    return parsed.path.rsplit("/", 1)[0] + "/"
+
+
+def parse_last_message_cell(cell):
+    lines = [nz_text(x, "") for x in cell.stripped_strings if nz_text(x, "")]
+    joined = " ".join(lines)
+    last_date = ""
+    m = DATE_RE.search(joined)
+    if m:
+        last_date = m.group(0)
+    last_author = ""
+    for line in reversed(lines):
+        if line != last_date and not DATE_RE.fullmatch(line):
+            last_author = line
+            break
+    return last_date, last_author
+
+
+def extract_threads_from_listing(soup: BeautifulSoup, listing_url: str):
+    """Extract thread links from listing page"""
+    threads = []
+    seen = set()
+    forum_prefix = get_forum_prefix(listing_url).lower()
+    
+    for a in soup.select("a[href]"):
+        href = nz_text(a.get("href", ""), "")
+        title = nz_text(a.get_text(" ", strip=True), "")
+        
+        if not href or not title:
+            continue
+        
+        full_url = urljoin(listing_url, href)
+        
+        if not THREAD_RE.search(full_url):
+            continue
+        if forum_prefix not in urlparse(full_url).path.lower():
+            continue
+        if re.fullmatch(r"\d+", title):
+            continue
+        
+        key = (title, full_url)
+        if key in seen:
+            continue
+        seen.add(key)
+        
+        # Extract listing metadata
+        last_page = 1
+        listing_author = ""
+        replies_count = 0
+        views_count = 0
+        last_message_date = ""
+        last_message_author = ""
+        
+        row = a.find_parent("tr")
+        if row:
+            cells = row.find_all("td", recursive=False)
+            subject_cell = a.find_parent("td")
+            if subject_cell in cells:
+                idx = cells.index(subject_cell)
+                if idx + 5 < len(cells):
+                    last_page = safe_int(cells[idx + 1].get_text(" ", strip=True), 1)
+                    listing_author = nz_text(cells[idx + 2].get_text(" ", strip=True), "")
+                    replies_count = safe_int(cells[idx + 3].get_text(" ", strip=True), 0)
+                    views_count = safe_int(cells[idx + 4].get_text(" ", strip=True), 0)
+                    last_message_date, last_message_author = parse_last_message_cell(cells[idx + 5])
+        
+        m = THREAD_RE.search(full_url)
+        thread_id = m.group(1) if m else stable_hash(full_url)
+        
+        threads.append({
+            "thread_id": thread_id,
+            "thread_url_id": thread_id,
+            "thread_title": title,
+            "thread_url": full_url,
+            "last_page": last_page,
+            "listing_author": listing_author,
+            "listing_author_id": "",  # Will be filled later
+            "replies_count": replies_count,
+            "views_count": views_count,
+            "last_message_date": last_message_date,
+            "last_message_author": last_message_author,
+            "last_message_author_id": "",
+        })
+    
+    return threads
+
+
+def get_thread_id_and_page(url: str):
+    m = THREAD_RE.search(url)
+    if not m:
+        return stable_hash(url), 1
+    return m.group(1), int(m.group(2))
+
+
+def build_thread_page_url(thread_url: str, page_num: int) -> str:
+    m = THREAD_RE.search(thread_url)
+    if not m:
+        return thread_url
+    thread_id = m.group(1)
+    return THREAD_RE.sub(f"sujet_{thread_id}_{page_num}.htm", thread_url, count=1)
+
+
+def discover_thread_page_urls(first_thread_url: str, first_soup: BeautifulSoup, fallback_last_page=None):
+    thread_id, current_page = get_thread_id_and_page(first_thread_url)
+    page_nums = {current_page}
+    
+    for a in first_soup.select("a[href]"):
+        href = nz_text(a.get("href", ""), "")
+        if not href:
+            continue
+        full_url = urljoin(first_thread_url, href)
+        m = THREAD_RE.search(full_url)
+        if not m:
+            continue
+        if m.group(1) != thread_id:
+            continue
+        page_nums.add(int(m.group(2)))
+    
+    if fallback_last_page and isinstance(fallback_last_page, int):
+        page_nums.add(fallback_last_page)
+    
+    max_page = max(page_nums) if page_nums else 1
+    return [build_thread_page_url(first_thread_url, p) for p in range(1, max_page + 1)]
+
+
+def clean_doctissimo_body(text: str) -> str:
+    """Clean message body text"""
+    lines = [nz_text(x, "") for x in text.splitlines() if nz_text(x, "")]
+    cleaned = []
+    
+    stop_prefixes = [
+        "Voir la dernière réponse",
+        "Publicité",
+        "Rechercher une discussion",
+        "Créer votre discussion",
+        "Participer à la discussion",
+        "NEWSLETTERS",
+        "Besoin d'aide ?",
+        "CGV",
+        "Mentions légales",
+    ]
+    
+    for line in lines:
+        if line in {"Voir plus", "Alerter", "Copier le lien", "Répondre", "Signature"}:
+            continue
+        should_stop = False
+        for prefix in stop_prefixes:
+            if line.startswith(prefix):
+                should_stop = True
+                break
+        if should_stop:
+            break
+        cleaned.append(line)
+    
+    return "\n".join(cleaned).strip()
+
+
+def parse_doctissimo_likes_from_block(block) -> int:
+    """Extract likes count from vote button"""
+    label = text_or_none(block.select_one(".md-votes label"))
+    m = re.search(r"(\d+)", label)
+    return int(m.group(1)) if m else 0
+
+
+# ═══════════════════════════════════════════════════════════════════
+# MAIN EXTRACTION - With data-iduser and data-idpost
+# ═══════════════════════════════════════════════════════════════════
+
+def parse_doctissimo_posts_from_dom(soup: BeautifulSoup, thread_id: str, page_number: int):
+    """
+    Extract all posts from a thread page with native IDs
+    """
+    title = ""
+    h1 = soup.find("h1")
+    if h1:
+        title = nz_text(h1.get_text(" ", strip=True), "")
+    elif soup.title:
+        title = nz_text(soup.title.get_text(" ", strip=True), "")
+    
+    posts = []
+    
+    # Find all post blocks - Doctissimo uses div.md-post with data-id_post
+    post_blocks = soup.select("div.md-post")
+    
+    print(f"      📋 Found {len(post_blocks)} post blocks on page {page_number}")
+    
+    for idx, block in enumerate(post_blocks, start=1):
+        # ═══════════════════════════════════════════════════════════════
+        # EXTRACT NATIVE IDs using BeautifulSoup .get() method
+        # ═══════════════════════════════════════════════════════════════
+        native_ids = extract_native_ids_from_post_block(block, "doctissimo")
+        native_user_id = native_ids["native_user_id"]
+        native_post_id = native_ids["native_post_id"]
+        
+        # Debug: print when we find native IDs
+        if native_user_id:
+            print(f"         👤 User ID found: {native_user_id}")
+        if native_post_id:
+            print(f"         📝 Post ID found: {native_post_id}")
+        
+        # Extract author name
+        author = ""
+        author_elem = block.select_one('[itemprop="name"]')
+        if author_elem:
+            author = nz_text(author_elem.get_text(" ", strip=True), "")
+        
+        # Extract date
+        date_display = ""
+        date_elem = block.select_one(".md-post__header__info")
+        if date_elem:
+            date_display = nz_text(date_elem.get_text(" ", strip=True), "")
+        
+        # Extract ISO date from meta tag
+        meta_date = ""
+        meta_node = block.find("meta", attrs={"itemprop": "dateModified"})
+        if meta_node:
+            meta_date = extract_data_attribute(meta_node, "content")
+        
+        # Extract body content
+        body = ""
+        body_node = block.select_one(".md-post__content-body")
+        if body_node:
+            body = clean_doctissimo_body(body_node.get_text("\n", strip=True))
+        
+        # Extract likes
+        likes_count = parse_doctissimo_likes_from_block(block)
+        
+        # Build message ID from native ID or generate
+        message_id = native_post_id if native_post_id else f"{thread_id}_p{page_number}_{idx}"
+        
+        posts.append({
+            "author": author,
+            "user_id": native_user_id if native_user_id else author,  # Use native ID if available
+            "native_user_id": native_user_id,  # ← NEW: Native user ID from data-iduser
+            "date": date_display,
+            "date_iso": meta_date,
+            "body": body,
+            "likes_count": likes_count,
+            "thread_id": thread_id,
+            "thread_page_number": page_number,
+            "post_sequence_on_page": idx,
+            "message_id": message_id,  # ← Uses native post ID
+            "native_post_id": native_post_id,  # ← NEW: Native post ID from data-idpost
+            "anchor_id": message_id,
+        })
+    
+    return {
+        "thread_title_detail": title,
+        "posts": posts,
+    }
+
+
+def scrape_doctissimo_forum(cfg: dict, session: requests.Session, posts_file: Path, errors_file: Path):
+    """
+    Main scraper function - extracts all threads with full post data
+    Fixed to handle all 58 pages and extract data-iduser/data-idpost
+    """
+    global should_stop
+    
+    source_id = cfg["source_id"]
+    timeout = cfg.get("request", {}).get("timeout_seconds", 30)
+    sleep_seconds = cfg.get("request", {}).get("sleep_seconds", 1.0)
+    max_listing_pages = cfg.get("pagination", {}).get("max_listing_pages", 58)
+    
+    seen_thread_urls = set()
+    total_posts_extracted = 0
+    total_threads_processed = 0
+    
+    print(f"🚀 Starting scraper for {source_id}")
+    print(f"📊 Max listing pages to process: {max_listing_pages}")
+    print(f"⏱️  Sleep between requests: {sleep_seconds}s")
+    print("=" * 60)
+    
+    for seed_url in cfg.get("start_urls", []):
+        print(f"\n🌐 Processing seed URL: {seed_url}")
+        
+        for page_num in range(1, max_listing_pages + 1):
+            if should_stop:
+                print("\n🛑 Stopping as requested...")
+                break
+            
+            listing_url = build_listing_url(seed_url, page_num)
+            
+            try:
+                print(f"\n📄 Listing page {page_num}/{max_listing_pages}: {listing_url}")
+                listing_html = fetch_html(session, listing_url, timeout)
+                listing_soup = BeautifulSoup(listing_html, "lxml")
+                threads = extract_threads_from_listing(listing_soup, listing_url)
+                
+                if not threads:
+                    print(f"   ⚠️ No threads found on page {page_num}, stopping.")
+                    break
+                
+                print(f"   ✅ Found {len(threads)} threads")
+                
+                for thread_idx, thread_meta in enumerate(threads, start=1):
+                    if should_stop:
+                        break
+                    
+                    thread_url = thread_meta["thread_url"]
+                    thread_id = thread_meta["thread_id"]
+                    
+                    if thread_url in seen_thread_urls:
+                        print(f"   ⏭️  Thread {thread_idx}/{len(threads)}: Already processed, skipping")
+                        continue
+                    seen_thread_urls.add(thread_url)
+                    
+                    try:
+                        print(f"\n   🔗 Thread {thread_idx}/{len(threads)}: {thread_meta['thread_title'][:50]}...")
+                        
+                        # Fetch first page to discover all pages
+                        first_html = fetch_html(session, thread_url, timeout)
+                        first_soup = BeautifulSoup(first_html, "lxml")
+                        
+                        thread_page_urls = discover_thread_page_urls(
+                            thread_url,
+                            first_soup,
+                            fallback_last_page=thread_meta["last_page"],
+                        )
+                        
+                        print(f"      📑 Thread has {len(thread_page_urls)} page(s)")
+                        
+                        all_posts = []
+                        title_detail = ""
+                        
+                        for thread_page_url in thread_page_urls:
+                            if should_stop:
+                                break
+                            
+                            _, page_number = get_thread_id_and_page(thread_page_url)
+                            
+                            # Only fetch if not the first page (already have it)
+                            if page_number == 1:
+                                thread_soup = first_soup
+                            else:
+                                thread_html = fetch_html(session, thread_page_url, timeout)
+                                thread_soup = BeautifulSoup(thread_html, "lxml")
+                                time.sleep(sleep_seconds)  # Sleep only after fetching additional pages
+                            
+                            parsed = parse_doctissimo_posts_from_dom(
+                                thread_soup,
+                                thread_id=thread_id,
+                                page_number=page_number,
+                            )
+                            
+                            if not title_detail and parsed.get("thread_title_detail"):
+                                title_detail = parsed["thread_title_detail"]
+                            
+                            all_posts.extend(parsed["posts"])
+                        
+                        if not all_posts:
+                            print(f"      ⚠️ No posts found in thread")
+                            continue
+                        
+                        total_posts_extracted += len(all_posts)
+                        total_threads_processed += 1
+                        
+                        # Mark first post as original, rest as comments
+                        opening_native_post_id = nz_text(all_posts[0].get("native_post_id", ""), "")
+                        opening_native_user_id = nz_text(all_posts[0].get("native_user_id", ""), "")
+                        
+                        for global_idx, post in enumerate(all_posts, start=1):
+                            is_first = (global_idx == 1)
+                            post["type"] = "post" if is_first else "comment"
+                            post["is_original_post"] = is_first
+                            post["post_id"] = opening_native_post_id
+                            post["comment_id"] = "" if is_first else nz_text(post.get("native_post_id", ""), "")
+                        
+                        opener = all_posts[0]
+                        last_post = all_posts[-1]
+                        
+                        # Build final item with ALL metadata
+                        item = {
+                            "source_id": source_id,
+                            "source_mode": "forum_doctissimo",
+                            "thread_id": thread_id,
+                            "thread_url_id": thread_id,
+                            "thread_title": thread_meta["thread_title"],
+                            "thread_title_detail": title_detail or thread_meta["thread_title"],
+                            "thread_url": thread_url,
+                            "last_page": thread_meta["last_page"],
+                            "thread_starter": opener["author"],
+                            "thread_starter_id": opening_native_user_id or opener["user_id"],
+                            "opening_post_id": opening_native_post_id,
+                            "opening_message_id": opener["message_id"],
+                            "opening_post_date": opener["date"],
+                            "opening_post_body": opener["body"],
+                            "listing_author": thread_meta["listing_author"] or opener["author"],
+                            "listing_author_id": opening_native_user_id or opener["user_id"],
+                            "replies_count": thread_meta["replies_count"] if thread_meta["replies_count"] else max(len(all_posts) - 1, 0),
+                            "views_count": thread_meta["views_count"],
+                            "last_message_date": thread_meta["last_message_date"] or last_post["date"],
+                            "last_message_author": thread_meta["last_message_author"] or last_post["author"],
+                            "last_message_author_id": last_post["native_user_id"] or last_post["user_id"],
+                            "last_message_id": last_post["message_id"],
+                            "thread_pages_count": len(thread_page_urls),
+                            "posts_count": len(all_posts),
+                            "comments_count": max(len(all_posts) - 1, 0),
+                            "likes_total": sum(x.get("likes_count", 0) for x in all_posts),
+                            "posts": all_posts,  # ← All posts with native IDs
+                        }
+                        
+                        append_jsonl(posts_file, item)
+                        print(f"      ✅ {len(all_posts)} posts extracted (Total: {total_posts_extracted})")
+                        
+                    except Exception as e:
+                        print(f"      ❌ Error processing thread: {e}")
+                        append_jsonl(errors_file, {
+                            "source_id": source_id,
+                            "thread_url": thread_url,
+                            "error": str(e),
+                            "timestamp": datetime.now().isoformat(),
+                        })
+                
+                print(f"\n   📊 Progress: {total_threads_processed} threads, {total_posts_extracted} posts")
+                
+                # Sleep between listing pages
+                time.sleep(sleep_seconds)
+                
+            except Exception as e:
+                print(f"   ❌ Error on listing page {page_num}: {e}")
+                append_jsonl(errors_file, {
+                    "source_id": source_id,
+                    "listing_url": listing_url,
+                    "error": str(e),
+                    "timestamp": datetime.now().isoformat(),
+                })
+        
+        if should_stop:
+            break
+    
+    print("\n" + "=" * 60)
+    print(f"🎉 DONE!")
+    print(f"📊 Total threads processed: {total_threads_processed}")
+    print(f"📊 Total posts extracted: {total_posts_extracted}")
+    print(f"📁 Output file: {posts_file}")
+    
+    return total_posts_extracted
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", required=True, help="Path to JSON config")
+    args = parser.parse_args()
+    
+    cfg = load_config(args.config)
+    posts_file, errors_file = build_output_files(cfg)
+    
+    session = requests.Session()
+    session.headers.update(cfg.get("request", {}).get("headers", {"User-Agent": "Mozilla/5.0"}))
+    
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    
+    mode = cfg.get("mode", "forum_doctissimo")
+    
+    if mode == "forum_doctissimo":
+        scrape_doctissimo_forum(cfg, session, posts_file, errors_file)
+    else:
+        print(f"Mode {mode} not implemented in this version")
+    
+    print(f"\n📁 Output: {posts_file}")
+    print(f"📁 Errors: {errors_file}")
+
+
+if __name__ == "__main__":
+    main()

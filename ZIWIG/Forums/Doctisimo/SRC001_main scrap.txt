@@ -1,0 +1,134 @@
+def scrape_doctissimo(cfg: dict, session: requests.Session, posts_file: Path, errors_file: Path):
+    timeout = int(cfg.get("request", {}).get("timeout_seconds", 30))
+    sleep_seconds = float(cfg.get("request", {}).get("sleep_seconds", 1.0))
+
+    start_listing_page = int(cfg.get("pagination", {}).get("start_listing_page", 1))
+    end_listing_page = int(cfg.get("pagination", {}).get("end_listing_page", cfg.get("pagination", {}).get("max_listing_pages", 1)))
+
+    source_id = cfg["source_id"]
+    output_dir = cfg["output"]["dir"]
+
+    seen_thread_ids = load_seen_thread_ids(output_dir, source_id)
+
+    total_threads_written = 0
+    total_posts_written = 0
+
+    print(f"🚀 Starting {source_id}")
+    print(f"📄 Pages: {start_listing_page} -> {end_listing_page}")
+    print(f"📌 Already seen thread_ids: {len(seen_thread_ids)}")
+    print("=" * 60)
+
+    for seed_url in cfg.get("start_urls", []):
+        for page_num in range(start_listing_page, end_listing_page + 1):
+            listing_url = build_listing_url(seed_url, page_num)
+
+            try:
+                print(f"\n📄 Listing page {page_num}: {listing_url}")
+                listing_html = fetch_html(session, listing_url, timeout)
+                listing_soup = BeautifulSoup(listing_html, "html.parser")
+
+                threads = parse_listing_page(listing_soup, listing_url)
+                print(f"   ✅ Found {len(threads)} potential threads")
+
+                page_new_threads = 0
+
+                for i, thread_meta in enumerate(threads, start=1):
+                    thread_id = thread_meta["thread_id"]
+                    thread_url = thread_meta["thread_url"]
+
+                    if thread_id in seen_thread_ids:
+                        continue
+
+                    seen_thread_ids.add(thread_id)
+
+                    try:
+                        print(f"   🔗 Thread {i}/{len(threads)}: {thread_meta['thread_title'][:70]}")
+
+                        parsed = parse_thread(session, thread_url, timeout, sleep_seconds)
+                        all_posts = parsed["posts"]
+
+                        if not all_posts:
+                            print("      ⚠️ No real posts found")
+                            continue
+
+                        opening_post = all_posts[0]
+                        last_post = all_posts[-1]
+                        opening_post_id = opening_post["native_post_id"]
+
+                        for idx, post in enumerate(all_posts, start=1):
+                            post["type"] = "post" if idx == 1 else "comment"
+                            post["is_original_post"] = (idx == 1)
+                            post["post_id"] = opening_post_id
+                            post["comment_id"] = "" if idx == 1 else post["native_post_id"]
+
+                        item = {
+                            "source_id": source_id,
+                            "source_mode": "forum_doctissimo",
+                            "thread_id": parsed["thread_id"],
+                            "thread_url_id": parsed["thread_id"],
+                            "thread_title": thread_meta["thread_title"],
+                            "thread_title_detail": parsed["thread_title_detail"] or thread_meta["thread_title"],
+                            "thread_url": thread_url,
+                            "last_page": parsed["thread_pages_count"],
+                            "thread_starter": opening_post["author"],
+                            "thread_starter_id": opening_post["user_id"],
+                            "opening_post_id": opening_post["native_post_id"],
+                            "opening_message_id": opening_post["message_id"],
+                            "opening_post_date": opening_post["date"],
+                            "opening_post_body": opening_post["body"],
+                            "listing_author": opening_post["author"],
+                            "listing_author_id": opening_post["user_id"],
+                            "replies_count": thread_meta["replies_count"],
+                            "views_count": thread_meta["views_count"],
+                            "last_message_date": last_post["date"],
+                            "last_message_author": last_post["author"],
+                            "last_message_author_id": last_post["user_id"],
+                            "last_message_id": last_post["message_id"],
+                            "thread_pages_count": parsed["thread_pages_count"],
+                            "posts_count": len(all_posts),
+                            "comments_count": max(len(all_posts) - 1, 0),
+                            "likes_total": sum(x.get("likes_count", 0) for x in all_posts),
+                            "posts": all_posts,
+                        }
+
+                        append_jsonl(posts_file, item)
+
+                        total_threads_written += 1
+                        total_posts_written += len(all_posts)
+                        page_new_threads += 1
+
+                        print(f"      ✅ {len(all_posts)} posts written")
+
+                    except Exception as e:
+                        print(f"      ❌ Thread error: {e}")
+                        append_jsonl(errors_file, {
+                            "source_id": source_id,
+                            "thread_id": thread_id,
+                            "thread_url": thread_url,
+                            "page_num": page_num,
+                            "error": str(e),
+                            "timestamp": datetime.now().isoformat(),
+                        })
+
+                    time.sleep(sleep_seconds)
+
+                print(f"   📊 Page {page_num}: {page_new_threads} new threads written")
+
+            except Exception as e:
+                print(f"   ❌ Listing error: {e}")
+                append_jsonl(errors_file, {
+                    "source_id": source_id,
+                    "listing_url": listing_url,
+                    "page_num": page_num,
+                    "error": str(e),
+                    "timestamp": datetime.now().isoformat(),
+                })
+
+            time.sleep(sleep_seconds)
+
+    print("\n" + "=" * 60)
+    print("🎉 COMPLETE!")
+    print(f"📊 New threads scraped this run: {total_threads_written}")
+    print(f"📊 New posts scraped this run: {total_posts_written}")
+    print(f"📁 Output: {posts_file}")
+    print(f"📁 Errors: {errors_file}")

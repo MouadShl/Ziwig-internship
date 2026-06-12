@@ -1,0 +1,93 @@
+{
+  "source_id": "SRC002",
+  "source_name": "EndoFrance",
+  "source_type": "news_blog",
+  "base_url": "https://www.endofrance.org",
+  "country": "France",
+  "language": "fr",
+  "sections": {
+    "blog": "/blog/"
+  },
+  "pagination": {
+    "type": "path_template",
+    "template": "/blog/page/{page}/",
+    "start_page": 1,
+    "max_pages": 50
+  },
+  "listing_link_allow": [
+    "/blog/"
+  ],
+  "listing_link_deny": [
+    "/blog/page/",
+    "/blog/category/",
+    "/blog/tag/",
+    "/blog/author/",
+    "/blog/feed/",
+    "#"
+  ],
+  "selectors": {
+    "article_list": "h2 a, h3 a, article a[href*='/blog/']",
+    "title": "h1",
+    "body": "main article, article, .et_pb_post, .single-post, .post-content, .entry-content",
+    "author": "a[rel='author'], a[rel*='author'], .author a, .post-meta .author a, .et_pb_title_meta_container .author a",
+    "date": "time, .post-meta, .entry-meta, .et_pb_title_meta_container, .elementor-post-info",
+    "category": "a[rel='category tag'], .cat-links a, .post-categories a, .post-meta a[href*='/blog/'], .et_pb_title_meta_container a[href*='/blog/']",
+    "tags": "a[rel='tag'], .tags-links a, .post-tags a"
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "nav",
+    "header",
+    "footer",
+    "aside",
+    ".sidebar",
+    ".widget",
+    ".et_pb_widget",
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".et_social_inline",
+    ".et_social_icons_container",
+    ".share-buttons",
+    ".social-share",
+    ".related-posts",
+    ".recommended",
+    ".comments",
+    ".comment-section",
+    ".newsletter-signup",
+    ".subscribe",
+    ".post-nav",
+    ".navigation",
+    ".nav-links",
+    ".pager",
+    ".pagination"
+  ],
+  "body_noise_prefixes": [
+    "Contacter nos bénévoles",
+    "Adhérer",
+    "Faire un don",
+    "Devenir bénévole",
+    "Espace Presse",
+    "Aller au contenu principal",
+    "Association française de lutte contre l’endométriose",
+    "Association française de lutte contre l'endométriose",
+    "Je suis",
+    "Je suis..."
+  ],
+  "end_markers": [
+    "Previous Article",
+    "Next Article",
+    "Informer, soutenir et agir contre l'endométriose",
+    "Informations",
+    "Tous droits réservés",
+    "Je suis...",
+    "Je suis",
+    "Rejoindre notre cause"
+  ],
+  "sleep_seconds": 1.2,
+  "request_timeout": 30,
+  "stop_when_empty_pages": 1
+}

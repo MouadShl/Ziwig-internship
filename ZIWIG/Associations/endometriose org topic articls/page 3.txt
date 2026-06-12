@@ -1,0 +1,922 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head profile="http://gmpg.org/xfn/11">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Articles –  Endometriosis.org</title>
+				<meta name="distribution" content="global">
+		<meta name="copyright" content="copyright 2005-2011 endometriosis.org">
+		<meta name="resource-type" content="document">
+		<meta name="author" content="endometriosis.org">
+		<meta http-equiv="content-language" content="en">
+		
+		<link rel="stylesheet" href="https://endometriosis.org/wp-content/themes/endometriosis-org/style.css" type="text/css" media="all">
+		<link rel="pingback" href="https://endometriosis.org/xmlrpc.php">
+		
+		<!-- Wordpress calls -->
+		<meta name="robots" content="max-image-preview:large">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="Endometriosis.org » Articles Category Feed" href="https://endometriosis.org/topic/resources/articles/feed/">
+<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/endometriosis.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://endometriosis.org/wp-includes/css/dist/block-library/style.min.css?ver=6.7.5" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="cmplz-general-css" href="https://endometriosis.org/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1740129576" type="text/css" media="all">
+<style id="akismet-widget-style-inline-css" type="text/css">
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
+<link rel="https://api.w.org/" href="https://endometriosis.org/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://endometriosis.org/wp-json/wp/v2/categories/1"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://endometriosis.org/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7.5">
+<!-- start Simple Custom CSS and JS -->
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Q6Z67G4Y2X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q6Z67G4Y2X');
+</script><!-- end Simple Custom CSS and JS -->
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style><link rel="icon" href="https://endometriosis.org/wp-content/uploads/2024/12/favicon-160x160.png" sizes="32x32">
+<link rel="icon" href="https://endometriosis.org/wp-content/uploads/2024/12/favicon.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://endometriosis.org/wp-content/uploads/2024/12/favicon.png">
+<meta name="msapplication-TileImage" content="https://endometriosis.org/wp-content/uploads/2024/12/favicon.png">
+		<style type="text/css" id="wp-custom-css">
+			#twitter-feed li { font-size: 0 !important; overflow: hidden; }
+
+#twitter-feed li p { font-size: 11px !important; }
+
+div.banner-new-large img { display: block; margin-bottom: 30px; max-width: 100%; }
+
+div.banner-new-small img { display: block; max-width: 100%; }
+
+.glossary-wrapper h4 {
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}		</style>
+		
+		
+
+		<link rel="icon" href="https://endometriosis.org/wp-content/themes/endometriosis-org/img/icons/favicon.png" type="image/x-icon">
+		<link rel="shortcut icon" href="https://endometriosis.org/wp-content/themes/endometriosis-org/img/icons/favicon.png" type="image/x-icon">
+		
+		<!-- Making Internet Explorer 5-8 behave like an adult. -->
+		<!--[if lt IE 9]>
+		<script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+		<![endif]-->
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script><style type="text/css">.mce_inline_error {}</style><link href="https://endometriosis.org/wp-content/uploads/complianz/css/banner-1-optin.css?v=18" type="text/css" rel="stylesheet"><script src="https://endometriosis.org/wp-includes/js/wp-emoji-release.min.js?ver=6.7.5" defer=""></script></head>
+
+	<body class="archive paged category category-articles category-1 paged-3 category-paged-3 cmplz-functional cmplz-uk cmplz-optin"><div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner banner-1 bottom-right-view-preferences optin cmplz-bottom-right cmplz-categories-type-view-preferences cmplz-show" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Manage Cookie Consent</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialogue">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin"><div class="ccc-notify-text">We use cookies to optimise site functionality and give you the best possible experience.</div></div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Functional</span>
+							<span class="cmplz-always-active">
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox" id="cmplz-functional-optin" data-category="cmplz_functional" class="cmplz-consent-checkbox cmplz-functional" size="40" value="1">
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Functional</span></label>
+								</span>
+								Always active							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferences</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-preferences-optin" data-category="cmplz_preferences" class="cmplz-consent-checkbox cmplz-preferences" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Preferences</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistics</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-statistics-optin" data-category="cmplz_statistics" class="cmplz-consent-checkbox cmplz-statistics" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Statistics</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-marketing-optin" data-category="cmplz_marketing" class="cmplz-consent-checkbox cmplz-marketing" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="https://endometriosis.org/about/privacy-policy/#cmplz-manage-consent-container" data-relative_url="#cmplz-manage-consent-container">Manage options</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="https://endometriosis.org/about/privacy-policy/#cmplz-cookies-overview" data-relative_url="#cmplz-cookies-overview">Manage services</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="https://endometriosis.org/about/privacy-policy/#cmplz-tcf-wrapper" data-relative_url="#cmplz-tcf-wrapper">Manage {vendor_count} vendors</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Read more about these purposes</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accept</button>
+		<button class="cmplz-btn cmplz-deny">Deny</button>
+		<button class="cmplz-btn cmplz-view-preferences">View preferences</button>
+		<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="https://endometriosis.org/about/privacy-policy/#cmplz-manage-consent-container" data-relative_url="#cmplz-manage-consent-container">View preferences</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="https://endometriosis.org/about/privacy-policy/" data-relative_url="">Cookie Policy</a>
+		<a class="cmplz-link privacy-statement" href="https://endometriosis.org/about/privacy-policy/" data-relative_url="">Privacy policy</a>
+		<a class="cmplz-link impressum cmplz-hidden" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+
+	<div class="container_16">
+
+		<div id="header" class="grid_16">
+
+	        <div id="logo" class="alpha grid_6">
+	            <h1><a href="https://endometriosis.org"><img src="https://endometriosis.org/wp-content/themes/endometriosis-org/img/logos/endometriosis_org-trans.png" alt="Endometriosis.org" title="Endometriosis.org: Facts about endometriosis: symptoms, diagnosis, treatments, pain, fertility, coping, news, support. Provides knowledge to make informed decisions about treatment"></a></h1>
+	        </div><!-- logo -->
+
+	        <div id="languages" class="grid_9 omega right">
+	            <ul>
+	            	
+          <li><a class="rss" href="https://endometriosis.org/feed/">RSS FEED</a></li>
+
+        </ul>
+         
+      </div><!-- languages -->
+
+		</div><!-- header -->
+
+		<div id="navigation" class="clearfix">
+
+			<div id="menu" class="grid_13 alpha">
+
+		        					<ul id="dropmenu">
+					<li class="cat-item cat-item-3"><a href="https://endometriosis.org/topic/news/">News</a>
+</li>
+	<li class="cat-item cat-item-21 current-cat-parent current-cat-ancestor"><a href="https://endometriosis.org/topic/resources/">Resources</a>
+</li>
+<li class="page_item page-item-282 page_item_has_children"><a href="https://endometriosis.org/endometriosis/">About endometriosis</a></li>
+<li class="page_item page-item-516 page_item_has_children"><a href="https://endometriosis.org/treatments/">Treatments</a></li>
+<li class="page_item page-item-845 page_item_has_children"><a href="https://endometriosis.org/support/">Support</a></li>
+<li class="page_item page-item-53"><a href="https://endometriosis.org/glossary/">Glossary</a></li>
+<li class="page_item page-item-948"><a href="https://endometriosis.org/frequently-asked-questions-faq/">FAQs</a></li>
+<li class="page_item page-item-1661"><a href="https://endometriosis.org/congress-schedule/">Congress schedule</a></li>
+				</ul>
+				
+		    </div><!-- menu -->
+
+			
+
+				<form action="https://endometriosis.org" id="searchform" class="grid_3 omega right">
+				    <fieldset>
+				        <div id="search-input-box" class="rounded-left">
+				            <label for="s">Search</label>
+				            <input type="text" name="s" id="s" value="Search" class="text">
+				        </div>
+				        <label for="search-button"><small>Find</small></label>
+				        <input type="submit" id="search-button" name="find" value="FIND" class="button rounded-right">
+				    </fieldset>
+				</form><!-- search -->
+	        <div class="grid_16 alpha" id="submenu"><ul>	<li class="cat-item cat-item-1 current-cat"><a aria-current="page" href="https://endometriosis.org/topic/resources/articles/">Articles</a>
+</li>
+	<li class="cat-item cat-item-103"><a href="https://endometriosis.org/topic/resources/clinical-books/">Clinical text books</a>
+</li>
+	<li class="cat-item cat-item-1588"><a href="https://endometriosis.org/topic/resources/national-action-plans/">National Action Plans</a>
+</li>
+	<li class="cat-item cat-item-1227"><a href="https://endometriosis.org/topic/resources/jla/">Research priorities</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="https://endometriosis.org/topic/resources/selfhelp-books/">Self-help books</a>
+</li>
+</ul></div>
+		</div><!-- navigation -->
+<div id="main-column" class="alpha grid_10 clearfix">
+
+	<div id="canvas" class="alpha grid_10" style="">
+
+		<div class="posts">
+		
+			
+									
+				<h1 class="cat-title">Articles</h1>
+
+				<h3 class="cat-desc"><p>A comprehensive library of articles about all aspects of learning about and coping with endometriosis</p>
+</h3>
+					
+		<hr class="nobottom">
+		
+			<div class="navigation"><ol class="wp-paginate font-inherit"><li><span class="title">Pages:</span></li><li><a href="https://endometriosis.org/topic/resources/articles/page/2" class="prev" aria-label="Go to previous page">«</a></li><li><a href="https://endometriosis.org/topic/resources/articles/" title="1" aria-label="Go to page 1" class="page">1</a></li><li><a href="https://endometriosis.org/topic/resources/articles/page/2/" title="2" aria-label="Go to page 2" class="page">2</a></li><li><span class="page current">3</span></li><li><a href="https://endometriosis.org/topic/resources/articles/page/4/" title="4" aria-label="Go to page 4" class="page">4</a></li><li><a href="https://endometriosis.org/topic/resources/articles/page/4" class="next" aria-label="Go to next page">»</a></li></ol></div>
+							
+			<div class="post-608 post type-post status-publish format-standard hentry category-articles">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/psychology-and-endometriosis/" rel="bookmark" title="Permanent Link to Psychology and endometriosis">
+		                  		                  Psychology and endometriosis	                    </a>
+	                    <br>
+	                    <div class="date">15 January 2011</div>
+	                    <p>by Vicki O’Donnell, psychologist Illustrations by Jane Berstein Psychology is the study of mind and behaviour. These two are closely linked, because what we think, feel and believe influences how we behave. Within the traditional “biomedical” approach to health and illness, psychology had a very small role to play. This approach viewed mind and body […]</p>
+
+			</div>
+	
+							
+			<div class="post-534 post type-post status-publish format-standard hentry category-articles">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/bowel-symptoms/" rel="bookmark" title="Permanent Link to Bowel symptoms">
+		                  		                  Bowel symptoms	                    </a>
+	                    <br>
+	                    <div class="date">15 January 2011</div>
+	                    <p>by Ros Wood Bowel symptoms are a common but often unrecognised consequence of endometriosis, especially chronic and recurrent endometriosis. Nobody knows exactly what proportion of women with endometriosis have bowel symptoms; it could be five percent, thirty percent, or anywhere in between. However, we are fairly sure that a relatively large proportion of our members […]</p>
+
+			</div>
+	
+							
+			<div class="post-589 post type-post status-publish format-standard hentry category-articles tag-anaesthesia tag-bowel-preparation tag-co2-gas tag-ellen-johnson tag-endometriosis tag-incisional-numbness tag-laparoscopy tag-menstruation tag-nausea tag-pain-2 tag-recovery tag-recuperation tag-shoulder-pain tag-surgery">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/laparoscopy-before-and-after-tips/" rel="bookmark" title="Permanent Link to Laparoscopy: before and after tips">
+		                  		                  Laparoscopy: before and after tips	                    </a>
+	                    <br>
+	                    <div class="date">15 January 2011</div>
+	                    <p>A comprehensive overview of laparoscopy, how to prepare for endometriosis surgery, and how to recover afterwards. Written by women, who have been there before!</p>
+
+			</div>
+	
+							
+			<div class="post-521 post type-post status-publish format-standard has-post-thumbnail hentry category-articles tag-anastrozole tag-aromatase tag-aromatase-inhibitors tag-biphosphonate tag-calcium tag-endometriosis tag-hot-flushes tag-inflammation tag-letrozole tag-oestrogen tag-osteoporosis tag-pelvic-pain tag-post-menopause tag-ros-wood tag-serdar-bulun tag-side-effects tag-vitamin-d">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/aromatase/" rel="bookmark" title="Permanent Link to Aromatase in endometriosis">
+		                  <img width="100" height="120" src="https://endometriosis.org/wp-content/uploads/2011/04/progestins-100x120.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async">		                  Aromatase in endometriosis	                    </a>
+	                    <br>
+	                    <div class="date">15 January 2011</div>
+	                    <p>Aromatase inhibitors are an emerging treatment in women with endometriosis, who do not respond to current hormonal treatments to temper the disease. Professor Serdar Bulun explains how they work.</p>
+
+			</div>
+	
+							
+			<div class="post-563 post type-post status-publish format-standard hentry category-articles tag-coping-2 tag-ellen-johnson tag-endometriosis tag-nutrition tag-pain-2 tag-self-management tag-self-help tag-support-groups">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/be-good-to-yourself/" rel="bookmark" title="Permanent Link to Endometriosis: be good to yourself">
+		                  		                  Endometriosis: be good to yourself	                    </a>
+	                    <br>
+	                    <div class="date">15 January 2011</div>
+	                    <p>Suggestions for women with endometriosis on how to be good to themselves: coping tips for eating right, resting, sleeping, and living with endometriosis.</p>
+
+			</div>
+	
+							
+			<div class="post-541 post type-post status-publish format-standard hentry category-articles tag-centres-of-excellence tag-endometriosis tag-endometriosis-care tag-lone-hummelshoj tag-ros-wood tag-surgery tag-treatment">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/how-to-find-a-specialist/" rel="bookmark" title="Permanent Link to How to find a specialist">
+		                  		                  How to find a specialist	                    </a>
+	                    <br>
+	                    <div class="date">21 July 2009</div>
+	                    <p>Ten things to consider before choosing your treatment – and your physician. A practical guide to find a specialist in endometriosis.</p>
+
+			</div>
+	
+							
+			<div class="post-577 post type-post status-publish format-standard has-post-thumbnail hentry category-articles tag-communication tag-dysmenorrhoea tag-dyspareunia tag-endometriosis tag-family tag-intercourse tag-pain-2 tag-partners tag-sex tag-support">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/family-and-partners/" rel="bookmark" title="Permanent Link to Family and partners of those with endometriosis">
+		                  <img width="100" height="83" src="https://endometriosis.org/wp-content/uploads/2008/05/woman-crouching-100x83.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" srcset="https://endometriosis.org/wp-content/uploads/2008/05/woman-crouching-100x83.png 100w, https://endometriosis.org/wp-content/uploads/2008/05/woman-crouching-160x134.png 160w, https://endometriosis.org/wp-content/uploads/2008/05/woman-crouching.png 340w" sizes="(max-width: 100px) 100vw, 100px">		                  Family and partners of those with endometriosis	                    </a>
+	                    <br>
+	                    <div class="date">22 June 2008</div>
+	                    <p>Support for family and partners of women with endometriosis. Suggestions of how to communicate, explain endometriosis, and how to deal with painful sex (intercourse/dyspareunia).</p>
+
+			</div>
+	
+							
+			<div class="post-624 post type-post status-publish format-standard hentry category-articles">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/teenagers/" rel="bookmark" title="Permanent Link to Teenagers and endometriosis">
+		                  		                  Teenagers and endometriosis	                    </a>
+	                    <br>
+	                    <div class="date">29 May 2008</div>
+	                    <p>by Lone Hummelshoj It is an old myth that teenagers do not get endometriosis. In fact, some research indicate that up to two thirds of women with endometriosis have symptoms before they are 20 years old [1]. This means that symptoms in adolescent girls need to be taken very serious indeed, whilst still recognising that […]</p>
+
+			</div>
+	
+							
+			<div class="post-566 post type-post status-publish format-standard hentry category-articles">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/endometriosis-and-pregnancy-breastfeeding/" rel="bookmark" title="Permanent Link to Endometriosis and pregnancy (and breastfeeding)">
+		                  		                  Endometriosis and pregnancy (and breastfeeding)	                    </a>
+	                    <br>
+	                    <div class="date">29 May 2008</div>
+	                    <p>by Ros Wood Pregnancy generally leads to an improvement in endometriosis symptoms, particularly during the latter months of pregnancy. However, some women experience a worsening of symptoms, particularly during the first three months. It is believed that the beneficial effects are due to the high levels of progesterone produced during pregnancy. It is thought that […]</p>
+
+			</div>
+	
+							
+			<div class="post-559 post type-post status-publish format-standard has-post-thumbnail hentry category-articles tag-analgesics tag-asrm tag-dian-shepperson-mills tag-diet tag-endometriosis tag-fertility tag-infertility-2 tag-magnesium tag-mark-perloe tag-mike-vernon tag-nutrition tag-omega-6 tag-prostaglandins tag-star-flower-oil tag-vitamin-b1 tag-vitamin-b12 tag-vitamin-b6 tag-vitamin-c tag-vitamin-e tag-vitamin-a tag-wheat">
+						<!-- Post index -->
+	                    <a class="title" href="https://endometriosis.org/resources/articles/dietary-modification/" rel="bookmark" title="Permanent Link to Dietary modification to alleviate endometriosis symptoms">
+		                  <img width="100" height="106" src="https://endometriosis.org/wp-content/uploads/2013/02/EO-Dian-Shepperson-Mills.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async">		                  Dietary modification to alleviate endometriosis symptoms	                    </a>
+	                    <br>
+	                    <div class="date">30 September 2007</div>
+	                    <p>Nutritionist Dian Shepperson Mills talks with Dr Mark Perloe about how nutrition can play a role in improving fertility and reducing the symptoms of endometriosis.</p>
+
+			</div>
+	
+				
+			<div class="clear"></div>
+
+			<div class="navigation"><ol class="wp-paginate font-inherit"><li><span class="title">Pages:</span></li><li><a href="https://endometriosis.org/topic/resources/articles/page/2" class="prev" aria-label="Go to previous page">«</a></li><li><a href="https://endometriosis.org/topic/resources/articles/" title="1" aria-label="Go to page 1" class="page">1</a></li><li><a href="https://endometriosis.org/topic/resources/articles/page/2/" title="2" aria-label="Go to page 2" class="page">2</a></li><li><span class="page current">3</span></li><li><a href="https://endometriosis.org/topic/resources/articles/page/4/" title="4" aria-label="Go to page 4" class="page">4</a></li><li><a href="https://endometriosis.org/topic/resources/articles/page/4" class="next" aria-label="Go to next page">»</a></li></ol></div>			
+		
+		</div><!-- posts -->
+
+		
+            <div id="canvas-ads" class="widget">
+
+
+<!-- <script type="text/javascript">
+google_ad_client = "ca-pub-0904528365406379";
+/* Article Banner */
+google_ad_slot = "5006985176";
+google_ad_width = 468;
+google_ad_height = 60;
+//
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>-->
+
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0904528365406379" crossorigin="anonymous"></script>
+<!-- Article Banner -->
+<ins class="adsbygoogle" style="display:inline-block;width:468px;height:60px" data-ad-client="ca-pub-0904528365406379" data-ad-slot="5006985176" data-adsbygoogle-status="done"><iframe id="aswift_0" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"><iframe id="google_ads_frame0"></iframe></iframe></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+            </div><!-- canvas-ads -->
+
+
+	</div><!-- canvas -->
+
+</div><!-- main-column -->
+
+
+
+
+
+<div id="meta-columns" class="grid_6 right">
+
+
+                                      
+
+
+        <div id="meta-column-left" class="grid_3 alpha" style="margin-left:-10px;">
+            
+        <!-- Set up e-mail list! -->
+        <!-- <form class="widget" action="" id="join"> -->
+
+
+            <!-- <fieldset> -->
+<!--
+                <div id="join-input" class="rounded-left">
+                    <label for="email-input">Enter your e-mail address here</label>
+                    <input type="text" name="email" id="email-input" value="my@email.com" class="text" />
+                </div>
+-->
+<!--                 <label for="join-button"><small>Join</small></label><input type="button" id="join-button" name="join" value="JOIN" class="button rounded-right" /> -->
+            <!-- </fieldset> -->
+        <!-- </form> --><!-- join -->
+
+
+<!-- Begin MailChimp Signup Form -->
+<script type="text/javascript">
+// delete this script tag and use a "div.mce_inline_error{ XXX !important}" selector
+// or fill this in and it will be inlined when errors are generated
+var mc_custom_error_style = '';
+</script>
+<div id="mc_embed_signup">
+<form action="https://endometriosis.us2.list-manage2.com/subscribe/post?u=01f213bfd36db97c88da85211&amp;id=67e4b4ad01" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="widget validate" target="_blank">
+<h3>Stay up to date</h3>
+<p class="subheader">Register for endometriosis news:</p>
+    <fieldset>
+        <div class="mc-field-group">
+            <label for="mce-EMAIL" class="rounded-left">Email Address </label>
+            <input type="text" value="your@email.com" name="EMAIL" class="required email text rounded-left" id="mce-EMAIL">
+        </div>
+        <div>
+            <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button btn rounded-right">
+        </div>
+        <div id="mce-responses">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+    </fieldset>
+    <!-- <a href="#" id="mc_embed_close" class="mc_embed_close">Close</a> -->
+</form>
+</div>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try {
+    var jqueryLoaded=jQuery;
+    jqueryLoaded=true;
+} catch(err) {
+    var jqueryLoaded=false;
+}
+if (!jqueryLoaded) {
+    var head= document.getElementsByTagName('head')[0];
+    var script= document.createElement('script');
+    script.type= 'text/javascript';
+    script.src= 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    head.appendChild(script);
+}
+//--><!]]]]>
+</script>
+
+<script type="text/javascript" src="https://endometriosis.org/wp-content/themes/endometriosis-org/js/jquery.form-n-validate.js"></script>
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';var err_style = '';
+try{
+    err_style = mc_custom_error_style;
+} catch(e){
+    err_style = 'margin: 1em 0 0 0; padding: 1em 0.5em 0.5em 0.5em; background: ERROR_BGCOLOR none repeat scroll 0% 0%; font-weight: bold; float: left; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: ERROR_COLOR;';
+}
+var head= document.getElementsByTagName('head')[0];
+var style= document.createElement('style');
+style.type= 'text/css';
+if (style.styleSheet) {
+  style.styleSheet.cssText = '.mce_inline_error {' + err_style + '}';
+} else {
+  style.appendChild(document.createTextNode('.mce_inline_error {' + err_style + '}'));
+}
+head.appendChild(style);
+$(document).ready( function($) {
+  var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+  var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+  options = { url: 'https://endometriosis.us2.list-manage.com/subscribe/post-json?u=01f213bfd36db97c88da85211&id=67e4b4ad01&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                beforeSubmit: function(){
+                    $('#mce_tmp_error_msg').remove();
+                    $('.datefield','#mc_embed_signup').each(
+                        function(){
+                            var txt = 'filled';
+                            var fields = new Array();
+                            var i = 0;
+                            $(':text', this).each(
+                                function(){
+                                    fields[i] = this;
+                                    i++;
+                                });
+                            $(':hidden', this).each(
+                                function(){
+                                    if ( fields[0].value=='MM' && fields[1].value=='DD' && fields[2].value=='YYYY' ){
+                                        this.value = '';
+                                    } else if ( fields[0].value=='' && fields[1].value=='' && fields[2].value=='' ){
+                                        this.value = '';
+                                    } else {
+                                        this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+                                    }
+                                });
+                        });
+                    return mce_validator.form();
+                },
+                success: mce_success_cb
+            };
+  $('#mc-embedded-subscribe-form').ajaxForm(options);
+
+});
+function mce_success_cb(resp){
+    $('#mce-success-response').hide();
+    $('#mce-error-response').hide();
+    if (resp.result=="success"){
+        $('#mce-'+resp.result+'-response').show();
+        $('#mce-'+resp.result+'-response').html(resp.msg);
+        $('#mc-embedded-subscribe-form').each(function(){
+            this.reset();
+        });
+    } else {
+        var index = -1;
+        var msg;
+        try {
+            var parts = resp.msg.split(' - ',2);
+            if (parts[1]==undefined){
+                msg = resp.msg;
+            } else {
+                i = parseInt(parts[0]);
+                if (i.toString() == parts[0]){
+                    index = parts[0];
+                    msg = parts[1];
+                } else {
+                    index = -1;
+                    msg = resp.msg;
+                }
+            }
+        } catch(e){
+            index = -1;
+            msg = resp.msg;
+        }
+        try{
+            if (index== -1){
+                $('#mce-'+resp.result+'-response').show();
+                $('#mce-'+resp.result+'-response').html(msg);
+            } else {
+                err_id = 'mce_tmp_error_msg';
+                html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+
+                var input_id = '#mc_embed_signup';
+                var f = $(input_id);
+                if (ftypes[index]=='address'){
+                    input_id = '#mce-'+fnames[index]+'-addr1';
+                    f = $(input_id).parent().parent().get(0);
+                } else if (ftypes[index]=='date'){
+                    input_id = '#mce-'+fnames[index]+'-month';
+                    f = $(input_id).parent().parent().get(0);
+                } else {
+                    input_id = '#mce-'+fnames[index];
+                    f = $().parent(input_id).get(0);
+                }
+                if (f){
+                    $(f).append(html);
+                    $(input_id).focus();
+                } else {
+                    $('#mce-'+resp.result+'-response').show();
+                    $('#mce-'+resp.result+'-response').html(msg);
+                }
+            }
+        } catch(e){
+            $('#mce-'+resp.result+'-response').show();
+            $('#mce-'+resp.result+'-response').html(msg);
+        }
+    }
+}
+//--><!]]]]>
+</script>
+<!--End mc_embed_signup-->
+
+
+
+
+
+            
+                                    <div class="widget" id="subcategories">
+                        <h3>Resources</h3>
+                        <ul>
+                            	<li class="cat-item cat-item-1 current-cat"><a aria-current="page" href="https://endometriosis.org/topic/resources/articles/">Articles</a>
+</li>
+	<li class="cat-item cat-item-103"><a href="https://endometriosis.org/topic/resources/clinical-books/">Clinical text books</a>
+</li>
+	<li class="cat-item cat-item-1588"><a href="https://endometriosis.org/topic/resources/national-action-plans/">National Action Plans</a>
+</li>
+	<li class="cat-item cat-item-1227"><a href="https://endometriosis.org/topic/resources/jla/">Research priorities</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="https://endometriosis.org/topic/resources/selfhelp-books/">Self-help books</a>
+</li>
+                        </ul>
+                    </div>
+                
+                
+            
+            
+            
+      		<div class="widget" id="skyscraper-interior">
+
+                <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0904528365406379" crossorigin="anonymous"></script>
+                <!-- Sidebar Skyscraper - Interior -->
+                <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-0904528365406379" data-ad-slot="5544261290" data-adsbygoogle-status="done"><iframe id="aswift_1" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"><iframe id="google_ads_frame1"></iframe></iframe></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+
+      		</div><!-- skyscraper-interior -->
+
+        </div><!-- #meta-column-left -->
+
+        <div id="meta-column-right" class="grid_3 right omega">
+
+
+
+            <div id="connect-involve-fixed" style="float:left;height:600px;display:block;margin:0;padding:0;">
+                
+                				<!--Connect New START-->
+				<div id="connect" class="widget">
+					<h3>Connect</h3>
+					<ul style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-gap:10px;width:100%;">
+						<li style="padding: 0; background: none;"><a href="https://www.facebook.com/endometriosisORG" target="_blank"><img src="https://endometriosis.org/wp-content/uploads/2023/09/social_facebook.png" alt="Link to facebook" style="display:block;width:100%;"></a></li>
+						<li style="padding: 0; background: none;"><a href="https://www.linkedin.com/company/19725461" target="_blank"><img src="https://endometriosis.org/wp-content/uploads/2023/09/social_linkedin.png" alt="Link to linkedin" style="display:block;width:100%;"></a></li>
+						<li style="padding: 0; background: none;"><a href="https://www.instagram.com/endometriosisorg/" target="_blank"><img src="https://endometriosis.org/wp-content/uploads/2023/09/social_instagram.png" alt="Link to instagram" style="display:block;width:100%;"></a></li>
+						<li style="padding: 0; background: none;"><a href="https://www.threads.net/@endometriosisorg" target="_blank"><img src="https://endometriosis.org/wp-content/uploads/2023/09/social_threads.png" alt="Link to threads" style="display:block;width:100%;"></a></li>
+						<li style="padding: 0; background: none;"><a href="https://twitter.com/endometriosis/" target="_blank"><img src="https://endometriosis.org/wp-content/uploads/2023/09/social_x.png" alt="Link to twitter x" style="display:block;width:100%;"></a></li>
+					</ul>
+				</div>
+				<!--Connect New END-->
+                                <div class="widget" id="get-involved-wrap">
+                                                            <a href="https://endopain.endometriosis.org/" target="_blank"><img src="https://endometriosis.org/wp-content/uploads/2021/11/ad.jpg" alt="ad" id="new-sidebar-inner-img-ad" style="max-width:100%;margin-top:30px;"></a>                </div>
+                                            </div>
+
+
+        </div><!-- #meta-column-right -->
+
+      	<script type="text/javascript">
+        	<!--//--><![CDATA[//><!--
+
+          var canvas_height = $("#main-column #canvas").height();
+          if (canvas_height > $("#meta-columns").height()) { // Okay, it's worth the crunch...
+              var end_of_canvas = $("#canvas").offset().top + canvas_height; // add 40px for top/bottom padding
+              var skyscraper = $("#skyscraper-interior");
+              var skyscraper_height = skyscraper.height();
+              var top_to_skyscraper_standard_pos = skyscraper.parent().offset().top; // Difference from parent to top for abs. positioned div
+              var skyscraper_scroll_end = (end_of_canvas - skyscraper_height); // End of canvas minus height of element
+              var skyscraper_standard_pos = ((skyscraper.offset().top) - 20); // Stanard position, minus 20 to add a little top space
+              var connect_involve = $("#connect-involve-fixed");
+              var connect_involve_height = connect_involve.height();
+              var top_to_connect_involve_standard_pos = connect_involve.parent().offset().top; // Difference from parent to top for abs. positioned div
+              var connect_involve_scroll_end = (end_of_canvas - connect_involve_height); // End of canvas minus height of element, minus 20 padding
+              var connect_involve_standard_pos = ((connect_involve.offset().top) - 20); // Stanard position, minus 20 to add a little top space
+              // Set widths for that extra safety
+              skyscraper.css({
+                  "width": skyscraper.width()
+              });
+              connect_involve.css({
+                  "width": connect_involve.width()
+              }); // Scroll function
+              $(window).scroll(function() { // Skyscraper
+                  if ($(this).scrollTop() < skyscraper_standard_pos) { // if scroll pos is higher than the top of the element
+                      skyscraper.css({
+                          position: 'relative',
+                          top: '0px'
+                      });
+                  } else if ($(window).scrollTop() > (skyscraper_scroll_end)) { // if scroll position is lower than the top offset of the bottom reference
+                      // + the element that is scrolling height
+                      skyscraper.css({
+                          position: 'absolute',
+                          top: (skyscraper_scroll_end - top_to_skyscraper_standard_pos) + 20 + 'px'
+                      });
+                  } else { // otherwise we're somewhere inbetween, fixed scrolling.
+                      skyscraper.css({
+                          position: 'fixed',
+                          top: '20px'
+                      });
+                  } // Connect-Involve
+                  if ($(this).scrollTop() < connect_involve_standard_pos) { // if scroll pos is higher than the top of the element
+                      connect_involve.css({
+                          position: 'relative',
+                          top: '0px'
+                      });
+                  } else if ($(window).scrollTop() > connect_involve_scroll_end) { // if scroll position is lower than the top offset of the bottom reference
+                      // + the element that is scrolling height
+                      connect_involve.css({
+                          position: 'absolute',
+                          top: (connect_involve_scroll_end - top_to_connect_involve_standard_pos) + 20 + 'px'
+                      });
+                  } else { // otherwise we're somewhere inbetween, fixed scrolling.
+                      connect_involve.css({
+                          position: 'fixed',
+                          top: '20px'
+                      });
+                  }
+              }); // window scroll
+          } // canvas big enough
+
+        	//--><!]]]]>
+      	</script>
+
+    
+    <div class="clear"></div>
+
+</div><!-- meta-columns -->
+
+			<div id="footer" class="grid_16 alpha clearfix">
+				
+				<!-- HONcode Standard -->
+				<!-- <a href="https://www.hon.ch/HONcode/Conduct.html?HONConduct739582"><img src="https://endometriosis.org/wp-content/themes/endometriosis-org/img/logos/HONcode.jpg" alt="HONcode Certified" title="Endometriosis.org is HONcode Certified" class="HONcode" /></a> -->
+				
+				<!-- Top level pages -->
+				<ul id="top-nav">
+									    	<li class="cat-item cat-item-3"><a href="https://endometriosis.org/topic/news/">News</a>
+</li>
+	<li class="cat-item cat-item-21 current-cat-parent current-cat-ancestor"><a href="https://endometriosis.org/topic/resources/">Resources</a>
+</li>
+					<li class="page_item page-item-282 page_item_has_children"><a href="https://endometriosis.org/endometriosis/">About endometriosis</a></li>
+<li class="page_item page-item-2 page_item_has_children"><a href="https://endometriosis.org/about/">About us</a></li>
+<li class="page_item page-item-2135"><a href="https://endometriosis.org/sitemap/">Sitemap</a></li>
+<li class="page_item page-item-516 page_item_has_children"><a href="https://endometriosis.org/treatments/">Treatments</a></li>
+<li class="page_item page-item-845 page_item_has_children"><a href="https://endometriosis.org/support/">Support</a></li>
+<li class="page_item page-item-53"><a href="https://endometriosis.org/glossary/">Glossary</a></li>
+<li class="page_item page-item-948"><a href="https://endometriosis.org/frequently-asked-questions-faq/">FAQs</a></li>
+<li class="page_item page-item-1661"><a href="https://endometriosis.org/congress-schedule/">Congress schedule</a></li>
+					 <li><a class="rss" href="https://endometriosis.org/feed/">RSS</a></li>
+				</ul>
+				
+				<p id="HONcode">This site is <a href="https://endometriosis.org/about/peer-review-board/">peer-reviewed</a> for accuracy</p>
+				
+				<ul id="bottom-nav">
+				    <li>site by <a href="https://culturegraphic.com/">culturegraphic</a></li>
+				    <li>© 2005-2026 endometriosis.org</li>
+				    <!-- List "About" categories -->
+				    <li><a href="https://endometriosis.org/about/disclaimer/">Disclaimer</a></li>
+				    <li><a href="https://endometriosis.org/about/privacy-policy/">Privacy Policy</a></li>
+				    <li>Page Last Updated: 30 September 2007</li>
+				   
+				</ul>
+			</div><!-- footer -->	
+
+						
+			
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-manage-consent manage-consent-1 cmplz-dismissed">Manage consent</button>
+
+</div><script type="text/javascript" id="cmplz-cookiebanner-js-extra">
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"18","version":"7.3.0","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"uk","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/endometriosis.org\/wp-json\/complianz\/v1\/","locale":"lang=en&locale=en_GB","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"15","cookie_path":"\/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"Click to accept {category} cookies and enable this content","css_file":"https:\/\/endometriosis.org\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=18","page_links":{"uk":{"cookie-statement":{"title":"Cookie Policy","url":"https:\/\/endometriosis.org\/about\/privacy-policy\/"},"privacy-statement":{"title":"Privacy policy","url":"https:\/\/endometriosis.org\/about\/privacy-policy\/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Click to accept {category} cookies and enable this content"};
+/* ]]> */
+</script>
+<script defer="" type="text/javascript" src="https://endometriosis.org/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1740129577" id="cmplz-cookiebanner-js"></script>
+		
+		</div><!-- container_16 -->
+
+
+	<!-- AddThis --> 
+	<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js?pubid=ra-4d779bec7a503832"></script>
+
+	<script src="https://endometriosis.org/wp-content/themes/endometriosis-org/js/jquery.common.js" type="text/javascript"></script>
+
+    <!-- Twitter -->  
+	<script type="text/javascript" src="https://endometriosis.org/wp-content/themes/endometriosis-org/js/jquery.twitter.js"></script>
+	<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+	$(document).ready(function() {
+		// $("#twitter-feed").getTwitter({
+		// 	userName: "endometriosis",
+		// 	numTweets: 1,
+		// 	loaderText: "Loading tweets...",
+		// 	slideIn: true,
+		// 	slideDuration: 750,
+		// 	showHeading: false,
+		// 	showProfileLink: false,
+		// 	showTimestamp: true
+		// });
+	});
+		
+	//--><!]]]]>
+	</script>
+
+
+	<!-- Analytics -->
+  <script type="text/javascript">
+  <!--//--><![CDATA[//><!--
+  
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-15565447-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+  
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  
+  //--><!]]]]>
+  </script>
+
+	
+
+</body></html>

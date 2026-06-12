@@ -1,0 +1,74 @@
+for idx, post in enumerate(parsed["posts"], start=1):
+                                post["thread_page_number"] = page_number
+                                post["post_sequence_on_page"] = idx
+                                all_posts.append(post)
+
+                            time.sleep(sleep_seconds)
+
+                        # first post = original post, rest = comments
+                        for global_idx, post in enumerate(all_posts, start=1):
+                            post["type"] = "post" if global_idx == 1 else "comment"
+                            post["is_original_post"] = (global_idx == 1)
+
+                        thread_starter = thread_meta["listing_author"] or (all_posts[0]["author"] if all_posts else None)
+                        opening_post_date = all_posts[0]["date"] if all_posts else None
+                        opening_post_body = all_posts[0]["body"] if all_posts else None
+
+                        comments_count = max(len(all_posts) - 1, 0)
+                        replies_count = thread_meta["replies_count"]
+                        if replies_count is None:
+                            replies_count = comments_count
+
+                        last_message_date = thread_meta["last_message_date"] or thread_last_posted_at
+                        last_message_author = thread_meta["last_message_author"] or (all_posts[-1]["author"] if all_posts else None)
+
+                        item = {
+                            "source_id": source_id,
+                            "source_type": "forum_thread",
+
+                            "thread_title": thread_meta["thread_title"],
+                            "thread_title_detail": title_detail,
+                            "thread_url": thread_url,
+
+                            "last_page": thread_meta["last_page"],
+                            "thread_starter": thread_starter,
+                            "opening_post_date": opening_post_date,
+                            "opening_post_body": opening_post_body,
+
+                            "listing_author": thread_meta["listing_author"] or thread_starter,
+                            "replies_count": replies_count,
+                            "views_count": thread_meta["views_count"],
+                            "last_message_date": last_message_date,
+                            "last_message_author": last_message_author,
+                            "thread_last_posted_at": thread_last_posted_at,
+
+                            "thread_pages_count": len(thread_page_urls),
+                            "posts_count": len(all_posts),
+                            "comments_count": comments_count,
+                            "likes_total": sum(x.get("likes_count", 0) for x in all_posts),
+
+                            "posts": all_posts,
+                        }
+
+                        append_jsonl(posts_file, item)
+                        total_threads_saved += 1
+
+                    except Exception as e:
+                        append_jsonl(errors_file, {
+                            "source_id": source_id,
+                            "thread_url": thread_url,
+                            "error": str(e)
+                        })
+
+            except Exception as e:
+                append_jsonl(errors_file, {
+                    "source_id": source_id,
+                    "listing_url": listing_url,
+                    "error": str(e)
+                })
+
+    print(f"Done. Saved {total_threads_saved} full threads into: {posts_file}")
+
+
+if name == "main":
+    main()

@@ -1,0 +1,63 @@
+{
+  "source_id": "SRC003",
+  "source_mode": "forum_discussions",
+  "source_type": "forum",
+  "start_url": "https://www.inspire.com/groups/endometriosis/",
+  "html_seed_file": "notebooks/inspire page hatml.txt",
+  "allowed_domains": [
+    "www.inspire.com",
+    "inspire.com"
+  ],
+  "output_dir": "outputs/SRC003",
+  "output_file": "outputs/SRC003/SRC003_post_and_comment_final.jsonl",
+  "error_file": "outputs/SRC003/SRC003_errors_final.jsonl",
+  "request_delay_seconds": 1.0,
+  "timeout_seconds": 25,
+  "force_rescrape_existing": false,
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  },
+  "selectors": {
+    "thread_title": [
+      "meta[property='og:title']",
+      "h1",
+      "title"
+    ],
+    "reply_nodes": [
+      "[data-comment-id]",
+      "[data-post-id]",
+      "ins-anon-post",
+      "ins-post",
+      "article",
+      ".comment",
+      ".reply",
+      ".post"
+    ],
+    "reply_author": [
+      "a[href*='/profile/']",
+      "a[href*='/members/']",
+      ".author",
+      ".username"
+    ],
+    "reply_date": [
+      "time[datetime]",
+      "time",
+      ".stamp",
+      ".date",
+      ".timestamp"
+    ],
+    "reply_body": [
+      "[itemprop='articleBody']",
+      ".prb-body",
+      ".post-body",
+      ".message",
+      ".content",
+      ".body",
+      "p"
+    ]
+  }
+}

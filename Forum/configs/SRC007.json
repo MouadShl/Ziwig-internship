@@ -1,0 +1,17 @@
+{
+  "source_id": "SRC007",
+  "source_mode": "forum_patient_info",
+  "site_url": "https://community.patient.info",
+  "start_url": "https://community.patient.info/tag/endometriosis",
+  "limit_threads": 0,
+  "request": {
+    "timeout_seconds": 25,
+    "sleep_seconds": 1.0
+  },
+  "listing": {
+    "max_pages": 0
+  },
+  "output": {
+    "dir": "outputs/SRC007"
+  }
+}

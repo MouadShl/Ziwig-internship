@@ -1,0 +1,87 @@
+{
+  "source_id": "SRC016",
+  "source_name": "Endometriosis Australia",
+  "source_type": "news_blog",
+  "base_url": "https://endometriosisaustralia.org",
+  "country": "Australia",
+  "language": "en",
+  "start_url": "/blog/",
+  "pagination": {
+    "type": "path_template",
+    "template": "/blog/page/{page}/?et_blog=",
+    "start_page": 1,
+    "max_pages": 50
+  },
+  "selectors": {
+    "article_list": [
+      "article h2 a",
+      "h2.entry-title a",
+      ".et_pb_post h2 a",
+      ".et_pb_posts h2 a",
+      ".post-content h2 a",
+      "main h2 a"
+    ],
+    "title": [
+      "h1.entry-title",
+      ".et_pb_title h1",
+      "article h1",
+      "main h1",
+      "h1"
+    ],
+    "meta": [
+      ".post-meta",
+      ".entry-meta",
+      ".et_pb_title_meta_container",
+      "article .post-meta",
+      "main .post-meta"
+    ],
+    "body": [
+      ".entry-content",
+      "article .entry-content",
+      ".et_pb_post .entry-content",
+      ".post-content",
+      ".et-l--post .entry-content",
+      "article",
+      "main article",
+      "main"
+    ],
+    "tags": [
+      "a[rel='tag']",
+      ".tagcloud a",
+      ".post-tags a"
+    ]
+  },
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "nav",
+    "header nav",
+    "footer",
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".comments-area",
+    "#comments",
+    ".comment-respond",
+    ".commentlist",
+    ".et_social_inline",
+    ".et_pb_post_nav",
+    ".related-posts",
+    ".post-share",
+    ".sidebar",
+    ".widget",
+    ".breadcrumbs",
+    ".et_pb_title_featured_container",
+    ".wp-block-buttons",
+    ".wp-block-button",
+    ".sharedaddy",
+    ".sd-sharing-enabled",
+    ".yarpp-related",
+    ".et_pb_section_video_bg",
+    ".wp-block-embed"
+  ],
+  "sleep_seconds": 1.2
+}

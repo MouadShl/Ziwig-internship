@@ -1,0 +1,140 @@
+🚀 Starting scraper for SRC002
+📊 Max listing pages: 29
+⏱️  Sleep: 1.5s
+============================================================
+
+📄 Page 1/29: https://sante-medecine.journaldesfemmes.fr/forum/s/Endometriose
+   🔍 Found 30 potential thread containers
+   ✅ Found 30 thread containers on this page
+
+   🔗 Thread 1/30: Problème de couple       
+      ✅ 2 posts extracted
+         👤 Starter: Emna | Last: Charlotte259
+
+   🔗 Thread 2/30: Symptôme pour dimetrium 2 gé
+      ✅ 2 posts extracted
+         👤 Starter: Lovejbv | Last: Radinoz
+
+   🔗 Thread 3/30: Impossible d’introduire quoique ce soit dans mon vagin
+      ✅ 2 posts extracted
+         👤 Starter: Penguin | Last: labricole47
+
+   🔗 Thread 4/30: Irm pelvienne et essai bébé
+      ✅ 1 posts extracted
+         👤 Starter:  | Last: 
+
+   🔗 Thread 5/30: Tests positifs et hcg à 0,5 ?
+      ✅ 2 posts extracted
+         👤 Starter: Jevoli | Last: DCI
+
+   🔗 Thread 6/30: Endometriose
+      ✅ 2 posts extracted
+         👤 Starter: Lafleurosee | Last: Radinoz
+
+   🔗 Thread 7/30: Reiki: son origine, efficacité, risques et coût
+      ✅ 5 posts extracted
+         👤 Starter: redactionJDF | Last: begonie
+
+   🔗 Thread 8/30: Hystérectomie totale
+      ✅ 1 posts extracted
+         👤 Starter:  | Last: 
+
+   🔗 Thread 9/30: Parcours pma
+      ✅ 1 posts extracted
+         👤 Starter:  | Last: 
+
+   🔗 Thread 10/30: Exploration de la stérilité féminine : causes, symptômes et solutions       
+      ✅ 2 posts extracted
+         👤 Starter: redactionJDF | Last: RatVigilant57
+
+   🔗 Thread 11/30: Visites gynécologiques
+      ✅ 2 posts extracted
+         👤 Starter: AigleMerveilleux91 | Last: Radinoz
+
+   🔗 Thread 12/30: Peur du gynécologue
+      ✅ 11 posts extracted
+         👤 Starter: Maelyne | Last: Azerty65433
+
+   🔗 Thread 13/30: Pertes marrons
+      ✅ 2 posts extracted
+         👤 Starter: Naya12. | Last: Radinoz
+
+   🔗 Thread 14/30: Température, ovulation pendant les regles
+      ✅ 2 posts extracted
+         👤 Starter: Sab54 | Last: Sab54
+
+   🔗 Thread 15/30: Douleurs chroniques
+      ✅ 3 posts extracted
+         👤 Starter: mama54000 | Last: Nini
+
+   🔗 Thread 16/30: Perte marron, douleur au ventre et autres.
+      ✅ 2 posts extracted
+         👤 Starter: Husker | Last: Husker
+
+   🔗 Thread 17/30: Retard de regles de 4 jours
+      ✅ 2 posts extracted
+         👤 Starter: Rowaida | Last: Radinoz
+
+   🔗 Thread 18/30: Douleur bas ventre droit
+      ✅ 3 posts extracted
+         👤 Starter: Kinou | Last: Kinou
+
+   🔗 Thread 19/30: Il veut que j’avorte que faire ?
+      ✅ 4 posts extracted
+         👤 Starter: CanardCharmant68 | Last: anonym-e-666
+
+   🔗 Thread 20/30: Interaction pilule et spagulax (ispaghul)
+      ✅ 4 posts extracted
+         👤 Starter: SoPingu | Last: Fabiola
+
+   🔗 Thread 21/30: Un petit souci de santé, besoin de vos conseils
+      ✅ 3 posts extracted
+         👤 Starter: AnnaMavis | Last: AnnaMavis
+
+   🔗 Thread 22/30: Pertes noires
+      ✅ 2 posts extracted
+         👤 Starter: Hajja | Last: Utilisateur anonyme
+
+   🔗 Thread 23/30: Endométriose et hystérectomie
+      ✅ 2 posts extracted
+         👤 Starter: Sophie | Last: Utilisateur anonyme
+
+   🔗 Thread 24/30: Envie d une grossesse
+      ✅ 2 posts extracted
+         👤 Starter: Wdd | Last: Utilisateur anonyme
+
+   🔗 Thread 25/30: Hysterectomie cause endometriose adenomyose
+      ✅ 4 posts extracted
+         👤 Starter: angiome93 | Last: Utilisateur anonyme
+
+   🔗 Thread 26/30: Anesthésie générale pour pose diu
+      ✅ 2 posts extracted
+         👤 Starter: Yannickdy | Last: Utilisateur anonyme
+
+   🔗 Thread 27/30: Douleur
+      ✅ 2 posts extracted
+         👤 Starter: Anna_1505 | Last: labricole47
+
+   🔗 Thread 28/30: Soupçon d'endométriose
+      ✅ 2 posts extracted
+         👤 Starter: Utilisateur anonyme | Last: Utilisateur anonyme
+
+   🔗 Thread 29/30: Premiere echographie endovaginale
+      ✅ 2 posts extracted
+         👤 Starter: Endooo | Last: Utilisateur anonyme
+
+   🔗 Thread 30/30: Opéré d'une hystérectomie totale
+      ✅ 2 posts extracted
+         👤 Starter: Miss_35600 | Last: Utilisateur anonyme
+
+   📊 Running total: 30 threads, 78 posts
+   ℹ️ No next listing URL found in HTML. Stopping pagination.
+
+============================================================
+🎉 COMPLETE!
+📊 Total threads: 30
+📊 Total posts: 78
+📁 Output: outputs\SRC002\SRC002_post_and_comment_11032026_11h46.jsonl
+
+📁 Output: outputs\SRC002\SRC002_post_and_comment_11032026_11h46.jsonl
+📁 Errors: outputs\SRC002\SRC002_errors_11032026_11h46.jsonl

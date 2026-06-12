@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "source": "endobreizh.com",
+    "base_url": "https://www.endobreizh.com",
+    "archive_url": "https://www.endobreizh.com/professionnels/",
+    "note": "Template/output placeholder created in this environment. Run scraper_bs4_endobreizh.py on your machine to generate the full live dataset."
+  },
+  "professionals": []
+}

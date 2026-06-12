@@ -1,0 +1,6 @@
+{
+  "source_url": "https://www.endocentrevdl.fr/professionnels/",
+  "generated_note": "Starter file. Run scraper_bs4_endocentrevdl.py locally to generate the full live dataset.",
+  "expected_directory_count_hint": 110,
+  "items": []
+}

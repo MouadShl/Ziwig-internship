@@ -1,0 +1,171 @@
+{
+  "source_url": "E:\\ZIWIG\\Associations\\endosudpaca.txt",
+  "strategy": "cartography_js",
+  "records": 534,
+  "unique_ids": 534,
+  "parsing_errors": 0,
+  "top_specialites": [
+    [
+      "gynécologie-obstétrique",
+      27
+    ],
+    [
+      "chirurgie gynécologique",
+      18
+    ],
+    [
+      "Radiologue",
+      15
+    ],
+    [
+      "Sage-femme libérale",
+      14
+    ],
+    [
+      "IRM pelviennes",
+      9
+    ],
+    [
+      "Endocrinologue - PMA",
+      9
+    ],
+    [
+      "sage femme",
+      8
+    ],
+    [
+      "Gynécologue - Médecine de la reproduction",
+      7
+    ],
+    [
+      "radiologue référent endométriose",
+      7
+    ],
+    [
+      "Gynécologue-obstétricien",
+      7
+    ],
+    [
+      "pelvi-périnéologie / membre du RKP",
+      7
+    ],
+    [
+      "Chirurgie gynécologique et mammaire",
+      6
+    ],
+    [
+      "Gynécologue obstétricienne",
+      6
+    ],
+    [
+      "Urologue",
+      6
+    ],
+    [
+      "Radiologie",
+      6
+    ],
+    [
+      "Chirurgien digestif",
+      5
+    ],
+    [
+      "sage femme, suivi gynécologique de prévention",
+      5
+    ],
+    [
+      "radiologie",
+      5
+    ],
+    [
+      "Chirurgie gynécologique",
+      5
+    ],
+    [
+      "gynécologie",
+      5
+    ]
+  ],
+  "top_villes": [
+    [
+      "Marseille",
+      123
+    ],
+    [
+      "Aix En Provence",
+      68
+    ],
+    [
+      "Nice",
+      26
+    ],
+    [
+      "Avignon",
+      23
+    ],
+    [
+      "Briançon",
+      18
+    ],
+    [
+      "La Seyne Sur Mer",
+      17
+    ],
+    [
+      "Gap",
+      17
+    ],
+    [
+      "Cannes Cedex",
+      16
+    ],
+    [
+      "Cagnes Sur Mer",
+      13
+    ],
+    [
+      "Toulon",
+      12
+    ],
+    [
+      "La Ciotat",
+      12
+    ],
+    [
+      "Cannes",
+      11
+    ],
+    [
+      "Mougins",
+      11
+    ],
+    [
+      "Salon De Provence",
+      10
+    ],
+    [
+      "Grasse",
+      9
+    ],
+    [
+      "Antibes",
+      7
+    ],
+    [
+      "Manosque",
+      6
+    ],
+    [
+      "Aubagne",
+      6
+    ],
+    [
+      "Sorgues",
+      6
+    ],
+    [
+      "Orange",
+      5
+    ]
+  ]
+}

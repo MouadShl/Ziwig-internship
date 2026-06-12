@@ -1,0 +1,40 @@
+{
+  "source_id": "SRC014",
+  "source_name": "S-Endo",
+  "source_type": "news_blog",
+  "base_url": "https://s-endo.ch",
+  "country": "Switzerland",
+  "language": "fr",
+  "seed_urls": [
+    "/",
+    "/alimentation/",
+    "/gestiondouleur/",
+    "/soulager-yoga/",
+    "/endometriose-cbd/"
+  ],
+  "remove_selectors": [
+    "script",
+    "style",
+    "noscript",
+    "svg",
+    "form",
+    "iframe",
+    "header",
+    "footer",
+    "nav",
+    ".menu",
+    ".navigation",
+    ".site-header",
+    ".site-footer",
+    ".elementor-location-header",
+    ".elementor-location-footer",
+    ".cookieyes",
+    ".cky-consent-container",
+    ".cmplz-cookiebanner",
+    ".jetpack-lazy-image",
+    "button",
+    "input",
+    "aside"
+  ],
+  "sleep_seconds": 1.2
+}

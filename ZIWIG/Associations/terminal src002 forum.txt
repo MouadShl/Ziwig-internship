@@ -1,0 +1,53 @@
+E:\S T A G E\Cleaning\SRC002\script\clean_SRC002.py:130: UserWarning: Parsing dates in %Y-%m-%dT%H:%M:%S%z format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  parsed = pd.to_datetime(text, errors="coerce", dayfirst=True)
+E:\S T A G E\Cleaning\SRC002\script\clean_SRC002.py:130: UserWarning: Parsing dates in %Y-%m-%dT%H:%M:%S%z format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  parsed = pd.to_datetime(text, errors="coerce", dayfirst=True)
+Traceback (most recent call last):
+  File "E:\S T A G E\Cleaning\SRC002\script\clean_SRC002.py", line 345, in <module>
+    main()
+    ~~~~^^
+  File "E:\S T A G E\Cleaning\SRC002\script\clean_SRC002.py", line 338, in main
+    write_xlsx(clean_df, xlsx_output)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\S T A G E\Cleaning\SRC002\script\clean_SRC002.py", line 321, in write_xlsx
+    wb.save(path)
+    ~~~~~~~^^^^^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\writer\excel.py", line 294, in save_workbook
+    writer.save()
+    ~~~~~~~~~~~^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\writer\excel.py", line 275, in save
+    self.write_data()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\writer\excel.py", line 77, in write_data
+    self._write_worksheets()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\writer\excel.py", line 215, in _write_worksheets
+    self.write_worksheet(ws)
+    ~~~~~~~~~~~~~~~~~~~~^^^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\writer\excel.py", line 200, in write_worksheet
+    writer.write()
+    ~~~~~~~~~~~~^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\worksheet\_writer.py", line 359, in write
+    self.write_rows()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\worksheet\_writer.py", line 125, in write_rows
+    self.write_row(xf, row, row_idx)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\worksheet\_writer.py", line 147, in write_row
+    write_cell(xf, self.ws, cell, cell.has_style)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\cell\_writer.py", line 47, in etree_write_cell
+    value, attributes = _set_attributes(cell, styled)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\cell\_writer.py", line 30, in _set_attributes
+    raise TypeError("Excel does not support timezones in datetimes. "
+            "The tzinfo in the datetime/time object must be set to None.")
+TypeError: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+Exception ignored in atexit callback <function _openpyxl_shutdown at 0x00000267102BA610>:
+Traceback (most recent call last):
+  File "E:\S T A G E\Cleaning\.venv\Lib\site-packages\openpyxl\worksheet\_writer.py", line 32, in _openpyxl_shutdown
+    os.remove(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\user\\AppData\\Local\\Temp\\openpyxl.q_ru0m41'

@@ -1,0 +1,35 @@
+{
+  "source_id": "SRC010",
+  "source_type": "forum",
+  "source_mode": "forum_dailystrength",
+  "start_urls": [
+    "https://www.dailystrength.org/group/endometriosis"
+  ],
+  "request": {
+    "timeout_seconds": 30,
+    "sleep_seconds": 1.0,
+    "max_retries": 3,
+    "backoff_factor": 1.0
+  },
+  "pagination": {
+    "start_page": 1,
+    "max_pages": 1000,
+    "ajax_limit": 15,
+    "stop_after_consecutive_empty_pages": 10
+  },
+  "resume": {
+    "enabled": true,
+    "skip_existing_thread_ids": true
+  },
+  "output": {
+    "dir": "outputs/SRC010",
+    "posts_file": "outputs/SRC010/SRC010_post_and_comment_final.jsonl",
+    "errors_file": "outputs/SRC010/SRC010_errors_final.jsonl"
+  },
+  "parsing": {
+    "category_id": null,
+    "category_name": "Women's Health",
+    "category_slug": "endometriosis",
+    "listing_category": "Endometriosis Support Group"
+  }
+}
